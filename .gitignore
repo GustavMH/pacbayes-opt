@@ -1,0 +1,4 @@
+mnist/
+*.egg-info/
+__pycache__/
+*.pickle

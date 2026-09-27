@@ -1,6 +1,6 @@
 from __future__ import division, print_function, unicode_literals
 import functools
-import tensorflow as tf
+import tensorflow.compat.v1 as tf 
 tf.logging.set_verbosity(tf.logging.ERROR) # Remove tf warnings
 import numpy as np
 from time import time

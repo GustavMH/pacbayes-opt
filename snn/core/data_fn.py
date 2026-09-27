@@ -1,16 +1,19 @@
 from __future__ import division, print_function, unicode_literals
 import functools
-import tensorflow as tf
+#import tensorflow as tf
+import tensorflow.compat.v1 as tf
 tf.logging.set_verbosity(tf.logging.ERROR) # Remove tf warnings
 import numpy as np
 from time import time
 import os, shutil, random
 
-from tensorflow.examples.tutorials.mnist import input_data
+#from tensorflow.examples.tutorials.mnist import input_data
+from snn.core import mnist_input_data as input_data
 
-from keras.preprocessing.image import ImageDataGenerator
-import tensorflow as tf
-from tensorflow.keras.datasets import cifar10
+#from keras.preprocessing.image import ImageDataGenerator
+#import tensorflow as tf
+#from tensorflow.keras.datasets import cifar10
+import tensorflow.compat.v1 as tf  
 
 NUM_CLASSES = 10
 MNIST_DATA_DIR = "mnist/"

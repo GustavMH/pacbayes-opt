@@ -1,7 +1,7 @@
 import argparse
 import os
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf  # [TF2] was: import tensorflow as tf
 
 from snn.core.cnn import CNN
 from snn.core.data_fn import load_binary_mnist, load_cifar_data, load_mnist_data

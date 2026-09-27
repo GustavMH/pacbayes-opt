@@ -5,7 +5,7 @@ sys.path.insert(0, "/")
 
 from snn.core import package_path
 from snn.core.parse_args import CompleteParser, Interpreter
-from snn.core.utils import deserialize
+from snn.core.utils import deserialize, serialize
 
 
 def run_pacb(weights_rand_init, model, test_set, epochs, learning_rate, drop_lr, lr_factor, seed, trainw):
@@ -19,7 +19,14 @@ def run_pacb(weights_rand_init, model, test_set, epochs, learning_rate, drop_lr,
     # Checkpoint optimization runs periodically (absolute),
     model.optimize_PACB(weights_rand_init, epochs, learning_rate=learning_rate, drop_lr=drop_lr, lr_factor=lr_factor,
                         save_dict=save_dict, trainWeights=trainw)
-    model.evaluate_SNN_accuracy(testX, testY, weights_rand_init, N_SNN_samples=1, save_dict=save_dict)
+
+    # added saving posterior Q and prior P
+    posterior = {"means": model.get_model_weights(), "log_post_all": model.log_post_all,
+                 "log_prior_std": model.log_prior_std, "prior_means": weights_rand_init}
+    serialize(posterior, os.path.join(package_path, "experiments", "posterior", "posterior_layers{}_seed{}.pickle".format(
+        "-".join(map(str, complete_args["layers"])), seed)), overwrite=True)
+
+    model.evaluate_SNN_accuracy(testX, testY, weights_rand_init, N_SNN_samples=150000, save_dict=save_dict)
 
     path = os.path.join(package_path, "experiments", "cifar",
                         ("model_mean_opt{}_LR{}_seed{}.pickle".format(trainw, learning_rate, seed)))

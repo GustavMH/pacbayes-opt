@@ -1,5 +1,5 @@
 import os
-import tensorflow as tf
+import tensorflow.compat.v1 as tf  
 tf.logging.set_verbosity(tf.logging.ERROR) # Remove tf warnings
 import numpy as np
 from snn.core.cnn_fn import *
