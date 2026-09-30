@@ -9,7 +9,7 @@ class LinearGaussian(nn.Module):
     """Linear linear where weights are sampled from a Gaussian every forward pass"""
 
     # https://medium.com/@pumplerod/probabilistic-neural-network-with-pytorch-11ec04479f67
-    def __init__(self, in_features, out_features, bias=True):
+    def __init__(self, in_features, out_features, bias=False):
         super().__init__()
 
         # No lower limit for variance is set
@@ -40,7 +40,7 @@ class LinearGaussian(nn.Module):
 def KL_diag_gaussian(post_mean, post_std, prior_mean, prior_std):
     """Calculate the Kullbach-Leibler divergence between to multi-variate Gaussians with diagonal covariance matrices"""
     # https://arxiv.org/pdf/2102.05485v1
-    assert post_mean.shape == post_std == prior_mean == prior_std
+    assert post_mean.shape == post_std.shape == prior_mean.shape == prior_std.shape
 
     n = post_mean.numel()
     prior_inv = 1 / prior_std
@@ -51,32 +51,25 @@ def KL_diag_gaussian(post_mean, post_std, prior_mean, prior_std):
         - n
     )
 
+def KL_diag_iso_gaussian(post_mean, post_std, lam):
+    """Calculate the Kullbach-Leibler divergence between to multi-variate Gaussians with diagonal covariance matrices"""
+    # https://arxiv.org/pdf/2102.05485v1
+    assert post_mean.shape == post_std.shape
 
-def upper_bound(
-    empirical_error,
-    weights_mean,
-    weights_std,
-    lambda_scale,
-    dataset_size,
-    delta=T.Tensor([0.025]),
-    b=T.Tensor([100]),
-    c=T.Tensor([0.1]),
-):
-    """ Calculate upper PAC-bayes bound with prior 0 """
-    KL = KL_diag_gaussian(
-        weights_mean,
-        weights_std,
-        T.zeros_like(weights_mean),
-        lambda_scale * T.ones_like(weights_std),
+    # TODO implement this correctly,
+    # currently the grad doesn't work.
+    # The following returns a vector
+    # not a scalar
+    n = post_mean.numel()
+    prior_inv = 1 / prior_std
+    return 0.5 * (
+        T.log(T.norm(prior_mean, 2) / T.norm(post_mean, 2))
+        + T.sum(post_std * prior_inv)  # trace
+        + (prior_mean - post_mean).T * prior_inv * (prior_mean - post_mean)
+        - n
     )
 
-    B_RE = (
-        KL
-        + 2 * T.log(b * T.log(c / lambda_scale))
-        + T.log((T.pi**2 * dataset_size) / (6 * delta))
-    ) / (dataset_size - 1)
 
-    return empirical_error + T.sqrt(0.5 * B_RE)
 
 def train(model, dataset, loss_fn, optimizer, n_epochs, callbacks=[]):
     model.train()
@@ -86,7 +79,7 @@ def train(model, dataset, loss_fn, optimizer, n_epochs, callbacks=[]):
         for batch_n, (X, y) in enumerate(ds_loader(dataset, batch_size=1)): # Garbage code, FIXME
             optimizer.zero_grad()
             pred = model(X)
-            loss = loss_fn(pred, y)
+            loss = loss_fn(pred, y) + model.upper_bound_term(len(dataset))
 
             loss.backward()
             optimizer.step()
@@ -118,7 +111,51 @@ from torchvision.transforms import v2 as xform
 from pathlib import Path
 from tqdm import tqdm
 
-SNN = nn.Sequential(LinearGaussian(28 * 28, 600), nn.ReLU(), LinearGaussian(600, 2))
+class SNN(nn.Module):
+    def __init__(self):
+        super().__init__()
+
+        self.model = nn.Sequential(
+            LinearGaussian(28 * 28, 600),
+            nn.ReLU(),
+            LinearGaussian(600, 2)
+        )
+        self.lambda_constrained = nn.Parameter(T.Tensor([-3]))
+
+    def forward(self, x):
+        return self.model(x)
+
+    def get_weights(self, query):
+        return T.cat([w.flatten() for name, w in self.named_parameters() if query in name])
+
+    def upper_bound_term(
+            self,
+            dataset_size,
+            delta=T.Tensor([0.025]),
+            b=T.Tensor([100]),
+            c=T.Tensor([0.1]),
+    ):
+        """ Calculate upper PAC-bayes bound with prior 0 """
+        weights_mean = self.get_weights("_mean")
+        weights_std = self.get_weights("_std")
+        lambda_scale = T.exp(2*self.lambda_constrained)
+
+        KL = KL_diag_gaussian(
+            weights_mean,
+            weights_std,
+            T.zeros_like(weights_mean),
+            lambda_scale * T.ones_like(weights_std),
+        )
+
+        B_RE = (
+            KL
+            + 2 * T.log(b * T.log(c / lambda_scale))
+            + T.log((T.pi**2 * dataset_size) / (6 * delta))
+        ) / (dataset_size - 1)
+
+        return T.sqrt(0.5 * B_RE)
+
+
 binary_MNIST = MNIST(
     Path("./MNIST"),
     download=True,
@@ -139,6 +176,7 @@ else:
 #ds_labels = T.vstack([y for _, y in tqdm(binary_MNIST,"Load labels",ncols=20)]).to(device)
 #ds_imgs = T.cat([X.unsqueeze(0) for X, _ in tqdm(binary_MNIST, "Load images", ncols=20)]).to(device)
 ds = (ds_imgs, ds_labels)
-opt = T.optim.SGD(SNN.parameters(), )
+snn = SNN()
+opt = T.optim.SGD(snn.parameters())
 loss = nn.CrossEntropyLoss()
-model = train(SNN, ds, loss, opt, 1)
+model = train(snn, ds, loss, opt, 1)
