@@ -1,0 +1,20 @@
+{
+  "experiment": "T-600",
+  "train_error": 0.0014181818181818182,
+  "test_error": 0.0175,
+  "n_parameters": 471601,
+  "seconds": 4.023861408233643,
+  "args": {
+    "hidden": [
+      600
+    ],
+    "epochs": 20,
+    "lr": 0.01,
+    "momentum": 0.9,
+    "batch_size": 100,
+    "random_labels": false,
+    "seed": 11,
+    "data_dir": "mnist",
+    "out_dir": "results"
+  }
+}

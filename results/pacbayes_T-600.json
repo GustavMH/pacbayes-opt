@@ -1,0 +1,25 @@
+{
+  "experiment": "T-600",
+  "iterations": 200000,
+  "seconds": 0.018841028213500977,
+  "rho_lambda": -1.2007249593734741,
+  "args": {
+    "sgd": "results/sgd_T-600.pt",
+    "iters1": 150000,
+    "lr1": 0.001,
+    "iters2": 50000,
+    "lr2": 0.0001,
+    "batch_size": 100,
+    "s_init": "paper",
+    "s_scale": 1.0,
+    "rho_lambda_init": -3.0,
+    "no_lambda_constraint": false,
+    "rms_alpha": 0.9,
+    "rms_eps": 1e-08,
+    "log_every": 550,
+    "checkpoint_every": 10000,
+    "seed": 11,
+    "data_dir": "mnist",
+    "out_dir": "results"
+  }
+}

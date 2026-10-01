@@ -1,0 +1,44 @@
+{
+  "experiment": "T-600",
+  "n_samples": 150000,
+  "snn_train_error_estimate": 0.030698996121212137,
+  "snn_test_error_estimate": 0.035095227333333354,
+  "snn_train_error": 0.03217102840071183,
+  "snn_test_error": 0.03666386657475354,
+  "pac_bayes_bound": 0.16616895404489343,
+  "kl_divergence": 5007.611924756668,
+  "sqrt_half_bre": 0.21378430443750587,
+  "j": 10,
+  "lambda": 0.09048374180359596,
+  "confidence": 0.965,
+  "candidates": [
+    {
+      "j": 9,
+      "lambda": 0.09139311852712283,
+      "KL": 5016.65315240738,
+      "BRE": 0.09156801523269244,
+      "bound": 0.16633493774061583,
+      "bound_bisection": 0.16633493774028596,
+      "sqrt_half_BRE": 0.21397197857744416
+    },
+    {
+      "j": 10,
+      "lambda": 0.09048374180359596,
+      "KL": 5007.611924756668,
+      "BRE": 0.0914074576476564,
+      "bound": 0.16616895404489343,
+      "bound_bisection": 0.16616895404456605,
+      "sqrt_half_BRE": 0.21378430443750587
+    }
+  ],
+  "seconds": 1506.3981819152832,
+  "args": {
+    "posterior": "results/posterior_T-600.pt",
+    "n_samples": 150000,
+    "samples_per_batch": 100,
+    "chunk_size": 5500,
+    "seed": 11,
+    "data_dir": "mnist",
+    "out_dir": "results"
+  }
+}
