@@ -1,0 +1,40 @@
+nohup: ignoring input
+SGD | T-600 | cuda | {'hidden': [600], 'epochs': 20, 'lr': 0.01, 'momentum': 0.9, 'batch_size': 100, 'random_labels': False, 'seed': 11, 'data_dir': 'mnist', 'out_dir': 'results'}
+epoch   1 | train error 0.0441 | test error 0.0479 | 0 s
+epoch   2 | train error 0.0291 | test error 0.0332 | 1 s
+epoch   3 | train error 0.0241 | test error 0.0317 | 1 s
+epoch   4 | train error 0.0200 | test error 0.0283 | 1 s
+epoch   5 | train error 0.0170 | test error 0.0230 | 1 s
+epoch   6 | train error 0.0143 | test error 0.0218 | 1 s
+epoch   7 | train error 0.0136 | test error 0.0218 | 2 s
+epoch   8 | train error 0.0111 | test error 0.0197 | 2 s
+epoch   9 | train error 0.0099 | test error 0.0199 | 2 s
+epoch  10 | train error 0.0094 | test error 0.0218 | 2 s
+epoch  11 | train error 0.0071 | test error 0.0203 | 2 s
+epoch  12 | train error 0.0065 | test error 0.0197 | 2 s
+epoch  13 | train error 0.0060 | test error 0.0188 | 3 s
+epoch  14 | train error 0.0046 | test error 0.0183 | 3 s
+epoch  15 | train error 0.0037 | test error 0.0177 | 3 s
+epoch  16 | train error 0.0045 | test error 0.0207 | 3 s
+epoch  17 | train error 0.0039 | test error 0.0198 | 3 s
+epoch  18 | train error 0.0024 | test error 0.0188 | 4 s
+epoch  19 | train error 0.0020 | test error 0.0175 | 4 s
+epoch  20 | train error 0.0014 | test error 0.0175 | 4 s
+SGD train error 0.0014 | test error 0.0175 | 471601 parameters
+PAC-Bayes | T-600 | cuda | {'sgd': 'results/sgd_T-600.pt', 'iters1': 150000, 'lr1': 0.001, 'iters2': 50000, 'lr2': 0.0001, 'batch_size': 100, 's_init': 'paper', 's_scale': 1.0, 'rho_lambda_init': -3.0, 'no_lambda_constraint': False, 'rms_alpha': 0.9, 'rms_eps': 1e-08, 'log_every': 550, 'checkpoint_every': 10000, 'seed': 11, 'data_dir': 'mnist', 'out_dir': 'results'}
+Resumed from results/pacbayes_T-600_checkpoint.pt at iteration 200000
+Saved results/posterior_T-600.pt
+Evaluation | T-600 | cuda | {'posterior': 'results/posterior_T-600.pt', 'n_samples': 150000, 'samples_per_batch': 100, 'chunk_size': 5500, 'seed': 11, 'data_dir': 'mnist', 'out_dir': 'results'}
+optimized lambda 9.0587e-02, j = 9.886, candidates [{'j': 9, 'lambda': 0.09139311852712283, 'KL': np.float64(5016.65315240738), 'BRE': np.float64(0.09156801523269244)}, {'j': 10, 'lambda': 0.09048374180359596, 'KL': np.float64(5007.611924756668), 'BRE': np.float64(0.0914074576476564)}]
+Resuming with 150000 samples done
+
+===== T-600 Results to compare with Table 1 =====
+snn_train_error  0.03217102840071183
+snn_test_error   0.03666386657475354
+pac_bayes_bound  0.16616895404489343
+kl_divergence    5007.611924756668
+sqrt_half_bre    0.21378430443750587
+j                10
+lambda           0.09048374180359596
+n_samples        150000
+confidence       0.965

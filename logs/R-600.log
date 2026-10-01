@@ -1,0 +1,1074 @@
+nohup: ignoring input
+SGD | R-600 | cuda | {'hidden': [600], 'epochs': 120, 'lr': 0.01, 'momentum': 0.9, 'batch_size': 100, 'random_labels': True, 'seed': 11, 'data_dir': 'mnist', 'out_dir': 'results'}
+epoch   1 | train error 0.4829 | test error 0.5454 | 0 s
+epoch   2 | train error 0.4765 | test error 0.5583 | 1 s
+epoch   3 | train error 0.4620 | test error 0.5106 | 1 s
+epoch   4 | train error 0.4564 | test error 0.4283 | 1 s
+epoch   5 | train error 0.4456 | test error 0.4955 | 1 s
+epoch   6 | train error 0.4279 | test error 0.5621 | 1 s
+epoch   7 | train error 0.4203 | test error 0.4765 | 1 s
+epoch   8 | train error 0.4158 | test error 0.4451 | 1 s
+epoch   9 | train error 0.4305 | test error 0.4956 | 2 s
+epoch  10 | train error 0.4012 | test error 0.5329 | 2 s
+epoch  11 | train error 0.3989 | test error 0.4691 | 2 s
+epoch  12 | train error 0.3839 | test error 0.4963 | 2 s
+epoch  13 | train error 0.3857 | test error 0.5208 | 2 s
+epoch  14 | train error 0.3671 | test error 0.5630 | 2 s
+epoch  15 | train error 0.3595 | test error 0.4997 | 3 s
+epoch  16 | train error 0.3544 | test error 0.5301 | 3 s
+epoch  17 | train error 0.3427 | test error 0.5245 | 3 s
+epoch  18 | train error 0.3325 | test error 0.4559 | 3 s
+epoch  19 | train error 0.3476 | test error 0.4787 | 3 s
+epoch  20 | train error 0.3230 | test error 0.4721 | 3 s
+epoch  21 | train error 0.3543 | test error 0.5054 | 4 s
+epoch  22 | train error 0.3068 | test error 0.5776 | 4 s
+epoch  23 | train error 0.3112 | test error 0.5502 | 4 s
+epoch  24 | train error 0.3005 | test error 0.5111 | 4 s
+epoch  25 | train error 0.3179 | test error 0.5279 | 4 s
+epoch  26 | train error 0.2809 | test error 0.5147 | 4 s
+epoch  27 | train error 0.2824 | test error 0.4967 | 5 s
+epoch  28 | train error 0.2636 | test error 0.5199 | 5 s
+epoch  29 | train error 0.2724 | test error 0.4824 | 5 s
+epoch  30 | train error 0.2570 | test error 0.4321 | 5 s
+epoch  31 | train error 0.2863 | test error 0.5099 | 6 s
+epoch  32 | train error 0.2366 | test error 0.4796 | 6 s
+epoch  33 | train error 0.2423 | test error 0.5176 | 6 s
+epoch  34 | train error 0.2431 | test error 0.4832 | 6 s
+epoch  35 | train error 0.2079 | test error 0.5063 | 6 s
+epoch  36 | train error 0.2464 | test error 0.4689 | 6 s
+epoch  37 | train error 0.2066 | test error 0.5400 | 7 s
+epoch  38 | train error 0.2210 | test error 0.5303 | 7 s
+epoch  39 | train error 0.1845 | test error 0.4776 | 7 s
+epoch  40 | train error 0.1899 | test error 0.4967 | 7 s
+epoch  41 | train error 0.1717 | test error 0.4911 | 7 s
+epoch  42 | train error 0.1768 | test error 0.4815 | 7 s
+epoch  43 | train error 0.1785 | test error 0.5548 | 8 s
+epoch  44 | train error 0.1903 | test error 0.4794 | 8 s
+epoch  45 | train error 0.1642 | test error 0.4998 | 8 s
+epoch  46 | train error 0.1465 | test error 0.4942 | 8 s
+epoch  47 | train error 0.1562 | test error 0.4571 | 8 s
+epoch  48 | train error 0.1896 | test error 0.4587 | 8 s
+epoch  49 | train error 0.1603 | test error 0.4681 | 8 s
+epoch  50 | train error 0.1627 | test error 0.5021 | 9 s
+epoch  51 | train error 0.1315 | test error 0.5094 | 9 s
+epoch  52 | train error 0.1343 | test error 0.5268 | 9 s
+epoch  53 | train error 0.1189 | test error 0.5127 | 9 s
+epoch  54 | train error 0.1345 | test error 0.5396 | 9 s
+epoch  55 | train error 0.1063 | test error 0.4989 | 9 s
+epoch  56 | train error 0.1099 | test error 0.4658 | 10 s
+epoch  57 | train error 0.0917 | test error 0.4903 | 10 s
+epoch  58 | train error 0.1153 | test error 0.5024 | 10 s
+epoch  59 | train error 0.0979 | test error 0.4859 | 10 s
+epoch  60 | train error 0.1107 | test error 0.4999 | 10 s
+epoch  61 | train error 0.0906 | test error 0.4828 | 10 s
+epoch  62 | train error 0.0786 | test error 0.4943 | 11 s
+epoch  63 | train error 0.0854 | test error 0.5178 | 11 s
+epoch  64 | train error 0.0920 | test error 0.5119 | 11 s
+epoch  65 | train error 0.0786 | test error 0.4680 | 11 s
+epoch  66 | train error 0.0741 | test error 0.4897 | 11 s
+epoch  67 | train error 0.0679 | test error 0.4797 | 11 s
+epoch  68 | train error 0.0833 | test error 0.4738 | 12 s
+epoch  69 | train error 0.0760 | test error 0.5429 | 12 s
+epoch  70 | train error 0.0711 | test error 0.5104 | 12 s
+epoch  71 | train error 0.0538 | test error 0.5272 | 12 s
+epoch  72 | train error 0.0479 | test error 0.4823 | 12 s
+epoch  73 | train error 0.0640 | test error 0.4811 | 13 s
+epoch  74 | train error 0.0757 | test error 0.4842 | 13 s
+epoch  75 | train error 0.0677 | test error 0.4612 | 13 s
+epoch  76 | train error 0.0878 | test error 0.5049 | 13 s
+epoch  77 | train error 0.0460 | test error 0.5156 | 13 s
+epoch  78 | train error 0.0505 | test error 0.5272 | 13 s
+epoch  79 | train error 0.0337 | test error 0.5023 | 14 s
+epoch  80 | train error 0.0435 | test error 0.5009 | 14 s
+epoch  81 | train error 0.0413 | test error 0.4942 | 14 s
+epoch  82 | train error 0.0369 | test error 0.4901 | 14 s
+epoch  83 | train error 0.0308 | test error 0.5260 | 14 s
+epoch  84 | train error 0.0422 | test error 0.5176 | 15 s
+epoch  85 | train error 0.0437 | test error 0.5334 | 15 s
+epoch  86 | train error 0.0359 | test error 0.5036 | 15 s
+epoch  87 | train error 0.0324 | test error 0.4854 | 15 s
+epoch  88 | train error 0.0258 | test error 0.5055 | 15 s
+epoch  89 | train error 0.0307 | test error 0.5060 | 15 s
+epoch  90 | train error 0.0289 | test error 0.4927 | 16 s
+epoch  91 | train error 0.0327 | test error 0.5007 | 16 s
+epoch  92 | train error 0.0258 | test error 0.5089 | 16 s
+epoch  93 | train error 0.0240 | test error 0.4991 | 16 s
+epoch  94 | train error 0.0218 | test error 0.5233 | 16 s
+epoch  95 | train error 0.0307 | test error 0.4767 | 17 s
+epoch  96 | train error 0.0227 | test error 0.5086 | 17 s
+epoch  97 | train error 0.0177 | test error 0.5196 | 17 s
+epoch  98 | train error 0.0141 | test error 0.5009 | 17 s
+epoch  99 | train error 0.0178 | test error 0.5174 | 17 s
+epoch 100 | train error 0.0172 | test error 0.4791 | 17 s
+epoch 101 | train error 0.0144 | test error 0.5124 | 18 s
+epoch 102 | train error 0.0138 | test error 0.4899 | 18 s
+epoch 103 | train error 0.0136 | test error 0.5120 | 18 s
+epoch 104 | train error 0.0121 | test error 0.4922 | 18 s
+epoch 105 | train error 0.0139 | test error 0.4864 | 18 s
+epoch 106 | train error 0.0156 | test error 0.5085 | 18 s
+epoch 107 | train error 0.0134 | test error 0.5240 | 19 s
+epoch 108 | train error 0.0142 | test error 0.5154 | 19 s
+epoch 109 | train error 0.0169 | test error 0.4918 | 19 s
+epoch 110 | train error 0.0085 | test error 0.4936 | 19 s
+epoch 111 | train error 0.0101 | test error 0.5096 | 19 s
+epoch 112 | train error 0.0171 | test error 0.5133 | 19 s
+epoch 113 | train error 0.0124 | test error 0.4768 | 19 s
+epoch 114 | train error 0.0121 | test error 0.5020 | 20 s
+epoch 115 | train error 0.0096 | test error 0.5170 | 20 s
+epoch 116 | train error 0.0109 | test error 0.5027 | 20 s
+epoch 117 | train error 0.0112 | test error 0.4921 | 20 s
+epoch 118 | train error 0.0233 | test error 0.5107 | 20 s
+epoch 119 | train error 0.0075 | test error 0.5017 | 20 s
+epoch 120 | train error 0.0087 | test error 0.4892 | 21 s
+SGD train error 0.0087 | test error 0.4892 | 471601 parameters
+PAC-Bayes | R-600 | cuda | {'sgd': 'results/sgd_R-600.pt', 'iters1': 500000, 'lr1': 0.0001, 'iters2': 0, 'lr2': 0.0001, 'batch_size': 100, 's_init': 'paper', 's_scale': 0.1, 'rho_lambda_init': -3.0, 'no_lambda_constraint': False, 'rms_alpha': 0.9, 'rms_eps': 1e-08, 'log_every': 550, 'checkpoint_every': 10000, 'seed': 11, 'data_dir': 'mnist', 'out_dir': 'results'}
+iter      0 | lr 1e-04 | surrogate 7.3248 | KL 1036890.5 | lambda 2.480e-03 | j 369.7 | sqrt(BRE/2) 3.0703 | objective 10.3951 | 0 s
+iter    550 | lr 1e-04 | surrogate 6.2996 | KL 911708.1 | lambda 2.772e-03 | j 358.6 | sqrt(BRE/2) 2.8790 | objective 9.1786 | 1 s
+iter   1100 | lr 1e-04 | surrogate 3.7300 | KL 807074.2 | lambda 3.094e-03 | j 347.6 | sqrt(BRE/2) 2.7088 | objective 6.4388 | 2 s
+iter   1650 | lr 1e-04 | surrogate 3.2072 | KL 716124.5 | lambda 3.454e-03 | j 336.6 | sqrt(BRE/2) 2.5516 | objective 5.7588 | 3 s
+iter   2200 | lr 1e-04 | surrogate 3.3610 | KL 637144.5 | lambda 3.855e-03 | j 325.6 | sqrt(BRE/2) 2.4068 | objective 5.7677 | 3 s
+iter   2750 | lr 1e-04 | surrogate 3.1699 | KL 568329.7 | lambda 4.303e-03 | j 314.6 | sqrt(BRE/2) 2.2731 | objective 5.4429 | 4 s
+iter   3300 | lr 1e-04 | surrogate 2.8413 | KL 508443.7 | lambda 4.802e-03 | j 303.6 | sqrt(BRE/2) 2.1500 | objective 4.9913 | 5 s
+iter   3850 | lr 1e-04 | surrogate 2.9336 | KL 456380.0 | lambda 5.360e-03 | j 292.6 | sqrt(BRE/2) 2.0370 | objective 4.9706 | 6 s
+iter   4400 | lr 1e-04 | surrogate 2.4828 | KL 411283.7 | lambda 5.983e-03 | j 281.6 | sqrt(BRE/2) 1.9337 | objective 4.4165 | 7 s
+iter   4950 | lr 1e-04 | surrogate 2.0222 | KL 372476.2 | lambda 6.677e-03 | j 270.7 | sqrt(BRE/2) 1.8402 | objective 3.8624 | 8 s
+iter   5500 | lr 1e-04 | surrogate 1.2319 | KL 339213.3 | lambda 7.450e-03 | j 259.7 | sqrt(BRE/2) 1.7561 | objective 2.9881 | 8 s
+iter   6050 | lr 1e-04 | surrogate 1.9015 | KL 310902.7 | lambda 8.314e-03 | j 248.7 | sqrt(BRE/2) 1.6813 | objective 3.5827 | 9 s
+iter   6600 | lr 1e-04 | surrogate 1.4985 | KL 286832.3 | lambda 9.277e-03 | j 237.8 | sqrt(BRE/2) 1.6149 | objective 3.1133 | 10 s
+iter   7150 | lr 1e-04 | surrogate 1.7666 | KL 266639.1 | lambda 1.035e-02 | j 226.8 | sqrt(BRE/2) 1.5570 | objective 3.3236 | 11 s
+iter   7700 | lr 1e-04 | surrogate 1.1988 | KL 249994.0 | lambda 1.155e-02 | j 215.9 | sqrt(BRE/2) 1.5076 | objective 2.7065 | 12 s
+iter   8250 | lr 1e-04 | surrogate 1.2727 | KL 236361.9 | lambda 1.288e-02 | j 205.0 | sqrt(BRE/2) 1.4660 | objective 2.7386 | 13 s
+iter   8800 | lr 1e-04 | surrogate 1.1749 | KL 225609.1 | lambda 1.436e-02 | j 194.1 | sqrt(BRE/2) 1.4322 | objective 2.6071 | 13 s
+iter   9350 | lr 1e-04 | surrogate 1.1340 | KL 217349.2 | lambda 1.584e-02 | j 184.3 | sqrt(BRE/2) 1.4058 | objective 2.5398 | 14 s
+iter   9900 | lr 1e-04 | surrogate 0.9440 | KL 210231.6 | lambda 1.614e-02 | j 182.4 | sqrt(BRE/2) 1.3826 | objective 2.3266 | 15 s
+iter  10450 | lr 1e-04 | surrogate 1.0953 | KL 203441.8 | lambda 1.635e-02 | j 181.1 | sqrt(BRE/2) 1.3601 | objective 2.4554 | 15 s
+iter  11000 | lr 1e-04 | surrogate 1.0944 | KL 196939.2 | lambda 1.652e-02 | j 180.1 | sqrt(BRE/2) 1.3381 | objective 2.4326 | 16 s
+iter  11550 | lr 1e-04 | surrogate 1.2209 | KL 190618.0 | lambda 1.665e-02 | j 179.3 | sqrt(BRE/2) 1.3165 | objective 2.5374 | 17 s
+iter  12100 | lr 1e-04 | surrogate 1.1375 | KL 184574.3 | lambda 1.677e-02 | j 178.5 | sqrt(BRE/2) 1.2955 | objective 2.4329 | 18 s
+iter  12650 | lr 1e-04 | surrogate 1.0524 | KL 178817.6 | lambda 1.688e-02 | j 177.9 | sqrt(BRE/2) 1.2751 | objective 2.3275 | 18 s
+iter  13200 | lr 1e-04 | surrogate 1.0534 | KL 173347.3 | lambda 1.697e-02 | j 177.4 | sqrt(BRE/2) 1.2554 | objective 2.3089 | 19 s
+iter  13750 | lr 1e-04 | surrogate 0.9641 | KL 168162.5 | lambda 1.705e-02 | j 176.9 | sqrt(BRE/2) 1.2365 | objective 2.2006 | 20 s
+iter  14300 | lr 1e-04 | surrogate 1.0294 | KL 163170.4 | lambda 1.712e-02 | j 176.5 | sqrt(BRE/2) 1.2180 | objective 2.2474 | 21 s
+iter  14850 | lr 1e-04 | surrogate 0.9766 | KL 158434.7 | lambda 1.717e-02 | j 176.2 | sqrt(BRE/2) 1.2002 | objective 2.1768 | 22 s
+iter  15400 | lr 1e-04 | surrogate 1.0786 | KL 153944.1 | lambda 1.722e-02 | j 175.9 | sqrt(BRE/2) 1.1831 | objective 2.2617 | 22 s
+iter  15950 | lr 1e-04 | surrogate 0.9343 | KL 149666.4 | lambda 1.726e-02 | j 175.7 | sqrt(BRE/2) 1.1666 | objective 2.1009 | 23 s
+iter  16500 | lr 1e-04 | surrogate 1.0873 | KL 145503.4 | lambda 1.728e-02 | j 175.6 | sqrt(BRE/2) 1.1502 | objective 2.2375 | 24 s
+iter  17050 | lr 1e-04 | surrogate 1.0021 | KL 141644.5 | lambda 1.730e-02 | j 175.4 | sqrt(BRE/2) 1.1349 | objective 2.1370 | 24 s
+iter  17600 | lr 1e-04 | surrogate 1.1925 | KL 137900.7 | lambda 1.731e-02 | j 175.4 | sqrt(BRE/2) 1.1198 | objective 2.3123 | 25 s
+iter  18150 | lr 1e-04 | surrogate 0.9653 | KL 134317.9 | lambda 1.731e-02 | j 175.4 | sqrt(BRE/2) 1.1051 | objective 2.0704 | 26 s
+iter  18700 | lr 1e-04 | surrogate 1.0186 | KL 130917.7 | lambda 1.731e-02 | j 175.4 | sqrt(BRE/2) 1.0911 | objective 2.1096 | 27 s
+iter  19250 | lr 1e-04 | surrogate 1.1415 | KL 127679.5 | lambda 1.730e-02 | j 175.4 | sqrt(BRE/2) 1.0775 | objective 2.2190 | 27 s
+iter  19800 | lr 1e-04 | surrogate 1.0515 | KL 124519.2 | lambda 1.728e-02 | j 175.6 | sqrt(BRE/2) 1.0641 | objective 2.1155 | 28 s
+iter  20350 | lr 1e-04 | surrogate 1.0346 | KL 121536.2 | lambda 1.726e-02 | j 175.7 | sqrt(BRE/2) 1.0512 | objective 2.0858 | 29 s
+iter  20900 | lr 1e-04 | surrogate 1.0385 | KL 118652.7 | lambda 1.723e-02 | j 175.9 | sqrt(BRE/2) 1.0387 | objective 2.0772 | 30 s
+iter  21450 | lr 1e-04 | surrogate 1.0714 | KL 115912.6 | lambda 1.719e-02 | j 176.1 | sqrt(BRE/2) 1.0266 | objective 2.0980 | 30 s
+iter  22000 | lr 1e-04 | surrogate 1.1154 | KL 113218.1 | lambda 1.715e-02 | j 176.3 | sqrt(BRE/2) 1.0146 | objective 2.1301 | 31 s
+iter  22550 | lr 1e-04 | surrogate 1.0642 | KL 110630.8 | lambda 1.710e-02 | j 176.6 | sqrt(BRE/2) 1.0030 | objective 2.0672 | 32 s
+iter  23100 | lr 1e-04 | surrogate 1.1081 | KL 108123.3 | lambda 1.704e-02 | j 176.9 | sqrt(BRE/2) 0.9916 | objective 2.0997 | 33 s
+iter  23650 | lr 1e-04 | surrogate 1.1116 | KL 105652.1 | lambda 1.699e-02 | j 177.3 | sqrt(BRE/2) 0.9802 | objective 2.0917 | 34 s
+iter  24200 | lr 1e-04 | surrogate 1.0896 | KL 103272.7 | lambda 1.692e-02 | j 177.7 | sqrt(BRE/2) 0.9691 | objective 2.0587 | 34 s
+iter  24750 | lr 1e-04 | surrogate 1.1232 | KL 100993.8 | lambda 1.686e-02 | j 178.0 | sqrt(BRE/2) 0.9583 | objective 2.0816 | 35 s
+iter  25300 | lr 1e-04 | surrogate 1.0866 | KL 98749.4 | lambda 1.679e-02 | j 178.5 | sqrt(BRE/2) 0.9476 | objective 2.0342 | 36 s
+iter  25850 | lr 1e-04 | surrogate 1.0443 | KL 96569.4 | lambda 1.672e-02 | j 178.9 | sqrt(BRE/2) 0.9371 | objective 1.9814 | 37 s
+iter  26400 | lr 1e-04 | surrogate 1.0740 | KL 94421.9 | lambda 1.664e-02 | j 179.3 | sqrt(BRE/2) 0.9266 | objective 2.0006 | 37 s
+iter  26950 | lr 1e-04 | surrogate 1.0446 | KL 92378.5 | lambda 1.657e-02 | j 179.8 | sqrt(BRE/2) 0.9165 | objective 1.9612 | 38 s
+iter  27500 | lr 1e-04 | surrogate 0.9742 | KL 90363.3 | lambda 1.649e-02 | j 180.2 | sqrt(BRE/2) 0.9065 | objective 1.8807 | 39 s
+iter  28050 | lr 1e-04 | surrogate 1.0380 | KL 88401.2 | lambda 1.641e-02 | j 180.7 | sqrt(BRE/2) 0.8966 | objective 1.9346 | 40 s
+iter  28600 | lr 1e-04 | surrogate 1.0269 | KL 86470.0 | lambda 1.633e-02 | j 181.2 | sqrt(BRE/2) 0.8868 | objective 1.9136 | 40 s
+iter  29150 | lr 1e-04 | surrogate 1.0351 | KL 84565.4 | lambda 1.625e-02 | j 181.7 | sqrt(BRE/2) 0.8769 | objective 1.9120 | 41 s
+iter  29700 | lr 1e-04 | surrogate 1.0992 | KL 82709.6 | lambda 1.616e-02 | j 182.2 | sqrt(BRE/2) 0.8673 | objective 1.9664 | 42 s
+iter  30250 | lr 1e-04 | surrogate 1.0435 | KL 80846.0 | lambda 1.607e-02 | j 182.8 | sqrt(BRE/2) 0.8574 | objective 1.9009 | 42 s
+iter  30800 | lr 1e-04 | surrogate 1.0069 | KL 79073.0 | lambda 1.599e-02 | j 183.3 | sqrt(BRE/2) 0.8480 | objective 1.8549 | 43 s
+iter  31350 | lr 1e-04 | surrogate 0.9983 | KL 77281.4 | lambda 1.590e-02 | j 183.9 | sqrt(BRE/2) 0.8383 | objective 1.8367 | 44 s
+iter  31900 | lr 1e-04 | surrogate 1.0182 | KL 75541.5 | lambda 1.580e-02 | j 184.5 | sqrt(BRE/2) 0.8288 | objective 1.8471 | 45 s
+iter  32450 | lr 1e-04 | surrogate 1.0235 | KL 73830.0 | lambda 1.572e-02 | j 185.1 | sqrt(BRE/2) 0.8194 | objective 1.8429 | 46 s
+iter  33000 | lr 1e-04 | surrogate 1.0807 | KL 72114.5 | lambda 1.562e-02 | j 185.7 | sqrt(BRE/2) 0.8098 | objective 1.8905 | 46 s
+iter  33550 | lr 1e-04 | surrogate 1.0792 | KL 70442.9 | lambda 1.553e-02 | j 186.3 | sqrt(BRE/2) 0.8004 | objective 1.8795 | 47 s
+iter  34100 | lr 1e-04 | surrogate 0.9663 | KL 68824.9 | lambda 1.544e-02 | j 186.8 | sqrt(BRE/2) 0.7912 | objective 1.7574 | 48 s
+iter  34650 | lr 1e-04 | surrogate 1.0705 | KL 67220.0 | lambda 1.535e-02 | j 187.4 | sqrt(BRE/2) 0.7819 | objective 1.8523 | 49 s
+iter  35200 | lr 1e-04 | surrogate 1.0327 | KL 65621.9 | lambda 1.525e-02 | j 188.0 | sqrt(BRE/2) 0.7725 | objective 1.8052 | 49 s
+iter  35750 | lr 1e-04 | surrogate 1.0534 | KL 64090.0 | lambda 1.516e-02 | j 188.6 | sqrt(BRE/2) 0.7635 | objective 1.8169 | 50 s
+iter  36300 | lr 1e-04 | surrogate 1.0338 | KL 62582.2 | lambda 1.507e-02 | j 189.2 | sqrt(BRE/2) 0.7544 | objective 1.7882 | 51 s
+iter  36850 | lr 1e-04 | surrogate 0.9510 | KL 61082.6 | lambda 1.498e-02 | j 189.8 | sqrt(BRE/2) 0.7453 | objective 1.6963 | 51 s
+iter  37400 | lr 1e-04 | surrogate 1.0001 | KL 59597.7 | lambda 1.489e-02 | j 190.4 | sqrt(BRE/2) 0.7362 | objective 1.7364 | 52 s
+iter  37950 | lr 1e-04 | surrogate 1.0356 | KL 58148.2 | lambda 1.480e-02 | j 191.0 | sqrt(BRE/2) 0.7272 | objective 1.7628 | 53 s
+iter  38500 | lr 1e-04 | surrogate 1.0541 | KL 56700.9 | lambda 1.471e-02 | j 191.7 | sqrt(BRE/2) 0.7181 | objective 1.7722 | 54 s
+iter  39050 | lr 1e-04 | surrogate 1.0105 | KL 55308.3 | lambda 1.462e-02 | j 192.3 | sqrt(BRE/2) 0.7093 | objective 1.7198 | 55 s
+iter  39600 | lr 1e-04 | surrogate 1.1110 | KL 53936.6 | lambda 1.454e-02 | j 192.8 | sqrt(BRE/2) 0.7004 | objective 1.8114 | 56 s
+iter  40150 | lr 1e-04 | surrogate 1.0506 | KL 52598.1 | lambda 1.445e-02 | j 193.4 | sqrt(BRE/2) 0.6917 | objective 1.7422 | 57 s
+iter  40700 | lr 1e-04 | surrogate 1.0220 | KL 51267.4 | lambda 1.437e-02 | j 194.0 | sqrt(BRE/2) 0.6829 | objective 1.7049 | 58 s
+iter  41250 | lr 1e-04 | surrogate 1.1075 | KL 49951.8 | lambda 1.428e-02 | j 194.6 | sqrt(BRE/2) 0.6741 | objective 1.7816 | 58 s
+iter  41800 | lr 1e-04 | surrogate 0.9740 | KL 48673.2 | lambda 1.420e-02 | j 195.2 | sqrt(BRE/2) 0.6654 | objective 1.6394 | 59 s
+iter  42350 | lr 1e-04 | surrogate 1.0727 | KL 47379.3 | lambda 1.411e-02 | j 195.8 | sqrt(BRE/2) 0.6565 | objective 1.7292 | 60 s
+iter  42900 | lr 1e-04 | surrogate 1.0151 | KL 46147.0 | lambda 1.403e-02 | j 196.4 | sqrt(BRE/2) 0.6479 | objective 1.6630 | 61 s
+iter  43450 | lr 1e-04 | surrogate 1.0699 | KL 44944.7 | lambda 1.395e-02 | j 196.9 | sqrt(BRE/2) 0.6394 | objective 1.7093 | 61 s
+iter  44000 | lr 1e-04 | surrogate 1.0795 | KL 43746.3 | lambda 1.388e-02 | j 197.5 | sqrt(BRE/2) 0.6308 | objective 1.7103 | 62 s
+iter  44550 | lr 1e-04 | surrogate 1.0750 | KL 42566.7 | lambda 1.380e-02 | j 198.1 | sqrt(BRE/2) 0.6223 | objective 1.6973 | 63 s
+iter  45100 | lr 1e-04 | surrogate 1.0636 | KL 41426.4 | lambda 1.372e-02 | j 198.6 | sqrt(BRE/2) 0.6139 | objective 1.6774 | 63 s
+iter  45650 | lr 1e-04 | surrogate 1.0798 | KL 40318.4 | lambda 1.365e-02 | j 199.1 | sqrt(BRE/2) 0.6056 | objective 1.6854 | 64 s
+iter  46200 | lr 1e-04 | surrogate 0.9762 | KL 39233.3 | lambda 1.358e-02 | j 199.7 | sqrt(BRE/2) 0.5974 | objective 1.5736 | 65 s
+iter  46750 | lr 1e-04 | surrogate 1.1460 | KL 38157.1 | lambda 1.351e-02 | j 200.2 | sqrt(BRE/2) 0.5892 | objective 1.7352 | 66 s
+iter  47300 | lr 1e-04 | surrogate 0.9569 | KL 37096.6 | lambda 1.344e-02 | j 200.7 | sqrt(BRE/2) 0.5809 | objective 1.5379 | 66 s
+iter  47850 | lr 1e-04 | surrogate 1.0329 | KL 36042.0 | lambda 1.337e-02 | j 201.2 | sqrt(BRE/2) 0.5726 | objective 1.6055 | 67 s
+iter  48400 | lr 1e-04 | surrogate 1.0509 | KL 35030.4 | lambda 1.330e-02 | j 201.7 | sqrt(BRE/2) 0.5645 | objective 1.6154 | 68 s
+iter  48950 | lr 1e-04 | surrogate 1.0201 | KL 34062.6 | lambda 1.324e-02 | j 202.2 | sqrt(BRE/2) 0.5567 | objective 1.5768 | 69 s
+iter  49500 | lr 1e-04 | surrogate 1.0548 | KL 33105.4 | lambda 1.317e-02 | j 202.7 | sqrt(BRE/2) 0.5488 | objective 1.6036 | 69 s
+iter  50050 | lr 1e-04 | surrogate 0.9831 | KL 32130.5 | lambda 1.311e-02 | j 203.2 | sqrt(BRE/2) 0.5407 | objective 1.5238 | 70 s
+iter  50600 | lr 1e-04 | surrogate 1.0528 | KL 31191.1 | lambda 1.305e-02 | j 203.7 | sqrt(BRE/2) 0.5327 | objective 1.5855 | 71 s
+iter  51150 | lr 1e-04 | surrogate 0.9725 | KL 30279.8 | lambda 1.298e-02 | j 204.1 | sqrt(BRE/2) 0.5249 | objective 1.4974 | 71 s
+iter  51700 | lr 1e-04 | surrogate 1.0410 | KL 29381.7 | lambda 1.292e-02 | j 204.6 | sqrt(BRE/2) 0.5171 | objective 1.5580 | 72 s
+iter  52250 | lr 1e-04 | surrogate 1.0391 | KL 28523.4 | lambda 1.287e-02 | j 205.0 | sqrt(BRE/2) 0.5095 | objective 1.5485 | 73 s
+iter  52800 | lr 1e-04 | surrogate 0.9218 | KL 27683.5 | lambda 1.281e-02 | j 205.5 | sqrt(BRE/2) 0.5019 | objective 1.4237 | 74 s
+iter  53350 | lr 1e-04 | surrogate 1.0408 | KL 26859.0 | lambda 1.276e-02 | j 205.9 | sqrt(BRE/2) 0.4944 | objective 1.5351 | 75 s
+iter  53900 | lr 1e-04 | surrogate 1.0341 | KL 26059.6 | lambda 1.270e-02 | j 206.3 | sqrt(BRE/2) 0.4870 | objective 1.5210 | 76 s
+iter  54450 | lr 1e-04 | surrogate 0.9257 | KL 25252.7 | lambda 1.265e-02 | j 206.7 | sqrt(BRE/2) 0.4794 | objective 1.4051 | 76 s
+iter  55000 | lr 1e-04 | surrogate 1.0402 | KL 24510.5 | lambda 1.260e-02 | j 207.1 | sqrt(BRE/2) 0.4723 | objective 1.5125 | 77 s
+iter  55550 | lr 1e-04 | surrogate 1.1184 | KL 23765.9 | lambda 1.255e-02 | j 207.5 | sqrt(BRE/2) 0.4651 | objective 1.5835 | 78 s
+iter  56100 | lr 1e-04 | surrogate 0.9953 | KL 23044.0 | lambda 1.251e-02 | j 207.9 | sqrt(BRE/2) 0.4580 | objective 1.4533 | 79 s
+iter  56650 | lr 1e-04 | surrogate 0.9909 | KL 22333.8 | lambda 1.246e-02 | j 208.3 | sqrt(BRE/2) 0.4509 | objective 1.4418 | 79 s
+iter  57200 | lr 1e-04 | surrogate 1.1067 | KL 21667.3 | lambda 1.242e-02 | j 208.6 | sqrt(BRE/2) 0.4441 | objective 1.5507 | 80 s
+iter  57750 | lr 1e-04 | surrogate 1.0528 | KL 21007.3 | lambda 1.238e-02 | j 208.9 | sqrt(BRE/2) 0.4373 | objective 1.4900 | 81 s
+iter  58300 | lr 1e-04 | surrogate 1.1031 | KL 20376.3 | lambda 1.233e-02 | j 209.3 | sqrt(BRE/2) 0.4307 | objective 1.5338 | 82 s
+iter  58850 | lr 1e-04 | surrogate 1.0187 | KL 19791.9 | lambda 1.230e-02 | j 209.6 | sqrt(BRE/2) 0.4245 | objective 1.4431 | 82 s
+iter  59400 | lr 1e-04 | surrogate 1.0242 | KL 19193.9 | lambda 1.226e-02 | j 209.9 | sqrt(BRE/2) 0.4180 | objective 1.4422 | 83 s
+iter  59950 | lr 1e-04 | surrogate 1.0100 | KL 18580.9 | lambda 1.222e-02 | j 210.2 | sqrt(BRE/2) 0.4113 | objective 1.4213 | 84 s
+iter  60500 | lr 1e-04 | surrogate 1.0704 | KL 18006.5 | lambda 1.218e-02 | j 210.5 | sqrt(BRE/2) 0.4049 | objective 1.4752 | 85 s
+iter  61050 | lr 1e-04 | surrogate 1.0151 | KL 17468.7 | lambda 1.215e-02 | j 210.8 | sqrt(BRE/2) 0.3988 | objective 1.4139 | 85 s
+iter  61600 | lr 1e-04 | surrogate 1.0254 | KL 16952.8 | lambda 1.212e-02 | j 211.1 | sqrt(BRE/2) 0.3929 | objective 1.4183 | 86 s
+iter  62150 | lr 1e-04 | surrogate 0.9731 | KL 16421.8 | lambda 1.208e-02 | j 211.3 | sqrt(BRE/2) 0.3867 | objective 1.3598 | 87 s
+iter  62700 | lr 1e-04 | surrogate 1.0031 | KL 15927.8 | lambda 1.205e-02 | j 211.6 | sqrt(BRE/2) 0.3808 | objective 1.3839 | 88 s
+iter  63250 | lr 1e-04 | surrogate 0.9881 | KL 15463.3 | lambda 1.203e-02 | j 211.8 | sqrt(BRE/2) 0.3752 | objective 1.3634 | 88 s
+iter  63800 | lr 1e-04 | surrogate 1.0332 | KL 15001.8 | lambda 1.200e-02 | j 212.1 | sqrt(BRE/2) 0.3696 | objective 1.4028 | 89 s
+iter  64350 | lr 1e-04 | surrogate 1.0114 | KL 14574.0 | lambda 1.197e-02 | j 212.3 | sqrt(BRE/2) 0.3643 | objective 1.3757 | 90 s
+iter  64900 | lr 1e-04 | surrogate 1.0452 | KL 14157.0 | lambda 1.195e-02 | j 212.5 | sqrt(BRE/2) 0.3591 | objective 1.4043 | 91 s
+iter  65450 | lr 1e-04 | surrogate 1.0360 | KL 13741.8 | lambda 1.192e-02 | j 212.7 | sqrt(BRE/2) 0.3538 | objective 1.3898 | 91 s
+iter  66000 | lr 1e-04 | surrogate 1.0550 | KL 13326.8 | lambda 1.190e-02 | j 212.9 | sqrt(BRE/2) 0.3484 | objective 1.4034 | 92 s
+iter  66550 | lr 1e-04 | surrogate 1.0869 | KL 12958.5 | lambda 1.187e-02 | j 213.1 | sqrt(BRE/2) 0.3436 | objective 1.4304 | 93 s
+iter  67100 | lr 1e-04 | surrogate 1.0554 | KL 12576.3 | lambda 1.185e-02 | j 213.3 | sqrt(BRE/2) 0.3385 | objective 1.3939 | 93 s
+iter  67650 | lr 1e-04 | surrogate 1.0753 | KL 12190.8 | lambda 1.183e-02 | j 213.5 | sqrt(BRE/2) 0.3333 | objective 1.4086 | 94 s
+iter  68200 | lr 1e-04 | surrogate 1.1579 | KL 11819.9 | lambda 1.181e-02 | j 213.6 | sqrt(BRE/2) 0.3282 | objective 1.4861 | 95 s
+iter  68750 | lr 1e-04 | surrogate 0.9977 | KL 11475.6 | lambda 1.179e-02 | j 213.8 | sqrt(BRE/2) 0.3234 | objective 1.3210 | 96 s
+iter  69300 | lr 1e-04 | surrogate 1.0294 | KL 11150.8 | lambda 1.177e-02 | j 214.0 | sqrt(BRE/2) 0.3188 | objective 1.3482 | 97 s
+iter  69850 | lr 1e-04 | surrogate 1.0503 | KL 10845.9 | lambda 1.175e-02 | j 214.1 | sqrt(BRE/2) 0.3144 | objective 1.3647 | 97 s
+iter  70400 | lr 1e-04 | surrogate 1.0404 | KL 10543.5 | lambda 1.173e-02 | j 214.3 | sqrt(BRE/2) 0.3100 | objective 1.3504 | 98 s
+iter  70950 | lr 1e-04 | surrogate 1.0819 | KL 10239.2 | lambda 1.172e-02 | j 214.4 | sqrt(BRE/2) 0.3055 | objective 1.3874 | 99 s
+iter  71500 | lr 1e-04 | surrogate 0.9938 | KL 9935.5 | lambda 1.170e-02 | j 214.6 | sqrt(BRE/2) 0.3009 | objective 1.2947 | 100 s
+iter  72050 | lr 1e-04 | surrogate 1.0038 | KL 9656.2 | lambda 1.168e-02 | j 214.7 | sqrt(BRE/2) 0.2967 | objective 1.3005 | 101 s
+iter  72600 | lr 1e-04 | surrogate 1.0860 | KL 9397.1 | lambda 1.167e-02 | j 214.8 | sqrt(BRE/2) 0.2927 | objective 1.3787 | 102 s
+iter  73150 | lr 1e-04 | surrogate 1.1017 | KL 9139.7 | lambda 1.165e-02 | j 214.9 | sqrt(BRE/2) 0.2887 | objective 1.3904 | 102 s
+iter  73700 | lr 1e-04 | surrogate 0.9926 | KL 8902.1 | lambda 1.164e-02 | j 215.1 | sqrt(BRE/2) 0.2849 | objective 1.2775 | 103 s
+iter  74250 | lr 1e-04 | surrogate 1.0877 | KL 8645.8 | lambda 1.163e-02 | j 215.2 | sqrt(BRE/2) 0.2808 | objective 1.3685 | 104 s
+iter  74800 | lr 1e-04 | surrogate 1.0561 | KL 8395.3 | lambda 1.161e-02 | j 215.3 | sqrt(BRE/2) 0.2767 | objective 1.3328 | 105 s
+iter  75350 | lr 1e-04 | surrogate 1.0411 | KL 8175.9 | lambda 1.160e-02 | j 215.4 | sqrt(BRE/2) 0.2731 | objective 1.3142 | 106 s
+iter  75900 | lr 1e-04 | surrogate 1.0476 | KL 7986.9 | lambda 1.159e-02 | j 215.5 | sqrt(BRE/2) 0.2699 | objective 1.3175 | 106 s
+iter  76450 | lr 1e-04 | surrogate 1.0361 | KL 7769.4 | lambda 1.158e-02 | j 215.6 | sqrt(BRE/2) 0.2662 | objective 1.3024 | 107 s
+iter  77000 | lr 1e-04 | surrogate 1.0294 | KL 7548.1 | lambda 1.157e-02 | j 215.7 | sqrt(BRE/2) 0.2624 | objective 1.2918 | 108 s
+iter  77550 | lr 1e-04 | surrogate 1.0879 | KL 7367.5 | lambda 1.156e-02 | j 215.8 | sqrt(BRE/2) 0.2593 | objective 1.3472 | 109 s
+iter  78100 | lr 1e-04 | surrogate 1.0664 | KL 7147.9 | lambda 1.155e-02 | j 215.9 | sqrt(BRE/2) 0.2554 | objective 1.3218 | 110 s
+iter  78650 | lr 1e-04 | surrogate 1.0272 | KL 6956.5 | lambda 1.154e-02 | j 216.0 | sqrt(BRE/2) 0.2519 | objective 1.2791 | 111 s
+iter  79200 | lr 1e-04 | surrogate 1.0305 | KL 6780.2 | lambda 1.153e-02 | j 216.0 | sqrt(BRE/2) 0.2487 | objective 1.2793 | 111 s
+iter  79750 | lr 1e-04 | surrogate 1.0352 | KL 6613.4 | lambda 1.152e-02 | j 216.1 | sqrt(BRE/2) 0.2457 | objective 1.2809 | 112 s
+iter  80300 | lr 1e-04 | surrogate 1.1063 | KL 6444.4 | lambda 1.151e-02 | j 216.2 | sqrt(BRE/2) 0.2425 | objective 1.3488 | 113 s
+iter  80850 | lr 1e-04 | surrogate 1.1032 | KL 6273.7 | lambda 1.150e-02 | j 216.3 | sqrt(BRE/2) 0.2393 | objective 1.3425 | 114 s
+iter  81400 | lr 1e-04 | surrogate 1.0553 | KL 6140.0 | lambda 1.150e-02 | j 216.3 | sqrt(BRE/2) 0.2368 | objective 1.2920 | 115 s
+iter  81950 | lr 1e-04 | surrogate 1.0463 | KL 5962.3 | lambda 1.149e-02 | j 216.4 | sqrt(BRE/2) 0.2333 | objective 1.2796 | 115 s
+iter  82500 | lr 1e-04 | surrogate 1.0370 | KL 5813.1 | lambda 1.148e-02 | j 216.5 | sqrt(BRE/2) 0.2304 | objective 1.2674 | 116 s
+iter  83050 | lr 1e-04 | surrogate 1.0437 | KL 5676.7 | lambda 1.147e-02 | j 216.5 | sqrt(BRE/2) 0.2277 | objective 1.2714 | 117 s
+iter  83600 | lr 1e-04 | surrogate 0.9947 | KL 5531.9 | lambda 1.146e-02 | j 216.6 | sqrt(BRE/2) 0.2248 | objective 1.2195 | 118 s
+iter  84150 | lr 1e-04 | surrogate 1.0204 | KL 5379.1 | lambda 1.146e-02 | j 216.7 | sqrt(BRE/2) 0.2217 | objective 1.2421 | 119 s
+iter  84700 | lr 1e-04 | surrogate 1.0805 | KL 5272.0 | lambda 1.145e-02 | j 216.7 | sqrt(BRE/2) 0.2195 | objective 1.3000 | 119 s
+iter  85250 | lr 1e-04 | surrogate 1.0685 | KL 5137.4 | lambda 1.144e-02 | j 216.8 | sqrt(BRE/2) 0.2167 | objective 1.2852 | 120 s
+iter  85800 | lr 1e-04 | surrogate 1.0374 | KL 5020.0 | lambda 1.144e-02 | j 216.8 | sqrt(BRE/2) 0.2142 | objective 1.2516 | 121 s
+iter  86350 | lr 1e-04 | surrogate 1.0408 | KL 4891.3 | lambda 1.143e-02 | j 216.9 | sqrt(BRE/2) 0.2114 | objective 1.2522 | 122 s
+iter  86900 | lr 1e-04 | surrogate 1.0352 | KL 4782.8 | lambda 1.143e-02 | j 216.9 | sqrt(BRE/2) 0.2091 | objective 1.2443 | 122 s
+iter  87450 | lr 1e-04 | surrogate 1.0176 | KL 4675.2 | lambda 1.142e-02 | j 217.0 | sqrt(BRE/2) 0.2067 | objective 1.2243 | 123 s
+iter  88000 | lr 1e-04 | surrogate 1.0019 | KL 4562.9 | lambda 1.142e-02 | j 217.0 | sqrt(BRE/2) 0.2042 | objective 1.2062 | 124 s
+iter  88550 | lr 1e-04 | surrogate 1.0219 | KL 4467.3 | lambda 1.141e-02 | j 217.0 | sqrt(BRE/2) 0.2021 | objective 1.2240 | 124 s
+iter  89100 | lr 1e-04 | surrogate 1.0439 | KL 4375.1 | lambda 1.141e-02 | j 217.1 | sqrt(BRE/2) 0.2000 | objective 1.2440 | 125 s
+iter  89650 | lr 1e-04 | surrogate 1.0898 | KL 4291.1 | lambda 1.140e-02 | j 217.1 | sqrt(BRE/2) 0.1981 | objective 1.2879 | 126 s
+iter  90200 | lr 1e-04 | surrogate 1.0282 | KL 4193.3 | lambda 1.140e-02 | j 217.2 | sqrt(BRE/2) 0.1958 | objective 1.2240 | 127 s
+iter  90750 | lr 1e-04 | surrogate 1.0642 | KL 4101.8 | lambda 1.140e-02 | j 217.2 | sqrt(BRE/2) 0.1937 | objective 1.2579 | 127 s
+iter  91300 | lr 1e-04 | surrogate 1.0381 | KL 4018.9 | lambda 1.139e-02 | j 217.2 | sqrt(BRE/2) 0.1918 | objective 1.2299 | 128 s
+iter  91850 | lr 1e-04 | surrogate 1.0921 | KL 3930.2 | lambda 1.139e-02 | j 217.3 | sqrt(BRE/2) 0.1896 | objective 1.2817 | 129 s
+iter  92400 | lr 1e-04 | surrogate 0.9975 | KL 3864.6 | lambda 1.139e-02 | j 217.3 | sqrt(BRE/2) 0.1881 | objective 1.1856 | 130 s
+iter  92950 | lr 1e-04 | surrogate 1.0198 | KL 3788.6 | lambda 1.138e-02 | j 217.3 | sqrt(BRE/2) 0.1862 | objective 1.2060 | 130 s
+iter  93500 | lr 1e-04 | surrogate 1.0807 | KL 3707.3 | lambda 1.138e-02 | j 217.3 | sqrt(BRE/2) 0.1842 | objective 1.2649 | 131 s
+iter  94050 | lr 1e-04 | surrogate 1.0017 | KL 3631.1 | lambda 1.138e-02 | j 217.4 | sqrt(BRE/2) 0.1823 | objective 1.1840 | 132 s
+iter  94600 | lr 1e-04 | surrogate 1.0726 | KL 3534.3 | lambda 1.137e-02 | j 217.4 | sqrt(BRE/2) 0.1799 | objective 1.2525 | 133 s
+iter  95150 | lr 1e-04 | surrogate 1.1288 | KL 3479.0 | lambda 1.137e-02 | j 217.4 | sqrt(BRE/2) 0.1785 | objective 1.3073 | 134 s
+iter  95700 | lr 1e-04 | surrogate 1.0937 | KL 3410.6 | lambda 1.137e-02 | j 217.5 | sqrt(BRE/2) 0.1768 | objective 1.2705 | 134 s
+iter  96250 | lr 1e-04 | surrogate 1.3399 | KL 3352.2 | lambda 1.136e-02 | j 217.5 | sqrt(BRE/2) 0.1752 | objective 1.5152 | 135 s
+iter  96800 | lr 1e-04 | surrogate 0.9986 | KL 3309.7 | lambda 1.136e-02 | j 217.5 | sqrt(BRE/2) 0.1741 | objective 1.1727 | 136 s
+iter  97350 | lr 1e-04 | surrogate 1.0871 | KL 3266.9 | lambda 1.136e-02 | j 217.5 | sqrt(BRE/2) 0.1730 | objective 1.2601 | 137 s
+iter  97900 | lr 1e-04 | surrogate 1.0548 | KL 3201.1 | lambda 1.136e-02 | j 217.5 | sqrt(BRE/2) 0.1713 | objective 1.2261 | 138 s
+iter  98450 | lr 1e-04 | surrogate 1.0599 | KL 3124.6 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1692 | objective 1.2292 | 139 s
+iter  99000 | lr 1e-04 | surrogate 1.0299 | KL 3072.1 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1678 | objective 1.1978 | 140 s
+iter  99550 | lr 1e-04 | surrogate 1.0451 | KL 3008.9 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1661 | objective 1.2112 | 141 s
+iter 100100 | lr 1e-04 | surrogate 1.0674 | KL 2959.9 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1648 | objective 1.2322 | 141 s
+iter 100650 | lr 1e-04 | surrogate 1.1156 | KL 2929.0 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1639 | objective 1.2795 | 142 s
+iter 101200 | lr 1e-04 | surrogate 1.0029 | KL 2871.5 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1623 | objective 1.1652 | 143 s
+iter 101750 | lr 1e-04 | surrogate 1.0232 | KL 2812.2 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.1606 | objective 1.1838 | 144 s
+iter 102300 | lr 1e-04 | surrogate 1.0204 | KL 2767.7 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.1594 | objective 1.1798 | 144 s
+iter 102850 | lr 1e-04 | surrogate 1.0797 | KL 2717.6 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.1579 | objective 1.2376 | 145 s
+iter 103400 | lr 1e-04 | surrogate 0.9871 | KL 2686.5 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.1570 | objective 1.1442 | 146 s
+iter 103950 | lr 1e-04 | surrogate 1.0350 | KL 2643.5 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.1558 | objective 1.1908 | 147 s
+iter 104500 | lr 1e-04 | surrogate 1.1754 | KL 2628.2 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.1553 | objective 1.3308 | 147 s
+iter 105050 | lr 1e-04 | surrogate 1.1197 | KL 2600.6 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.1545 | objective 1.2743 | 148 s
+iter 105600 | lr 1e-04 | surrogate 1.0737 | KL 2556.0 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.1532 | objective 1.2269 | 149 s
+iter 106150 | lr 1e-04 | surrogate 1.0365 | KL 2527.0 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.1523 | objective 1.1889 | 150 s
+iter 106700 | lr 1e-04 | surrogate 1.1169 | KL 2485.5 | lambda 1.133e-02 | j 217.7 | sqrt(BRE/2) 0.1511 | objective 1.2680 | 151 s
+iter 107250 | lr 1e-04 | surrogate 1.0221 | KL 2461.6 | lambda 1.133e-02 | j 217.7 | sqrt(BRE/2) 0.1504 | objective 1.1725 | 152 s
+iter 107800 | lr 1e-04 | surrogate 1.0696 | KL 2446.4 | lambda 1.133e-02 | j 217.7 | sqrt(BRE/2) 0.1499 | objective 1.2195 | 152 s
+iter 108350 | lr 1e-04 | surrogate 1.0775 | KL 2402.6 | lambda 1.133e-02 | j 217.7 | sqrt(BRE/2) 0.1486 | objective 1.2261 | 153 s
+iter 108900 | lr 1e-04 | surrogate 0.9907 | KL 2387.0 | lambda 1.133e-02 | j 217.7 | sqrt(BRE/2) 0.1481 | objective 1.1388 | 154 s
+iter 109450 | lr 1e-04 | surrogate 1.0368 | KL 2342.7 | lambda 1.133e-02 | j 217.7 | sqrt(BRE/2) 0.1467 | objective 1.1835 | 155 s
+iter 110000 | lr 1e-04 | surrogate 1.1027 | KL 2326.3 | lambda 1.133e-02 | j 217.7 | sqrt(BRE/2) 0.1462 | objective 1.2489 | 155 s
+iter 110550 | lr 1e-04 | surrogate 1.1700 | KL 2303.0 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.1455 | objective 1.3155 | 156 s
+iter 111100 | lr 1e-04 | surrogate 0.9884 | KL 2281.9 | lambda 1.133e-02 | j 217.7 | sqrt(BRE/2) 0.1448 | objective 1.1333 | 157 s
+iter 111650 | lr 1e-04 | surrogate 1.0445 | KL 2226.8 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.1431 | objective 1.1876 | 158 s
+iter 112200 | lr 1e-04 | surrogate 1.0304 | KL 2201.4 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.1423 | objective 1.1727 | 158 s
+iter 112750 | lr 1e-04 | surrogate 1.0653 | KL 2176.9 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.1415 | objective 1.2068 | 159 s
+iter 113300 | lr 1e-04 | surrogate 1.0130 | KL 2170.6 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.1413 | objective 1.1543 | 160 s
+iter 113850 | lr 1e-04 | surrogate 1.0346 | KL 2147.2 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.1406 | objective 1.1752 | 161 s
+iter 114400 | lr 1e-04 | surrogate 0.9967 | KL 2116.4 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.1396 | objective 1.1363 | 161 s
+iter 114950 | lr 1e-04 | surrogate 1.1171 | KL 2110.1 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.1394 | objective 1.2564 | 162 s
+iter 115500 | lr 1e-04 | surrogate 0.9772 | KL 2116.0 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.1395 | objective 1.1168 | 163 s
+iter 116050 | lr 1e-04 | surrogate 1.0354 | KL 2071.4 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.1381 | objective 1.1735 | 163 s
+iter 116600 | lr 1e-04 | surrogate 1.0464 | KL 2053.1 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.1375 | objective 1.1839 | 164 s
+iter 117150 | lr 1e-04 | surrogate 1.0192 | KL 2046.8 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.1373 | objective 1.1564 | 165 s
+iter 117700 | lr 1e-04 | surrogate 1.0257 | KL 2029.1 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.1367 | objective 1.1624 | 166 s
+iter 118250 | lr 1e-04 | surrogate 0.9504 | KL 2000.8 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.1357 | objective 1.0861 | 166 s
+iter 118800 | lr 1e-04 | surrogate 1.0594 | KL 1989.6 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.1354 | objective 1.1948 | 167 s
+iter 119350 | lr 1e-04 | surrogate 1.1303 | KL 1982.7 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.1351 | objective 1.2654 | 168 s
+iter 119900 | lr 1e-04 | surrogate 1.0303 | KL 1941.3 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.1337 | objective 1.1641 | 168 s
+iter 120450 | lr 1e-04 | surrogate 1.1226 | KL 1912.1 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.1327 | objective 1.2553 | 169 s
+iter 121000 | lr 1e-04 | surrogate 1.1232 | KL 1908.3 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.1326 | objective 1.2558 | 170 s
+iter 121550 | lr 1e-04 | surrogate 0.9595 | KL 1905.9 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.1325 | objective 1.0920 | 171 s
+iter 122100 | lr 1e-04 | surrogate 1.1780 | KL 1895.5 | lambda 1.133e-02 | j 217.7 | sqrt(BRE/2) 0.1322 | objective 1.3101 | 171 s
+iter 122650 | lr 1e-04 | surrogate 0.9689 | KL 1866.4 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.1312 | objective 1.1000 | 172 s
+iter 123200 | lr 1e-04 | surrogate 1.0761 | KL 1842.1 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.1303 | objective 1.2064 | 173 s
+iter 123750 | lr 1e-04 | surrogate 1.0252 | KL 1836.8 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.1301 | objective 1.1553 | 174 s
+iter 124300 | lr 1e-04 | surrogate 1.0170 | KL 1824.8 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.1297 | objective 1.1468 | 174 s
+iter 124850 | lr 1e-04 | surrogate 1.0583 | KL 1815.1 | lambda 1.133e-02 | j 217.7 | sqrt(BRE/2) 0.1294 | objective 1.1877 | 175 s
+iter 125400 | lr 1e-04 | surrogate 1.0251 | KL 1798.1 | lambda 1.133e-02 | j 217.7 | sqrt(BRE/2) 0.1288 | objective 1.1538 | 176 s
+iter 125950 | lr 1e-04 | surrogate 1.0622 | KL 1788.4 | lambda 1.133e-02 | j 217.7 | sqrt(BRE/2) 0.1284 | objective 1.1907 | 176 s
+iter 126500 | lr 1e-04 | surrogate 1.0089 | KL 1763.4 | lambda 1.133e-02 | j 217.7 | sqrt(BRE/2) 0.1275 | objective 1.1364 | 177 s
+iter 127050 | lr 1e-04 | surrogate 1.0978 | KL 1762.0 | lambda 1.133e-02 | j 217.7 | sqrt(BRE/2) 0.1275 | objective 1.2253 | 178 s
+iter 127600 | lr 1e-04 | surrogate 1.0492 | KL 1744.9 | lambda 1.133e-02 | j 217.7 | sqrt(BRE/2) 0.1269 | objective 1.1761 | 179 s
+iter 128150 | lr 1e-04 | surrogate 1.0613 | KL 1746.0 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.1269 | objective 1.1882 | 179 s
+iter 128700 | lr 1e-04 | surrogate 0.9829 | KL 1732.4 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.1264 | objective 1.1094 | 180 s
+iter 129250 | lr 1e-04 | surrogate 1.0729 | KL 1713.8 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.1258 | objective 1.1986 | 181 s
+iter 129800 | lr 1e-04 | surrogate 1.1119 | KL 1696.2 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.1251 | objective 1.2371 | 182 s
+iter 130350 | lr 1e-04 | surrogate 1.0526 | KL 1696.5 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.1251 | objective 1.1777 | 182 s
+iter 130900 | lr 1e-04 | surrogate 1.0565 | KL 1679.6 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.1245 | objective 1.1810 | 183 s
+iter 131450 | lr 1e-04 | surrogate 1.0089 | KL 1693.6 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.1250 | objective 1.1339 | 184 s
+iter 132000 | lr 1e-04 | surrogate 1.1035 | KL 1681.2 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.1246 | objective 1.2281 | 185 s
+iter 132550 | lr 1e-04 | surrogate 1.0567 | KL 1669.6 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.1242 | objective 1.1808 | 186 s
+iter 133100 | lr 1e-04 | surrogate 1.0499 | KL 1642.5 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.1232 | objective 1.1730 | 187 s
+iter 133650 | lr 1e-04 | surrogate 1.0014 | KL 1640.7 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.1231 | objective 1.1245 | 187 s
+iter 134200 | lr 1e-04 | surrogate 1.0197 | KL 1630.4 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.1227 | objective 1.1425 | 188 s
+iter 134750 | lr 1e-04 | surrogate 1.0850 | KL 1632.0 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.1228 | objective 1.2078 | 189 s
+iter 135300 | lr 1e-04 | surrogate 0.9178 | KL 1622.2 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.1224 | objective 1.0402 | 190 s
+iter 135850 | lr 1e-04 | surrogate 0.9942 | KL 1604.9 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.1218 | objective 1.1160 | 191 s
+iter 136400 | lr 1e-04 | surrogate 1.0266 | KL 1602.8 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.1217 | objective 1.1483 | 192 s
+iter 136950 | lr 1e-04 | surrogate 1.0472 | KL 1593.4 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.1213 | objective 1.1685 | 193 s
+iter 137500 | lr 1e-04 | surrogate 1.0460 | KL 1583.2 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.1209 | objective 1.1670 | 193 s
+iter 138050 | lr 1e-04 | surrogate 0.9991 | KL 1576.2 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.1207 | objective 1.1198 | 194 s
+iter 138600 | lr 1e-04 | surrogate 1.1158 | KL 1581.5 | lambda 1.134e-02 | j 217.6 | sqrt(BRE/2) 0.1209 | objective 1.2366 | 195 s
+iter 139150 | lr 1e-04 | surrogate 1.0015 | KL 1581.1 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1209 | objective 1.1224 | 196 s
+iter 139700 | lr 1e-04 | surrogate 1.1641 | KL 1569.8 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1204 | objective 1.2845 | 197 s
+iter 140250 | lr 1e-04 | surrogate 1.0333 | KL 1541.0 | lambda 1.134e-02 | j 217.6 | sqrt(BRE/2) 0.1194 | objective 1.1526 | 198 s
+iter 140800 | lr 1e-04 | surrogate 1.0698 | KL 1533.3 | lambda 1.134e-02 | j 217.6 | sqrt(BRE/2) 0.1191 | objective 1.1889 | 198 s
+iter 141350 | lr 1e-04 | surrogate 1.0458 | KL 1532.3 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1190 | objective 1.1648 | 199 s
+iter 141900 | lr 1e-04 | surrogate 1.1228 | KL 1518.2 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1185 | objective 1.2413 | 200 s
+iter 142450 | lr 1e-04 | surrogate 1.0957 | KL 1519.7 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1185 | objective 1.2142 | 201 s
+iter 143000 | lr 1e-04 | surrogate 1.0039 | KL 1513.7 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1183 | objective 1.1222 | 202 s
+iter 143550 | lr 1e-04 | surrogate 1.1313 | KL 1487.3 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1173 | objective 1.2486 | 202 s
+iter 144100 | lr 1e-04 | surrogate 1.0549 | KL 1484.2 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1172 | objective 1.1720 | 203 s
+iter 144650 | lr 1e-04 | surrogate 1.0639 | KL 1490.1 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1174 | objective 1.1813 | 204 s
+iter 145200 | lr 1e-04 | surrogate 0.9936 | KL 1460.2 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1162 | objective 1.1099 | 204 s
+iter 145750 | lr 1e-04 | surrogate 1.0115 | KL 1441.9 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1155 | objective 1.1270 | 205 s
+iter 146300 | lr 1e-04 | surrogate 0.9829 | KL 1439.5 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1154 | objective 1.0984 | 206 s
+iter 146850 | lr 1e-04 | surrogate 1.0272 | KL 1437.2 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1153 | objective 1.1425 | 207 s
+iter 147400 | lr 1e-04 | surrogate 1.0391 | KL 1418.3 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1146 | objective 1.1537 | 208 s
+iter 147950 | lr 1e-04 | surrogate 1.0761 | KL 1429.8 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1150 | objective 1.1912 | 209 s
+iter 148500 | lr 1e-04 | surrogate 1.0228 | KL 1429.7 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1150 | objective 1.1378 | 209 s
+iter 149050 | lr 1e-04 | surrogate 1.0480 | KL 1430.2 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1151 | objective 1.1631 | 210 s
+iter 149600 | lr 1e-04 | surrogate 1.2077 | KL 1430.9 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1151 | objective 1.3228 | 211 s
+iter 150150 | lr 1e-04 | surrogate 1.0833 | KL 1419.7 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1146 | objective 1.1979 | 212 s
+iter 150700 | lr 1e-04 | surrogate 1.0188 | KL 1407.3 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1141 | objective 1.1329 | 213 s
+iter 151250 | lr 1e-04 | surrogate 1.0350 | KL 1387.4 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1133 | objective 1.1484 | 214 s
+iter 151800 | lr 1e-04 | surrogate 1.0121 | KL 1405.4 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1141 | objective 1.1262 | 214 s
+iter 152350 | lr 1e-04 | surrogate 1.0366 | KL 1383.7 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1132 | objective 1.1498 | 215 s
+iter 152900 | lr 1e-04 | surrogate 1.0891 | KL 1392.9 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1136 | objective 1.2027 | 216 s
+iter 153450 | lr 1e-04 | surrogate 1.1204 | KL 1394.2 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1136 | objective 1.2340 | 217 s
+iter 154000 | lr 1e-04 | surrogate 1.0300 | KL 1385.5 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1133 | objective 1.1433 | 217 s
+iter 154550 | lr 1e-04 | surrogate 1.1323 | KL 1366.1 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1125 | objective 1.2448 | 218 s
+iter 155100 | lr 1e-04 | surrogate 1.1384 | KL 1356.6 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1121 | objective 1.2505 | 219 s
+iter 155650 | lr 1e-04 | surrogate 0.9824 | KL 1348.8 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1118 | objective 1.0942 | 220 s
+iter 156200 | lr 1e-04 | surrogate 1.0195 | KL 1342.6 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1115 | objective 1.1311 | 220 s
+iter 156750 | lr 1e-04 | surrogate 0.9519 | KL 1350.4 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1119 | objective 1.0638 | 221 s
+iter 157300 | lr 1e-04 | surrogate 1.0696 | KL 1346.0 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1117 | objective 1.1812 | 222 s
+iter 157850 | lr 1e-04 | surrogate 1.0574 | KL 1342.2 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1115 | objective 1.1689 | 222 s
+iter 158400 | lr 1e-04 | surrogate 1.0683 | KL 1314.3 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1104 | objective 1.1786 | 223 s
+iter 158950 | lr 1e-04 | surrogate 1.0018 | KL 1319.4 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1106 | objective 1.1123 | 224 s
+iter 159500 | lr 1e-04 | surrogate 1.0435 | KL 1322.6 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1107 | objective 1.1542 | 225 s
+iter 160050 | lr 1e-04 | surrogate 1.0823 | KL 1329.1 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1110 | objective 1.1933 | 225 s
+iter 160600 | lr 1e-04 | surrogate 1.0295 | KL 1325.3 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1108 | objective 1.1403 | 226 s
+iter 161150 | lr 1e-04 | surrogate 1.0789 | KL 1305.6 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1100 | objective 1.1889 | 227 s
+iter 161700 | lr 1e-04 | surrogate 1.1187 | KL 1289.9 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1094 | objective 1.2281 | 227 s
+iter 162250 | lr 1e-04 | surrogate 1.0389 | KL 1273.8 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1087 | objective 1.1476 | 228 s
+iter 162800 | lr 1e-04 | surrogate 1.0740 | KL 1281.3 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1090 | objective 1.1830 | 229 s
+iter 163350 | lr 1e-04 | surrogate 1.0565 | KL 1280.6 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1090 | objective 1.1655 | 230 s
+iter 163900 | lr 1e-04 | surrogate 1.0201 | KL 1272.1 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1086 | objective 1.1287 | 230 s
+iter 164450 | lr 1e-04 | surrogate 1.1232 | KL 1273.9 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1087 | objective 1.2319 | 231 s
+iter 165000 | lr 1e-04 | surrogate 0.9998 | KL 1263.8 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1083 | objective 1.1081 | 232 s
+iter 165550 | lr 1e-04 | surrogate 1.0750 | KL 1256.0 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1080 | objective 1.1829 | 232 s
+iter 166100 | lr 1e-04 | surrogate 1.0554 | KL 1250.4 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1077 | objective 1.1632 | 233 s
+iter 166650 | lr 1e-04 | surrogate 1.0873 | KL 1258.1 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1080 | objective 1.1953 | 234 s
+iter 167200 | lr 1e-04 | surrogate 1.0110 | KL 1255.3 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1079 | objective 1.1189 | 235 s
+iter 167750 | lr 1e-04 | surrogate 1.0264 | KL 1243.7 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1074 | objective 1.1338 | 235 s
+iter 168300 | lr 1e-04 | surrogate 1.0773 | KL 1242.3 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1074 | objective 1.1846 | 236 s
+iter 168850 | lr 1e-04 | surrogate 1.0126 | KL 1253.9 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1079 | objective 1.1204 | 237 s
+iter 169400 | lr 1e-04 | surrogate 1.0816 | KL 1221.4 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1065 | objective 1.1880 | 238 s
+iter 169950 | lr 1e-04 | surrogate 1.0027 | KL 1217.9 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1063 | objective 1.1090 | 239 s
+iter 170500 | lr 1e-04 | surrogate 1.0293 | KL 1219.4 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1064 | objective 1.1357 | 239 s
+iter 171050 | lr 1e-04 | surrogate 1.0747 | KL 1217.0 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1063 | objective 1.1810 | 240 s
+iter 171600 | lr 1e-04 | surrogate 1.0485 | KL 1214.1 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1062 | objective 1.1546 | 241 s
+iter 172150 | lr 1e-04 | surrogate 1.0401 | KL 1200.8 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1056 | objective 1.1457 | 242 s
+iter 172700 | lr 1e-04 | surrogate 1.0756 | KL 1212.7 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1061 | objective 1.1817 | 243 s
+iter 173250 | lr 1e-04 | surrogate 0.9895 | KL 1214.4 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1062 | objective 1.0957 | 244 s
+iter 173800 | lr 1e-04 | surrogate 1.0130 | KL 1204.8 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1058 | objective 1.1187 | 245 s
+iter 174350 | lr 1e-04 | surrogate 1.0764 | KL 1190.4 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1052 | objective 1.1816 | 245 s
+iter 174900 | lr 1e-04 | surrogate 1.0703 | KL 1187.7 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1050 | objective 1.1754 | 246 s
+iter 175450 | lr 1e-04 | surrogate 1.0562 | KL 1186.8 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1050 | objective 1.1612 | 247 s
+iter 176000 | lr 1e-04 | surrogate 1.0518 | KL 1181.8 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1048 | objective 1.1566 | 247 s
+iter 176550 | lr 1e-04 | surrogate 1.0845 | KL 1174.4 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1045 | objective 1.1889 | 248 s
+iter 177100 | lr 1e-04 | surrogate 1.1111 | KL 1173.0 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1044 | objective 1.2155 | 249 s
+iter 177650 | lr 1e-04 | surrogate 1.0743 | KL 1159.3 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1038 | objective 1.1781 | 250 s
+iter 178200 | lr 1e-04 | surrogate 1.0990 | KL 1152.0 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1035 | objective 1.2025 | 250 s
+iter 178750 | lr 1e-04 | surrogate 0.9910 | KL 1152.3 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1035 | objective 1.0945 | 251 s
+iter 179300 | lr 1e-04 | surrogate 1.0505 | KL 1126.7 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1024 | objective 1.1529 | 252 s
+iter 179850 | lr 1e-04 | surrogate 1.0757 | KL 1132.6 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1026 | objective 1.1783 | 252 s
+iter 180400 | lr 1e-04 | surrogate 1.0203 | KL 1134.6 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1027 | objective 1.1230 | 253 s
+iter 180950 | lr 1e-04 | surrogate 1.0698 | KL 1143.1 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1031 | objective 1.1729 | 254 s
+iter 181500 | lr 1e-04 | surrogate 1.0629 | KL 1124.3 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1023 | objective 1.1652 | 255 s
+iter 182050 | lr 1e-04 | surrogate 1.0267 | KL 1127.7 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1024 | objective 1.1291 | 255 s
+iter 182600 | lr 1e-04 | surrogate 1.0726 | KL 1125.8 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1023 | objective 1.1749 | 256 s
+iter 183150 | lr 1e-04 | surrogate 1.0988 | KL 1121.0 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1021 | objective 1.2010 | 257 s
+iter 183700 | lr 1e-04 | surrogate 1.0621 | KL 1114.6 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1018 | objective 1.1639 | 258 s
+iter 184250 | lr 1e-04 | surrogate 1.0694 | KL 1111.9 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1017 | objective 1.1711 | 258 s
+iter 184800 | lr 1e-04 | surrogate 1.0722 | KL 1108.8 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1016 | objective 1.1737 | 259 s
+iter 185350 | lr 1e-04 | surrogate 1.0508 | KL 1098.7 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1011 | objective 1.1520 | 260 s
+iter 185900 | lr 1e-04 | surrogate 0.9825 | KL 1106.9 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1015 | objective 1.0840 | 261 s
+iter 186450 | lr 1e-04 | surrogate 1.0375 | KL 1097.4 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1011 | objective 1.1386 | 261 s
+iter 187000 | lr 1e-04 | surrogate 1.1125 | KL 1101.6 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1012 | objective 1.2138 | 262 s
+iter 187550 | lr 1e-04 | surrogate 0.9911 | KL 1092.7 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1008 | objective 1.0919 | 263 s
+iter 188100 | lr 1e-04 | surrogate 1.1984 | KL 1094.3 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1009 | objective 1.2993 | 264 s
+iter 188650 | lr 1e-04 | surrogate 1.0506 | KL 1090.2 | lambda 1.135e-02 | j 217.6 | sqrt(BRE/2) 0.1007 | objective 1.1513 | 264 s
+iter 189200 | lr 1e-04 | surrogate 1.0869 | KL 1080.3 | lambda 1.134e-02 | j 217.6 | sqrt(BRE/2) 0.1003 | objective 1.1872 | 265 s
+iter 189750 | lr 1e-04 | surrogate 1.0218 | KL 1070.6 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.0998 | objective 1.1216 | 266 s
+iter 190300 | lr 1e-04 | surrogate 1.0317 | KL 1067.3 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.0997 | objective 1.1314 | 267 s
+iter 190850 | lr 1e-04 | surrogate 1.1349 | KL 1073.3 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.1000 | objective 1.2349 | 267 s
+iter 191400 | lr 1e-04 | surrogate 1.0623 | KL 1062.3 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.0995 | objective 1.1618 | 268 s
+iter 191950 | lr 1e-04 | surrogate 1.0355 | KL 1060.3 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.0994 | objective 1.1349 | 269 s
+iter 192500 | lr 1e-04 | surrogate 1.0603 | KL 1052.6 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.0990 | objective 1.1593 | 269 s
+iter 193050 | lr 1e-04 | surrogate 1.0359 | KL 1066.3 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.0996 | objective 1.1355 | 270 s
+iter 193600 | lr 1e-04 | surrogate 1.0275 | KL 1064.2 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.0996 | objective 1.1271 | 271 s
+iter 194150 | lr 1e-04 | surrogate 1.1341 | KL 1052.1 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.0990 | objective 1.2331 | 272 s
+iter 194700 | lr 1e-04 | surrogate 0.9971 | KL 1038.5 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.0984 | objective 1.0955 | 272 s
+iter 195250 | lr 1e-04 | surrogate 1.1447 | KL 1039.2 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.0984 | objective 1.2431 | 273 s
+iter 195800 | lr 1e-04 | surrogate 1.0260 | KL 1042.9 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.0986 | objective 1.1245 | 274 s
+iter 196350 | lr 1e-04 | surrogate 1.0700 | KL 1029.9 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.0980 | objective 1.1680 | 274 s
+iter 196900 | lr 1e-04 | surrogate 1.0757 | KL 1027.7 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.0979 | objective 1.1736 | 275 s
+iter 197450 | lr 1e-04 | surrogate 1.0776 | KL 1031.9 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.0981 | objective 1.1757 | 276 s
+iter 198000 | lr 1e-04 | surrogate 1.0068 | KL 1041.8 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.0985 | objective 1.1053 | 277 s
+iter 198550 | lr 1e-04 | surrogate 1.0074 | KL 1049.5 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.0989 | objective 1.1063 | 277 s
+iter 199100 | lr 1e-04 | surrogate 1.0545 | KL 1049.3 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.0989 | objective 1.1534 | 278 s
+iter 199650 | lr 1e-04 | surrogate 1.0232 | KL 1035.9 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.0982 | objective 1.1214 | 279 s
+iter 200200 | lr 1e-04 | surrogate 1.0064 | KL 1021.1 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.0976 | objective 1.1039 | 279 s
+iter 200750 | lr 1e-04 | surrogate 1.0460 | KL 1014.7 | lambda 1.134e-02 | j 217.7 | sqrt(BRE/2) 0.0973 | objective 1.1432 | 280 s
+iter 201300 | lr 1e-04 | surrogate 0.9853 | KL 1020.5 | lambda 1.133e-02 | j 217.7 | sqrt(BRE/2) 0.0975 | objective 1.0828 | 281 s
+iter 201850 | lr 1e-04 | surrogate 1.1395 | KL 1002.2 | lambda 1.133e-02 | j 217.7 | sqrt(BRE/2) 0.0967 | objective 1.2362 | 282 s
+iter 202400 | lr 1e-04 | surrogate 0.9954 | KL 1005.7 | lambda 1.133e-02 | j 217.7 | sqrt(BRE/2) 0.0968 | objective 1.0922 | 283 s
+iter 202950 | lr 1e-04 | surrogate 1.0659 | KL 1006.2 | lambda 1.133e-02 | j 217.7 | sqrt(BRE/2) 0.0969 | objective 1.1628 | 283 s
+iter 203500 | lr 1e-04 | surrogate 1.0225 | KL 1007.5 | lambda 1.133e-02 | j 217.7 | sqrt(BRE/2) 0.0969 | objective 1.1194 | 284 s
+iter 204050 | lr 1e-04 | surrogate 1.0280 | KL 1000.0 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.0966 | objective 1.1246 | 285 s
+iter 204600 | lr 1e-04 | surrogate 1.0063 | KL 997.4 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.0965 | objective 1.1028 | 286 s
+iter 205150 | lr 1e-04 | surrogate 0.9966 | KL 1012.4 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.0972 | objective 1.0938 | 286 s
+iter 205700 | lr 1e-04 | surrogate 1.0548 | KL 996.8 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.0964 | objective 1.1512 | 287 s
+iter 206250 | lr 1e-04 | surrogate 1.1036 | KL 998.4 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.0965 | objective 1.2001 | 288 s
+iter 206800 | lr 1e-04 | surrogate 1.0102 | KL 989.0 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.0961 | objective 1.1062 | 289 s
+iter 207350 | lr 1e-04 | surrogate 1.1253 | KL 988.4 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.0960 | objective 1.2213 | 289 s
+iter 207900 | lr 1e-04 | surrogate 1.0268 | KL 987.5 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.0960 | objective 1.1228 | 290 s
+iter 208450 | lr 1e-04 | surrogate 1.0680 | KL 989.8 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.0961 | objective 1.1641 | 291 s
+iter 209000 | lr 1e-04 | surrogate 1.0547 | KL 984.0 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.0958 | objective 1.1506 | 292 s
+iter 209550 | lr 1e-04 | surrogate 1.0696 | KL 971.9 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.0952 | objective 1.1649 | 292 s
+iter 210100 | lr 1e-04 | surrogate 1.0002 | KL 974.3 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.0954 | objective 1.0955 | 293 s
+iter 210650 | lr 1e-04 | surrogate 1.0294 | KL 984.4 | lambda 1.133e-02 | j 217.8 | sqrt(BRE/2) 0.0958 | objective 1.1253 | 294 s
+iter 211200 | lr 1e-04 | surrogate 1.1807 | KL 973.1 | lambda 1.132e-02 | j 217.8 | sqrt(BRE/2) 0.0953 | objective 1.2760 | 295 s
+iter 211750 | lr 1e-04 | surrogate 1.0269 | KL 973.3 | lambda 1.132e-02 | j 217.8 | sqrt(BRE/2) 0.0953 | objective 1.1222 | 295 s
+iter 212300 | lr 1e-04 | surrogate 1.0639 | KL 962.2 | lambda 1.132e-02 | j 217.8 | sqrt(BRE/2) 0.0948 | objective 1.1587 | 296 s
+iter 212850 | lr 1e-04 | surrogate 1.0571 | KL 955.5 | lambda 1.132e-02 | j 217.8 | sqrt(BRE/2) 0.0945 | objective 1.1515 | 297 s
+iter 213400 | lr 1e-04 | surrogate 1.1131 | KL 962.0 | lambda 1.132e-02 | j 217.9 | sqrt(BRE/2) 0.0948 | objective 1.2079 | 298 s
+iter 213950 | lr 1e-04 | surrogate 1.0653 | KL 965.9 | lambda 1.132e-02 | j 217.9 | sqrt(BRE/2) 0.0950 | objective 1.1603 | 298 s
+iter 214500 | lr 1e-04 | surrogate 1.0132 | KL 970.6 | lambda 1.132e-02 | j 217.9 | sqrt(BRE/2) 0.0952 | objective 1.1083 | 299 s
+iter 215050 | lr 1e-04 | surrogate 1.1322 | KL 965.7 | lambda 1.132e-02 | j 217.9 | sqrt(BRE/2) 0.0949 | objective 1.2271 | 300 s
+iter 215600 | lr 1e-04 | surrogate 1.0939 | KL 953.8 | lambda 1.132e-02 | j 217.9 | sqrt(BRE/2) 0.0944 | objective 1.1883 | 301 s
+iter 216150 | lr 1e-04 | surrogate 1.0312 | KL 950.9 | lambda 1.132e-02 | j 217.9 | sqrt(BRE/2) 0.0942 | objective 1.1255 | 301 s
+iter 216700 | lr 1e-04 | surrogate 1.0466 | KL 937.5 | lambda 1.132e-02 | j 217.9 | sqrt(BRE/2) 0.0936 | objective 1.1402 | 302 s
+iter 217250 | lr 1e-04 | surrogate 1.0474 | KL 944.4 | lambda 1.132e-02 | j 217.9 | sqrt(BRE/2) 0.0939 | objective 1.1413 | 303 s
+iter 217800 | lr 1e-04 | surrogate 1.0257 | KL 935.4 | lambda 1.131e-02 | j 217.9 | sqrt(BRE/2) 0.0935 | objective 1.1192 | 303 s
+iter 218350 | lr 1e-04 | surrogate 1.0334 | KL 932.7 | lambda 1.131e-02 | j 217.9 | sqrt(BRE/2) 0.0933 | objective 1.1267 | 304 s
+iter 218900 | lr 1e-04 | surrogate 1.1143 | KL 928.5 | lambda 1.131e-02 | j 217.9 | sqrt(BRE/2) 0.0931 | objective 1.2074 | 305 s
+iter 219450 | lr 1e-04 | surrogate 1.0057 | KL 916.0 | lambda 1.131e-02 | j 217.9 | sqrt(BRE/2) 0.0925 | objective 1.0982 | 306 s
+iter 220000 | lr 1e-04 | surrogate 1.0722 | KL 916.9 | lambda 1.131e-02 | j 217.9 | sqrt(BRE/2) 0.0926 | objective 1.1648 | 306 s
+iter 220550 | lr 1e-04 | surrogate 1.0567 | KL 924.2 | lambda 1.131e-02 | j 217.9 | sqrt(BRE/2) 0.0929 | objective 1.1496 | 307 s
+iter 221100 | lr 1e-04 | surrogate 1.1686 | KL 917.5 | lambda 1.131e-02 | j 218.0 | sqrt(BRE/2) 0.0926 | objective 1.2612 | 308 s
+iter 221650 | lr 1e-04 | surrogate 0.9667 | KL 917.2 | lambda 1.131e-02 | j 218.0 | sqrt(BRE/2) 0.0926 | objective 1.0593 | 309 s
+iter 222200 | lr 1e-04 | surrogate 1.0771 | KL 919.6 | lambda 1.131e-02 | j 218.0 | sqrt(BRE/2) 0.0927 | objective 1.1698 | 309 s
+iter 222750 | lr 1e-04 | surrogate 1.0568 | KL 916.9 | lambda 1.131e-02 | j 218.0 | sqrt(BRE/2) 0.0926 | objective 1.1494 | 310 s
+iter 223300 | lr 1e-04 | surrogate 1.0587 | KL 906.3 | lambda 1.131e-02 | j 218.0 | sqrt(BRE/2) 0.0921 | objective 1.1508 | 311 s
+iter 223850 | lr 1e-04 | surrogate 1.0646 | KL 902.4 | lambda 1.130e-02 | j 218.0 | sqrt(BRE/2) 0.0919 | objective 1.1564 | 311 s
+iter 224400 | lr 1e-04 | surrogate 1.2032 | KL 900.3 | lambda 1.130e-02 | j 218.0 | sqrt(BRE/2) 0.0918 | objective 1.2950 | 312 s
+iter 224950 | lr 1e-04 | surrogate 1.0144 | KL 911.5 | lambda 1.130e-02 | j 218.0 | sqrt(BRE/2) 0.0923 | objective 1.1067 | 313 s
+iter 225500 | lr 1e-04 | surrogate 1.0737 | KL 918.0 | lambda 1.130e-02 | j 218.0 | sqrt(BRE/2) 0.0926 | objective 1.1663 | 314 s
+iter 226050 | lr 1e-04 | surrogate 1.0313 | KL 916.9 | lambda 1.130e-02 | j 218.0 | sqrt(BRE/2) 0.0926 | objective 1.1239 | 314 s
+iter 226600 | lr 1e-04 | surrogate 0.9897 | KL 907.3 | lambda 1.130e-02 | j 218.0 | sqrt(BRE/2) 0.0921 | objective 1.0818 | 315 s
+iter 227150 | lr 1e-04 | surrogate 1.0319 | KL 901.3 | lambda 1.130e-02 | j 218.0 | sqrt(BRE/2) 0.0918 | objective 1.1237 | 316 s
+iter 227700 | lr 1e-04 | surrogate 1.0689 | KL 888.0 | lambda 1.130e-02 | j 218.1 | sqrt(BRE/2) 0.0911 | objective 1.1600 | 316 s
+iter 228250 | lr 1e-04 | surrogate 1.0828 | KL 896.4 | lambda 1.130e-02 | j 218.1 | sqrt(BRE/2) 0.0916 | objective 1.1744 | 317 s
+iter 228800 | lr 1e-04 | surrogate 0.9993 | KL 882.5 | lambda 1.130e-02 | j 218.1 | sqrt(BRE/2) 0.0909 | objective 1.0902 | 318 s
+iter 229350 | lr 1e-04 | surrogate 0.9761 | KL 890.1 | lambda 1.130e-02 | j 218.1 | sqrt(BRE/2) 0.0913 | objective 1.0674 | 319 s
+iter 229900 | lr 1e-04 | surrogate 1.0832 | KL 898.1 | lambda 1.129e-02 | j 218.1 | sqrt(BRE/2) 0.0917 | objective 1.1749 | 319 s
+iter 230450 | lr 1e-04 | surrogate 1.0280 | KL 883.6 | lambda 1.129e-02 | j 218.1 | sqrt(BRE/2) 0.0909 | objective 1.1189 | 320 s
+iter 231000 | lr 1e-04 | surrogate 1.0160 | KL 886.1 | lambda 1.129e-02 | j 218.1 | sqrt(BRE/2) 0.0911 | objective 1.1070 | 321 s
+iter 231550 | lr 1e-04 | surrogate 0.9903 | KL 889.3 | lambda 1.129e-02 | j 218.1 | sqrt(BRE/2) 0.0912 | objective 1.0815 | 321 s
+iter 232100 | lr 1e-04 | surrogate 1.1101 | KL 881.2 | lambda 1.129e-02 | j 218.1 | sqrt(BRE/2) 0.0908 | objective 1.2009 | 322 s
+iter 232650 | lr 1e-04 | surrogate 1.0894 | KL 878.2 | lambda 1.129e-02 | j 218.1 | sqrt(BRE/2) 0.0907 | objective 1.1801 | 323 s
+iter 233200 | lr 1e-04 | surrogate 1.0496 | KL 854.6 | lambda 1.129e-02 | j 218.2 | sqrt(BRE/2) 0.0895 | objective 1.1391 | 324 s
+iter 233750 | lr 1e-04 | surrogate 1.0719 | KL 853.9 | lambda 1.129e-02 | j 218.2 | sqrt(BRE/2) 0.0894 | objective 1.1614 | 325 s
+iter 234300 | lr 1e-04 | surrogate 1.0888 | KL 844.1 | lambda 1.128e-02 | j 218.2 | sqrt(BRE/2) 0.0889 | objective 1.1777 | 325 s
+iter 234850 | lr 1e-04 | surrogate 1.1462 | KL 848.5 | lambda 1.128e-02 | j 218.2 | sqrt(BRE/2) 0.0892 | objective 1.2354 | 326 s
+iter 235400 | lr 1e-04 | surrogate 1.0990 | KL 855.9 | lambda 1.128e-02 | j 218.2 | sqrt(BRE/2) 0.0895 | objective 1.1885 | 327 s
+iter 235950 | lr 1e-04 | surrogate 1.0622 | KL 856.7 | lambda 1.128e-02 | j 218.2 | sqrt(BRE/2) 0.0896 | objective 1.1518 | 328 s
+iter 236500 | lr 1e-04 | surrogate 1.0690 | KL 835.2 | lambda 1.128e-02 | j 218.2 | sqrt(BRE/2) 0.0885 | objective 1.1575 | 328 s
+iter 237050 | lr 1e-04 | surrogate 1.0253 | KL 832.1 | lambda 1.128e-02 | j 218.2 | sqrt(BRE/2) 0.0883 | objective 1.1137 | 329 s
+iter 237600 | lr 1e-04 | surrogate 0.9755 | KL 834.7 | lambda 1.128e-02 | j 218.2 | sqrt(BRE/2) 0.0885 | objective 1.0640 | 330 s
+iter 238150 | lr 1e-04 | surrogate 1.0411 | KL 820.3 | lambda 1.128e-02 | j 218.3 | sqrt(BRE/2) 0.0877 | objective 1.1288 | 331 s
+iter 238700 | lr 1e-04 | surrogate 1.0123 | KL 830.8 | lambda 1.127e-02 | j 218.3 | sqrt(BRE/2) 0.0882 | objective 1.1006 | 331 s
+iter 239250 | lr 1e-04 | surrogate 1.0825 | KL 827.7 | lambda 1.127e-02 | j 218.3 | sqrt(BRE/2) 0.0881 | objective 1.1706 | 332 s
+iter 239800 | lr 1e-04 | surrogate 1.0072 | KL 833.9 | lambda 1.127e-02 | j 218.3 | sqrt(BRE/2) 0.0884 | objective 1.0957 | 333 s
+iter 240350 | lr 1e-04 | surrogate 1.0439 | KL 830.5 | lambda 1.127e-02 | j 218.3 | sqrt(BRE/2) 0.0882 | objective 1.1322 | 333 s
+iter 240900 | lr 1e-04 | surrogate 1.1055 | KL 828.8 | lambda 1.127e-02 | j 218.3 | sqrt(BRE/2) 0.0881 | objective 1.1937 | 334 s
+iter 241450 | lr 1e-04 | surrogate 0.9725 | KL 834.3 | lambda 1.127e-02 | j 218.3 | sqrt(BRE/2) 0.0884 | objective 1.0609 | 335 s
+iter 242000 | lr 1e-04 | surrogate 1.1145 | KL 834.1 | lambda 1.127e-02 | j 218.3 | sqrt(BRE/2) 0.0884 | objective 1.2030 | 336 s
+iter 242550 | lr 1e-04 | surrogate 1.1019 | KL 830.4 | lambda 1.127e-02 | j 218.3 | sqrt(BRE/2) 0.0882 | objective 1.1902 | 336 s
+iter 243100 | lr 1e-04 | surrogate 1.1361 | KL 834.9 | lambda 1.127e-02 | j 218.3 | sqrt(BRE/2) 0.0885 | objective 1.2245 | 337 s
+iter 243650 | lr 1e-04 | surrogate 1.0422 | KL 824.2 | lambda 1.126e-02 | j 218.4 | sqrt(BRE/2) 0.0879 | objective 1.1301 | 338 s
+iter 244200 | lr 1e-04 | surrogate 1.0290 | KL 825.3 | lambda 1.126e-02 | j 218.4 | sqrt(BRE/2) 0.0880 | objective 1.1169 | 338 s
+iter 244750 | lr 1e-04 | surrogate 1.0470 | KL 809.9 | lambda 1.126e-02 | j 218.4 | sqrt(BRE/2) 0.0872 | objective 1.1341 | 339 s
+iter 245300 | lr 1e-04 | surrogate 1.0627 | KL 821.1 | lambda 1.126e-02 | j 218.4 | sqrt(BRE/2) 0.0877 | objective 1.1504 | 340 s
+iter 245850 | lr 1e-04 | surrogate 1.0866 | KL 810.3 | lambda 1.126e-02 | j 218.4 | sqrt(BRE/2) 0.0872 | objective 1.1738 | 341 s
+iter 246400 | lr 1e-04 | surrogate 1.0302 | KL 817.6 | lambda 1.126e-02 | j 218.4 | sqrt(BRE/2) 0.0876 | objective 1.1178 | 341 s
+iter 246950 | lr 1e-04 | surrogate 1.0450 | KL 830.3 | lambda 1.126e-02 | j 218.4 | sqrt(BRE/2) 0.0882 | objective 1.1332 | 342 s
+iter 247500 | lr 1e-04 | surrogate 1.0847 | KL 830.0 | lambda 1.126e-02 | j 218.4 | sqrt(BRE/2) 0.0882 | objective 1.1729 | 343 s
+iter 248050 | lr 1e-04 | surrogate 0.9954 | KL 828.2 | lambda 1.126e-02 | j 218.4 | sqrt(BRE/2) 0.0881 | objective 1.0835 | 343 s
+iter 248600 | lr 1e-04 | surrogate 1.0946 | KL 837.1 | lambda 1.126e-02 | j 218.4 | sqrt(BRE/2) 0.0886 | objective 1.1832 | 344 s
+iter 249150 | lr 1e-04 | surrogate 1.0851 | KL 842.8 | lambda 1.125e-02 | j 218.4 | sqrt(BRE/2) 0.0889 | objective 1.1740 | 345 s
+iter 249700 | lr 1e-04 | surrogate 1.0327 | KL 838.8 | lambda 1.125e-02 | j 218.4 | sqrt(BRE/2) 0.0887 | objective 1.1213 | 346 s
+iter 250250 | lr 1e-04 | surrogate 1.0693 | KL 829.3 | lambda 1.125e-02 | j 218.5 | sqrt(BRE/2) 0.0882 | objective 1.1575 | 346 s
+iter 250800 | lr 1e-04 | surrogate 1.0759 | KL 821.4 | lambda 1.125e-02 | j 218.5 | sqrt(BRE/2) 0.0878 | objective 1.1636 | 347 s
+iter 251350 | lr 1e-04 | surrogate 0.9919 | KL 813.4 | lambda 1.125e-02 | j 218.5 | sqrt(BRE/2) 0.0873 | objective 1.0793 | 348 s
+iter 251900 | lr 1e-04 | surrogate 1.0129 | KL 807.1 | lambda 1.125e-02 | j 218.5 | sqrt(BRE/2) 0.0870 | objective 1.0999 | 348 s
+iter 252450 | lr 1e-04 | surrogate 1.0949 | KL 818.9 | lambda 1.125e-02 | j 218.5 | sqrt(BRE/2) 0.0876 | objective 1.1825 | 349 s
+iter 253000 | lr 1e-04 | surrogate 1.0443 | KL 803.2 | lambda 1.124e-02 | j 218.5 | sqrt(BRE/2) 0.0868 | objective 1.1311 | 350 s
+iter 253550 | lr 1e-04 | surrogate 1.0553 | KL 805.5 | lambda 1.124e-02 | j 218.5 | sqrt(BRE/2) 0.0869 | objective 1.1423 | 351 s
+iter 254100 | lr 1e-04 | surrogate 1.1094 | KL 799.7 | lambda 1.124e-02 | j 218.6 | sqrt(BRE/2) 0.0866 | objective 1.1960 | 351 s
+iter 254650 | lr 1e-04 | surrogate 1.0951 | KL 795.7 | lambda 1.124e-02 | j 218.6 | sqrt(BRE/2) 0.0864 | objective 1.1815 | 352 s
+iter 255200 | lr 1e-04 | surrogate 1.0247 | KL 789.4 | lambda 1.124e-02 | j 218.6 | sqrt(BRE/2) 0.0861 | objective 1.1108 | 353 s
+iter 255750 | lr 1e-04 | surrogate 1.0367 | KL 785.8 | lambda 1.124e-02 | j 218.6 | sqrt(BRE/2) 0.0859 | objective 1.1226 | 353 s
+iter 256300 | lr 1e-04 | surrogate 1.0196 | KL 788.0 | lambda 1.124e-02 | j 218.6 | sqrt(BRE/2) 0.0860 | objective 1.1056 | 354 s
+iter 256850 | lr 1e-04 | surrogate 1.1424 | KL 781.9 | lambda 1.123e-02 | j 218.6 | sqrt(BRE/2) 0.0857 | objective 1.2281 | 355 s
+iter 257400 | lr 1e-04 | surrogate 1.0177 | KL 783.8 | lambda 1.123e-02 | j 218.6 | sqrt(BRE/2) 0.0858 | objective 1.1035 | 356 s
+iter 257950 | lr 1e-04 | surrogate 1.1232 | KL 805.8 | lambda 1.123e-02 | j 218.6 | sqrt(BRE/2) 0.0870 | objective 1.2101 | 356 s
+iter 258500 | lr 1e-04 | surrogate 1.0517 | KL 794.1 | lambda 1.123e-02 | j 218.6 | sqrt(BRE/2) 0.0863 | objective 1.1380 | 357 s
+iter 259050 | lr 1e-04 | surrogate 1.0722 | KL 790.8 | lambda 1.123e-02 | j 218.7 | sqrt(BRE/2) 0.0862 | objective 1.1584 | 358 s
+iter 259600 | lr 1e-04 | surrogate 1.0980 | KL 786.9 | lambda 1.123e-02 | j 218.7 | sqrt(BRE/2) 0.0860 | objective 1.1840 | 358 s
+iter 260150 | lr 1e-04 | surrogate 1.0309 | KL 784.4 | lambda 1.123e-02 | j 218.7 | sqrt(BRE/2) 0.0858 | objective 1.1167 | 359 s
+iter 260700 | lr 1e-04 | surrogate 0.9825 | KL 782.5 | lambda 1.123e-02 | j 218.7 | sqrt(BRE/2) 0.0857 | objective 1.0682 | 360 s
+iter 261250 | lr 1e-04 | surrogate 1.0776 | KL 783.4 | lambda 1.122e-02 | j 218.7 | sqrt(BRE/2) 0.0858 | objective 1.1633 | 361 s
+iter 261800 | lr 1e-04 | surrogate 1.0182 | KL 786.1 | lambda 1.122e-02 | j 218.7 | sqrt(BRE/2) 0.0859 | objective 1.1042 | 361 s
+iter 262350 | lr 1e-04 | surrogate 1.0873 | KL 776.0 | lambda 1.122e-02 | j 218.7 | sqrt(BRE/2) 0.0854 | objective 1.1727 | 362 s
+iter 262900 | lr 1e-04 | surrogate 1.0293 | KL 776.3 | lambda 1.122e-02 | j 218.7 | sqrt(BRE/2) 0.0854 | objective 1.1147 | 363 s
+iter 263450 | lr 1e-04 | surrogate 1.0244 | KL 781.9 | lambda 1.122e-02 | j 218.8 | sqrt(BRE/2) 0.0857 | objective 1.1101 | 364 s
+iter 264000 | lr 1e-04 | surrogate 1.0132 | KL 767.9 | lambda 1.122e-02 | j 218.8 | sqrt(BRE/2) 0.0850 | objective 1.0982 | 364 s
+iter 264550 | lr 1e-04 | surrogate 1.0663 | KL 771.1 | lambda 1.122e-02 | j 218.8 | sqrt(BRE/2) 0.0851 | objective 1.1514 | 365 s
+iter 265100 | lr 1e-04 | surrogate 1.0240 | KL 769.7 | lambda 1.121e-02 | j 218.8 | sqrt(BRE/2) 0.0850 | objective 1.1091 | 366 s
+iter 265650 | lr 1e-04 | surrogate 1.0747 | KL 767.5 | lambda 1.121e-02 | j 218.8 | sqrt(BRE/2) 0.0849 | objective 1.1596 | 366 s
+iter 266200 | lr 1e-04 | surrogate 1.0239 | KL 771.0 | lambda 1.121e-02 | j 218.8 | sqrt(BRE/2) 0.0851 | objective 1.1090 | 367 s
+iter 266750 | lr 1e-04 | surrogate 1.0048 | KL 766.1 | lambda 1.121e-02 | j 218.8 | sqrt(BRE/2) 0.0849 | objective 1.0897 | 368 s
+iter 267300 | lr 1e-04 | surrogate 1.0858 | KL 755.0 | lambda 1.121e-02 | j 218.9 | sqrt(BRE/2) 0.0843 | objective 1.1700 | 369 s
+iter 267850 | lr 1e-04 | surrogate 1.0179 | KL 736.4 | lambda 1.120e-02 | j 218.9 | sqrt(BRE/2) 0.0832 | objective 1.1011 | 369 s
+iter 268400 | lr 1e-04 | surrogate 1.0580 | KL 746.3 | lambda 1.120e-02 | j 218.9 | sqrt(BRE/2) 0.0838 | objective 1.1418 | 370 s
+iter 268950 | lr 1e-04 | surrogate 1.0408 | KL 750.0 | lambda 1.120e-02 | j 218.9 | sqrt(BRE/2) 0.0840 | objective 1.1247 | 371 s
+iter 269500 | lr 1e-04 | surrogate 1.0552 | KL 748.5 | lambda 1.120e-02 | j 218.9 | sqrt(BRE/2) 0.0839 | objective 1.1391 | 372 s
+iter 270050 | lr 1e-04 | surrogate 1.1239 | KL 756.1 | lambda 1.120e-02 | j 218.9 | sqrt(BRE/2) 0.0843 | objective 1.2083 | 372 s
+iter 270600 | lr 1e-04 | surrogate 1.0713 | KL 749.3 | lambda 1.120e-02 | j 218.9 | sqrt(BRE/2) 0.0840 | objective 1.1552 | 373 s
+iter 271150 | lr 1e-04 | surrogate 1.0151 | KL 756.2 | lambda 1.120e-02 | j 218.9 | sqrt(BRE/2) 0.0843 | objective 1.0994 | 374 s
+iter 271700 | lr 1e-04 | surrogate 0.9855 | KL 756.2 | lambda 1.120e-02 | j 219.0 | sqrt(BRE/2) 0.0843 | objective 1.0698 | 375 s
+iter 272250 | lr 1e-04 | surrogate 1.0030 | KL 745.8 | lambda 1.119e-02 | j 219.0 | sqrt(BRE/2) 0.0838 | objective 1.0868 | 376 s
+iter 272800 | lr 1e-04 | surrogate 1.0029 | KL 738.2 | lambda 1.119e-02 | j 219.0 | sqrt(BRE/2) 0.0833 | objective 1.0862 | 377 s
+iter 273350 | lr 1e-04 | surrogate 1.1265 | KL 730.2 | lambda 1.119e-02 | j 219.0 | sqrt(BRE/2) 0.0829 | objective 1.2094 | 378 s
+iter 273900 | lr 1e-04 | surrogate 1.0175 | KL 737.5 | lambda 1.119e-02 | j 219.0 | sqrt(BRE/2) 0.0833 | objective 1.1008 | 378 s
+iter 274450 | lr 1e-04 | surrogate 0.9738 | KL 738.5 | lambda 1.119e-02 | j 219.0 | sqrt(BRE/2) 0.0834 | objective 1.0572 | 379 s
+iter 275000 | lr 1e-04 | surrogate 1.0408 | KL 736.3 | lambda 1.119e-02 | j 219.1 | sqrt(BRE/2) 0.0832 | objective 1.1241 | 380 s
+iter 275550 | lr 1e-04 | surrogate 1.0352 | KL 735.6 | lambda 1.118e-02 | j 219.1 | sqrt(BRE/2) 0.0832 | objective 1.1184 | 381 s
+iter 276100 | lr 1e-04 | surrogate 1.1225 | KL 740.5 | lambda 1.118e-02 | j 219.1 | sqrt(BRE/2) 0.0835 | objective 1.2060 | 382 s
+iter 276650 | lr 1e-04 | surrogate 1.0576 | KL 740.6 | lambda 1.118e-02 | j 219.1 | sqrt(BRE/2) 0.0835 | objective 1.1411 | 382 s
+iter 277200 | lr 1e-04 | surrogate 1.0709 | KL 747.0 | lambda 1.118e-02 | j 219.1 | sqrt(BRE/2) 0.0838 | objective 1.1547 | 383 s
+iter 277750 | lr 1e-04 | surrogate 1.0384 | KL 747.9 | lambda 1.118e-02 | j 219.1 | sqrt(BRE/2) 0.0839 | objective 1.1223 | 384 s
+iter 278300 | lr 1e-04 | surrogate 1.0564 | KL 735.7 | lambda 1.118e-02 | j 219.1 | sqrt(BRE/2) 0.0832 | objective 1.1396 | 385 s
+iter 278850 | lr 1e-04 | surrogate 1.0459 | KL 731.9 | lambda 1.118e-02 | j 219.1 | sqrt(BRE/2) 0.0830 | objective 1.1289 | 385 s
+iter 279400 | lr 1e-04 | surrogate 1.0689 | KL 745.8 | lambda 1.117e-02 | j 219.2 | sqrt(BRE/2) 0.0838 | objective 1.1527 | 386 s
+iter 279950 | lr 1e-04 | surrogate 1.0341 | KL 742.3 | lambda 1.117e-02 | j 219.2 | sqrt(BRE/2) 0.0836 | objective 1.1177 | 387 s
+iter 280500 | lr 1e-04 | surrogate 1.1087 | KL 741.4 | lambda 1.117e-02 | j 219.2 | sqrt(BRE/2) 0.0835 | objective 1.1922 | 387 s
+iter 281050 | lr 1e-04 | surrogate 1.0286 | KL 742.9 | lambda 1.117e-02 | j 219.2 | sqrt(BRE/2) 0.0836 | objective 1.1122 | 388 s
+iter 281600 | lr 1e-04 | surrogate 1.0465 | KL 742.7 | lambda 1.117e-02 | j 219.2 | sqrt(BRE/2) 0.0836 | objective 1.1301 | 389 s
+iter 282150 | lr 1e-04 | surrogate 1.0634 | KL 740.8 | lambda 1.117e-02 | j 219.2 | sqrt(BRE/2) 0.0835 | objective 1.1469 | 390 s
+iter 282700 | lr 1e-04 | surrogate 0.9918 | KL 743.8 | lambda 1.117e-02 | j 219.2 | sqrt(BRE/2) 0.0837 | objective 1.0755 | 390 s
+iter 283250 | lr 1e-04 | surrogate 1.0502 | KL 725.7 | lambda 1.116e-02 | j 219.3 | sqrt(BRE/2) 0.0827 | objective 1.1328 | 391 s
+iter 283800 | lr 1e-04 | surrogate 1.0750 | KL 726.2 | lambda 1.116e-02 | j 219.3 | sqrt(BRE/2) 0.0827 | objective 1.1577 | 392 s
+iter 284350 | lr 1e-04 | surrogate 1.0148 | KL 739.0 | lambda 1.116e-02 | j 219.3 | sqrt(BRE/2) 0.0834 | objective 1.0982 | 392 s
+iter 284900 | lr 1e-04 | surrogate 1.0111 | KL 740.1 | lambda 1.116e-02 | j 219.3 | sqrt(BRE/2) 0.0834 | objective 1.0945 | 393 s
+iter 285450 | lr 1e-04 | surrogate 1.0660 | KL 735.3 | lambda 1.116e-02 | j 219.3 | sqrt(BRE/2) 0.0832 | objective 1.1492 | 394 s
+iter 286000 | lr 1e-04 | surrogate 1.0997 | KL 732.0 | lambda 1.116e-02 | j 219.3 | sqrt(BRE/2) 0.0830 | objective 1.1827 | 395 s
+iter 286550 | lr 1e-04 | surrogate 0.9795 | KL 714.4 | lambda 1.115e-02 | j 219.4 | sqrt(BRE/2) 0.0820 | objective 1.0615 | 395 s
+iter 287100 | lr 1e-04 | surrogate 1.0014 | KL 709.1 | lambda 1.115e-02 | j 219.4 | sqrt(BRE/2) 0.0817 | objective 1.0831 | 396 s
+iter 287650 | lr 1e-04 | surrogate 1.0535 | KL 716.5 | lambda 1.115e-02 | j 219.4 | sqrt(BRE/2) 0.0822 | objective 1.1356 | 397 s
+iter 288200 | lr 1e-04 | surrogate 1.0522 | KL 716.3 | lambda 1.115e-02 | j 219.4 | sqrt(BRE/2) 0.0821 | objective 1.1343 | 397 s
+iter 288750 | lr 1e-04 | surrogate 1.0695 | KL 711.3 | lambda 1.115e-02 | j 219.4 | sqrt(BRE/2) 0.0819 | objective 1.1514 | 398 s
+iter 289300 | lr 1e-04 | surrogate 1.0083 | KL 724.9 | lambda 1.114e-02 | j 219.4 | sqrt(BRE/2) 0.0826 | objective 1.0910 | 399 s
+iter 289850 | lr 1e-04 | surrogate 1.0136 | KL 723.6 | lambda 1.114e-02 | j 219.4 | sqrt(BRE/2) 0.0825 | objective 1.0962 | 399 s
+iter 290400 | lr 1e-04 | surrogate 1.0354 | KL 729.0 | lambda 1.114e-02 | j 219.5 | sqrt(BRE/2) 0.0828 | objective 1.1182 | 400 s
+iter 290950 | lr 1e-04 | surrogate 1.0514 | KL 726.4 | lambda 1.114e-02 | j 219.5 | sqrt(BRE/2) 0.0827 | objective 1.1341 | 401 s
+iter 291500 | lr 1e-04 | surrogate 1.0546 | KL 726.4 | lambda 1.114e-02 | j 219.5 | sqrt(BRE/2) 0.0827 | objective 1.1373 | 402 s
+iter 292050 | lr 1e-04 | surrogate 1.0283 | KL 732.0 | lambda 1.114e-02 | j 219.5 | sqrt(BRE/2) 0.0830 | objective 1.1113 | 402 s
+iter 292600 | lr 1e-04 | surrogate 1.0189 | KL 728.3 | lambda 1.113e-02 | j 219.5 | sqrt(BRE/2) 0.0828 | objective 1.1017 | 403 s
+iter 293150 | lr 1e-04 | surrogate 1.0011 | KL 730.9 | lambda 1.113e-02 | j 219.5 | sqrt(BRE/2) 0.0829 | objective 1.0841 | 404 s
+iter 293700 | lr 1e-04 | surrogate 1.1435 | KL 716.0 | lambda 1.113e-02 | j 219.5 | sqrt(BRE/2) 0.0821 | objective 1.2257 | 404 s
+iter 294250 | lr 1e-04 | surrogate 1.0737 | KL 698.3 | lambda 1.113e-02 | j 219.6 | sqrt(BRE/2) 0.0811 | objective 1.1549 | 405 s
+iter 294800 | lr 1e-04 | surrogate 1.0454 | KL 694.3 | lambda 1.113e-02 | j 219.6 | sqrt(BRE/2) 0.0809 | objective 1.1263 | 406 s
+iter 295350 | lr 1e-04 | surrogate 1.0157 | KL 701.6 | lambda 1.112e-02 | j 219.6 | sqrt(BRE/2) 0.0813 | objective 1.0970 | 407 s
+iter 295900 | lr 1e-04 | surrogate 1.0164 | KL 697.5 | lambda 1.112e-02 | j 219.6 | sqrt(BRE/2) 0.0811 | objective 1.0975 | 407 s
+iter 296450 | lr 1e-04 | surrogate 1.0224 | KL 704.7 | lambda 1.112e-02 | j 219.6 | sqrt(BRE/2) 0.0815 | objective 1.1039 | 408 s
+iter 297000 | lr 1e-04 | surrogate 0.9524 | KL 698.3 | lambda 1.112e-02 | j 219.6 | sqrt(BRE/2) 0.0811 | objective 1.0335 | 409 s
+iter 297550 | lr 1e-04 | surrogate 1.0466 | KL 701.4 | lambda 1.112e-02 | j 219.7 | sqrt(BRE/2) 0.0813 | objective 1.1279 | 409 s
+iter 298100 | lr 1e-04 | surrogate 1.0601 | KL 691.8 | lambda 1.112e-02 | j 219.7 | sqrt(BRE/2) 0.0808 | objective 1.1409 | 410 s
+iter 298650 | lr 1e-04 | surrogate 1.0683 | KL 692.7 | lambda 1.111e-02 | j 219.7 | sqrt(BRE/2) 0.0808 | objective 1.1492 | 411 s
+iter 299200 | lr 1e-04 | surrogate 1.0052 | KL 692.9 | lambda 1.111e-02 | j 219.7 | sqrt(BRE/2) 0.0808 | objective 1.0861 | 412 s
+iter 299750 | lr 1e-04 | surrogate 1.1586 | KL 699.5 | lambda 1.111e-02 | j 219.7 | sqrt(BRE/2) 0.0812 | objective 1.2398 | 412 s
+iter 300300 | lr 1e-04 | surrogate 1.0671 | KL 686.7 | lambda 1.111e-02 | j 219.8 | sqrt(BRE/2) 0.0805 | objective 1.1475 | 413 s
+iter 300850 | lr 1e-04 | surrogate 1.1007 | KL 680.7 | lambda 1.111e-02 | j 219.8 | sqrt(BRE/2) 0.0801 | objective 1.1808 | 414 s
+iter 301400 | lr 1e-04 | surrogate 1.0504 | KL 682.9 | lambda 1.110e-02 | j 219.8 | sqrt(BRE/2) 0.0803 | objective 1.1306 | 414 s
+iter 301950 | lr 1e-04 | surrogate 1.0431 | KL 696.0 | lambda 1.110e-02 | j 219.8 | sqrt(BRE/2) 0.0810 | objective 1.1241 | 415 s
+iter 302500 | lr 1e-04 | surrogate 0.9817 | KL 695.1 | lambda 1.110e-02 | j 219.8 | sqrt(BRE/2) 0.0810 | objective 1.0627 | 416 s
+iter 303050 | lr 1e-04 | surrogate 1.0164 | KL 695.0 | lambda 1.110e-02 | j 219.8 | sqrt(BRE/2) 0.0810 | objective 1.0973 | 417 s
+iter 303600 | lr 1e-04 | surrogate 1.0600 | KL 707.4 | lambda 1.110e-02 | j 219.8 | sqrt(BRE/2) 0.0816 | objective 1.1416 | 417 s
+iter 304150 | lr 1e-04 | surrogate 1.0233 | KL 694.8 | lambda 1.110e-02 | j 219.9 | sqrt(BRE/2) 0.0809 | objective 1.1042 | 418 s
+iter 304700 | lr 1e-04 | surrogate 1.0808 | KL 700.1 | lambda 1.109e-02 | j 219.9 | sqrt(BRE/2) 0.0812 | objective 1.1621 | 419 s
+iter 305250 | lr 1e-04 | surrogate 1.0393 | KL 707.6 | lambda 1.109e-02 | j 219.9 | sqrt(BRE/2) 0.0817 | objective 1.1209 | 419 s
+iter 305800 | lr 1e-04 | surrogate 1.0494 | KL 706.5 | lambda 1.109e-02 | j 219.9 | sqrt(BRE/2) 0.0816 | objective 1.1310 | 420 s
+iter 306350 | lr 1e-04 | surrogate 1.0599 | KL 701.3 | lambda 1.109e-02 | j 219.9 | sqrt(BRE/2) 0.0813 | objective 1.1412 | 421 s
+iter 306900 | lr 1e-04 | surrogate 1.0419 | KL 699.2 | lambda 1.109e-02 | j 219.9 | sqrt(BRE/2) 0.0812 | objective 1.1231 | 421 s
+iter 307450 | lr 1e-04 | surrogate 1.0174 | KL 691.8 | lambda 1.109e-02 | j 220.0 | sqrt(BRE/2) 0.0808 | objective 1.0982 | 422 s
+iter 308000 | lr 1e-04 | surrogate 1.0766 | KL 692.8 | lambda 1.108e-02 | j 220.0 | sqrt(BRE/2) 0.0808 | objective 1.1575 | 423 s
+iter 308550 | lr 1e-04 | surrogate 1.1292 | KL 683.0 | lambda 1.108e-02 | j 220.0 | sqrt(BRE/2) 0.0803 | objective 1.2095 | 424 s
+iter 309100 | lr 1e-04 | surrogate 1.0405 | KL 673.1 | lambda 1.108e-02 | j 220.0 | sqrt(BRE/2) 0.0797 | objective 1.1202 | 424 s
+iter 309650 | lr 1e-04 | surrogate 1.1168 | KL 684.6 | lambda 1.108e-02 | j 220.0 | sqrt(BRE/2) 0.0804 | objective 1.1972 | 425 s
+iter 310200 | lr 1e-04 | surrogate 1.0388 | KL 676.4 | lambda 1.107e-02 | j 220.1 | sqrt(BRE/2) 0.0799 | objective 1.1187 | 426 s
+iter 310750 | lr 1e-04 | surrogate 1.2019 | KL 681.2 | lambda 1.107e-02 | j 220.1 | sqrt(BRE/2) 0.0802 | objective 1.2820 | 427 s
+iter 311300 | lr 1e-04 | surrogate 1.0518 | KL 684.3 | lambda 1.107e-02 | j 220.1 | sqrt(BRE/2) 0.0804 | objective 1.1322 | 427 s
+iter 311850 | lr 1e-04 | surrogate 1.2619 | KL 692.1 | lambda 1.107e-02 | j 220.1 | sqrt(BRE/2) 0.0808 | objective 1.3427 | 428 s
+iter 312400 | lr 1e-04 | surrogate 1.1520 | KL 686.9 | lambda 1.107e-02 | j 220.1 | sqrt(BRE/2) 0.0805 | objective 1.2325 | 429 s
+iter 312950 | lr 1e-04 | surrogate 1.0775 | KL 690.4 | lambda 1.107e-02 | j 220.1 | sqrt(BRE/2) 0.0807 | objective 1.1582 | 429 s
+iter 313500 | lr 1e-04 | surrogate 1.0450 | KL 690.8 | lambda 1.106e-02 | j 220.1 | sqrt(BRE/2) 0.0807 | objective 1.1257 | 430 s
+iter 314050 | lr 1e-04 | surrogate 1.0975 | KL 689.5 | lambda 1.106e-02 | j 220.2 | sqrt(BRE/2) 0.0806 | objective 1.1782 | 431 s
+iter 314600 | lr 1e-04 | surrogate 1.0722 | KL 703.5 | lambda 1.106e-02 | j 220.2 | sqrt(BRE/2) 0.0814 | objective 1.1536 | 432 s
+iter 315150 | lr 1e-04 | surrogate 1.0385 | KL 699.6 | lambda 1.106e-02 | j 220.2 | sqrt(BRE/2) 0.0812 | objective 1.1197 | 432 s
+iter 315700 | lr 1e-04 | surrogate 0.9886 | KL 694.4 | lambda 1.106e-02 | j 220.2 | sqrt(BRE/2) 0.0809 | objective 1.0695 | 433 s
+iter 316250 | lr 1e-04 | surrogate 1.0242 | KL 692.2 | lambda 1.106e-02 | j 220.2 | sqrt(BRE/2) 0.0808 | objective 1.1050 | 434 s
+iter 316800 | lr 1e-04 | surrogate 1.0826 | KL 698.6 | lambda 1.105e-02 | j 220.2 | sqrt(BRE/2) 0.0812 | objective 1.1638 | 435 s
+iter 317350 | lr 1e-04 | surrogate 1.0580 | KL 694.3 | lambda 1.105e-02 | j 220.3 | sqrt(BRE/2) 0.0809 | objective 1.1389 | 435 s
+iter 317900 | lr 1e-04 | surrogate 1.0926 | KL 681.9 | lambda 1.105e-02 | j 220.3 | sqrt(BRE/2) 0.0802 | objective 1.1729 | 436 s
+iter 318450 | lr 1e-04 | surrogate 1.0362 | KL 676.6 | lambda 1.105e-02 | j 220.3 | sqrt(BRE/2) 0.0799 | objective 1.1162 | 437 s
+iter 319000 | lr 1e-04 | surrogate 1.0120 | KL 678.7 | lambda 1.104e-02 | j 220.3 | sqrt(BRE/2) 0.0800 | objective 1.0921 | 437 s
+iter 319550 | lr 1e-04 | surrogate 1.0330 | KL 666.0 | lambda 1.104e-02 | j 220.3 | sqrt(BRE/2) 0.0793 | objective 1.1124 | 438 s
+iter 320100 | lr 1e-04 | surrogate 0.9778 | KL 667.6 | lambda 1.104e-02 | j 220.4 | sqrt(BRE/2) 0.0794 | objective 1.0572 | 439 s
+iter 320650 | lr 1e-04 | surrogate 0.9587 | KL 664.8 | lambda 1.104e-02 | j 220.4 | sqrt(BRE/2) 0.0792 | objective 1.0379 | 439 s
+iter 321200 | lr 1e-04 | surrogate 1.1458 | KL 667.7 | lambda 1.104e-02 | j 220.4 | sqrt(BRE/2) 0.0794 | objective 1.2253 | 440 s
+iter 321750 | lr 1e-04 | surrogate 1.0425 | KL 660.8 | lambda 1.103e-02 | j 220.4 | sqrt(BRE/2) 0.0790 | objective 1.1216 | 441 s
+iter 322300 | lr 1e-04 | surrogate 1.0092 | KL 662.7 | lambda 1.103e-02 | j 220.4 | sqrt(BRE/2) 0.0791 | objective 1.0883 | 442 s
+iter 322850 | lr 1e-04 | surrogate 0.9682 | KL 667.8 | lambda 1.103e-02 | j 220.5 | sqrt(BRE/2) 0.0794 | objective 1.0476 | 442 s
+iter 323400 | lr 1e-04 | surrogate 1.0014 | KL 653.5 | lambda 1.103e-02 | j 220.5 | sqrt(BRE/2) 0.0786 | objective 1.0800 | 443 s
+iter 323950 | lr 1e-04 | surrogate 0.9890 | KL 665.7 | lambda 1.103e-02 | j 220.5 | sqrt(BRE/2) 0.0793 | objective 1.0683 | 444 s
+iter 324500 | lr 1e-04 | surrogate 1.0588 | KL 668.9 | lambda 1.102e-02 | j 220.5 | sqrt(BRE/2) 0.0795 | objective 1.1383 | 445 s
+iter 325050 | lr 1e-04 | surrogate 1.0683 | KL 673.1 | lambda 1.102e-02 | j 220.5 | sqrt(BRE/2) 0.0797 | objective 1.1480 | 445 s
+iter 325600 | lr 1e-04 | surrogate 0.9854 | KL 668.8 | lambda 1.102e-02 | j 220.5 | sqrt(BRE/2) 0.0795 | objective 1.0648 | 446 s
+iter 326150 | lr 1e-04 | surrogate 0.9835 | KL 665.9 | lambda 1.102e-02 | j 220.6 | sqrt(BRE/2) 0.0793 | objective 1.0628 | 447 s
+iter 326700 | lr 1e-04 | surrogate 1.0365 | KL 667.4 | lambda 1.102e-02 | j 220.6 | sqrt(BRE/2) 0.0794 | objective 1.1159 | 447 s
+iter 327250 | lr 1e-04 | surrogate 1.1279 | KL 658.9 | lambda 1.101e-02 | j 220.6 | sqrt(BRE/2) 0.0789 | objective 1.2068 | 448 s
+iter 327800 | lr 1e-04 | surrogate 1.0470 | KL 666.2 | lambda 1.101e-02 | j 220.6 | sqrt(BRE/2) 0.0793 | objective 1.1263 | 449 s
+iter 328350 | lr 1e-04 | surrogate 1.0637 | KL 658.8 | lambda 1.101e-02 | j 220.6 | sqrt(BRE/2) 0.0789 | objective 1.1426 | 450 s
+iter 328900 | lr 1e-04 | surrogate 1.0603 | KL 658.8 | lambda 1.101e-02 | j 220.7 | sqrt(BRE/2) 0.0789 | objective 1.1392 | 450 s
+iter 329450 | lr 1e-04 | surrogate 0.9943 | KL 663.1 | lambda 1.101e-02 | j 220.7 | sqrt(BRE/2) 0.0791 | objective 1.0734 | 451 s
+iter 330000 | lr 1e-04 | surrogate 0.9741 | KL 664.4 | lambda 1.100e-02 | j 220.7 | sqrt(BRE/2) 0.0792 | objective 1.0533 | 452 s
+iter 330550 | lr 1e-04 | surrogate 1.1370 | KL 657.1 | lambda 1.100e-02 | j 220.7 | sqrt(BRE/2) 0.0788 | objective 1.2158 | 453 s
+iter 331100 | lr 1e-04 | surrogate 1.1008 | KL 652.6 | lambda 1.100e-02 | j 220.7 | sqrt(BRE/2) 0.0785 | objective 1.1793 | 453 s
+iter 331650 | lr 1e-04 | surrogate 1.0030 | KL 666.3 | lambda 1.100e-02 | j 220.8 | sqrt(BRE/2) 0.0793 | objective 1.0823 | 454 s
+iter 332200 | lr 1e-04 | surrogate 1.0311 | KL 665.1 | lambda 1.100e-02 | j 220.8 | sqrt(BRE/2) 0.0793 | objective 1.1104 | 455 s
+iter 332750 | lr 1e-04 | surrogate 1.1026 | KL 668.0 | lambda 1.099e-02 | j 220.8 | sqrt(BRE/2) 0.0794 | objective 1.1821 | 455 s
+iter 333300 | lr 1e-04 | surrogate 1.0398 | KL 661.2 | lambda 1.099e-02 | j 220.8 | sqrt(BRE/2) 0.0790 | objective 1.1188 | 456 s
+iter 333850 | lr 1e-04 | surrogate 1.0636 | KL 667.9 | lambda 1.099e-02 | j 220.8 | sqrt(BRE/2) 0.0794 | objective 1.1430 | 457 s
+iter 334400 | lr 1e-04 | surrogate 1.1307 | KL 661.3 | lambda 1.099e-02 | j 220.8 | sqrt(BRE/2) 0.0790 | objective 1.2097 | 458 s
+iter 334950 | lr 1e-04 | surrogate 1.1080 | KL 679.5 | lambda 1.099e-02 | j 220.9 | sqrt(BRE/2) 0.0801 | objective 1.1881 | 458 s
+iter 335500 | lr 1e-04 | surrogate 1.0727 | KL 668.0 | lambda 1.098e-02 | j 220.9 | sqrt(BRE/2) 0.0794 | objective 1.1521 | 459 s
+iter 336050 | lr 1e-04 | surrogate 1.0577 | KL 662.1 | lambda 1.098e-02 | j 220.9 | sqrt(BRE/2) 0.0791 | objective 1.1368 | 460 s
+iter 336600 | lr 1e-04 | surrogate 0.9539 | KL 670.2 | lambda 1.098e-02 | j 220.9 | sqrt(BRE/2) 0.0796 | objective 1.0334 | 460 s
+iter 337150 | lr 1e-04 | surrogate 1.0038 | KL 660.8 | lambda 1.098e-02 | j 220.9 | sqrt(BRE/2) 0.0790 | objective 1.0828 | 461 s
+iter 337700 | lr 1e-04 | surrogate 1.0457 | KL 658.4 | lambda 1.097e-02 | j 221.0 | sqrt(BRE/2) 0.0789 | objective 1.1246 | 462 s
+iter 338250 | lr 1e-04 | surrogate 1.0129 | KL 663.8 | lambda 1.097e-02 | j 221.0 | sqrt(BRE/2) 0.0792 | objective 1.0920 | 463 s
+iter 338800 | lr 1e-04 | surrogate 1.0560 | KL 650.8 | lambda 1.097e-02 | j 221.0 | sqrt(BRE/2) 0.0784 | objective 1.1344 | 463 s
+iter 339350 | lr 1e-04 | surrogate 1.0880 | KL 653.9 | lambda 1.097e-02 | j 221.0 | sqrt(BRE/2) 0.0786 | objective 1.1666 | 464 s
+iter 339900 | lr 1e-04 | surrogate 0.9775 | KL 657.2 | lambda 1.097e-02 | j 221.0 | sqrt(BRE/2) 0.0788 | objective 1.0563 | 465 s
+iter 340450 | lr 1e-04 | surrogate 0.9786 | KL 657.1 | lambda 1.096e-02 | j 221.1 | sqrt(BRE/2) 0.0788 | objective 1.0574 | 465 s
+iter 341000 | lr 1e-04 | surrogate 1.0468 | KL 653.0 | lambda 1.096e-02 | j 221.1 | sqrt(BRE/2) 0.0786 | objective 1.1254 | 466 s
+iter 341550 | lr 1e-04 | surrogate 1.0772 | KL 665.8 | lambda 1.096e-02 | j 221.1 | sqrt(BRE/2) 0.0793 | objective 1.1565 | 467 s
+iter 342100 | lr 1e-04 | surrogate 0.9816 | KL 663.2 | lambda 1.096e-02 | j 221.1 | sqrt(BRE/2) 0.0791 | objective 1.0607 | 468 s
+iter 342650 | lr 1e-04 | surrogate 1.0046 | KL 661.3 | lambda 1.096e-02 | j 221.1 | sqrt(BRE/2) 0.0790 | objective 1.0836 | 468 s
+iter 343200 | lr 1e-04 | surrogate 1.0856 | KL 654.4 | lambda 1.095e-02 | j 221.2 | sqrt(BRE/2) 0.0786 | objective 1.1642 | 469 s
+iter 343750 | lr 1e-04 | surrogate 1.0076 | KL 659.6 | lambda 1.095e-02 | j 221.2 | sqrt(BRE/2) 0.0789 | objective 1.0865 | 470 s
+iter 344300 | lr 1e-04 | surrogate 1.0997 | KL 661.4 | lambda 1.095e-02 | j 221.2 | sqrt(BRE/2) 0.0790 | objective 1.1787 | 471 s
+iter 344850 | lr 1e-04 | surrogate 0.9736 | KL 665.5 | lambda 1.095e-02 | j 221.2 | sqrt(BRE/2) 0.0793 | objective 1.0529 | 471 s
+iter 345400 | lr 1e-04 | surrogate 0.9857 | KL 666.6 | lambda 1.095e-02 | j 221.2 | sqrt(BRE/2) 0.0793 | objective 1.0650 | 472 s
+iter 345950 | lr 1e-04 | surrogate 0.9547 | KL 668.8 | lambda 1.094e-02 | j 221.2 | sqrt(BRE/2) 0.0795 | objective 1.0342 | 473 s
+iter 346500 | lr 1e-04 | surrogate 1.1174 | KL 670.9 | lambda 1.094e-02 | j 221.3 | sqrt(BRE/2) 0.0796 | objective 1.1970 | 474 s
+iter 347050 | lr 1e-04 | surrogate 1.2255 | KL 666.9 | lambda 1.094e-02 | j 221.3 | sqrt(BRE/2) 0.0794 | objective 1.3049 | 474 s
+iter 347600 | lr 1e-04 | surrogate 1.0044 | KL 670.2 | lambda 1.094e-02 | j 221.3 | sqrt(BRE/2) 0.0795 | objective 1.0840 | 475 s
+iter 348150 | lr 1e-04 | surrogate 0.9848 | KL 657.5 | lambda 1.093e-02 | j 221.3 | sqrt(BRE/2) 0.0788 | objective 1.0636 | 476 s
+iter 348700 | lr 1e-04 | surrogate 1.0397 | KL 642.1 | lambda 1.093e-02 | j 221.4 | sqrt(BRE/2) 0.0779 | objective 1.1176 | 476 s
+iter 349250 | lr 1e-04 | surrogate 1.0475 | KL 652.1 | lambda 1.093e-02 | j 221.4 | sqrt(BRE/2) 0.0785 | objective 1.1261 | 477 s
+iter 349800 | lr 1e-04 | surrogate 1.0620 | KL 662.2 | lambda 1.093e-02 | j 221.4 | sqrt(BRE/2) 0.0791 | objective 1.1411 | 478 s
+iter 350350 | lr 1e-04 | surrogate 1.0391 | KL 665.0 | lambda 1.093e-02 | j 221.4 | sqrt(BRE/2) 0.0793 | objective 1.1184 | 479 s
+iter 350900 | lr 1e-04 | surrogate 1.0780 | KL 663.8 | lambda 1.092e-02 | j 221.4 | sqrt(BRE/2) 0.0792 | objective 1.1572 | 480 s
+iter 351450 | lr 1e-04 | surrogate 1.0024 | KL 655.3 | lambda 1.092e-02 | j 221.4 | sqrt(BRE/2) 0.0787 | objective 1.0811 | 481 s
+iter 352000 | lr 1e-04 | surrogate 0.9841 | KL 657.2 | lambda 1.092e-02 | j 221.5 | sqrt(BRE/2) 0.0788 | objective 1.0629 | 481 s
+iter 352550 | lr 1e-04 | surrogate 1.0334 | KL 661.0 | lambda 1.092e-02 | j 221.5 | sqrt(BRE/2) 0.0790 | objective 1.1124 | 482 s
+iter 353100 | lr 1e-04 | surrogate 1.0475 | KL 661.3 | lambda 1.092e-02 | j 221.5 | sqrt(BRE/2) 0.0790 | objective 1.1265 | 483 s
+iter 353650 | lr 1e-04 | surrogate 0.9716 | KL 652.2 | lambda 1.091e-02 | j 221.5 | sqrt(BRE/2) 0.0785 | objective 1.0501 | 484 s
+iter 354200 | lr 1e-04 | surrogate 1.0741 | KL 647.8 | lambda 1.091e-02 | j 221.5 | sqrt(BRE/2) 0.0783 | objective 1.1523 | 484 s
+iter 354750 | lr 1e-04 | surrogate 1.0220 | KL 653.0 | lambda 1.091e-02 | j 221.6 | sqrt(BRE/2) 0.0786 | objective 1.1006 | 485 s
+iter 355300 | lr 1e-04 | surrogate 0.9945 | KL 653.8 | lambda 1.091e-02 | j 221.6 | sqrt(BRE/2) 0.0786 | objective 1.0732 | 486 s
+iter 355850 | lr 1e-04 | surrogate 0.9960 | KL 650.6 | lambda 1.090e-02 | j 221.6 | sqrt(BRE/2) 0.0784 | objective 1.0744 | 486 s
+iter 356400 | lr 1e-04 | surrogate 1.0358 | KL 641.9 | lambda 1.090e-02 | j 221.6 | sqrt(BRE/2) 0.0779 | objective 1.1137 | 487 s
+iter 356950 | lr 1e-04 | surrogate 1.0881 | KL 635.0 | lambda 1.090e-02 | j 221.7 | sqrt(BRE/2) 0.0775 | objective 1.1657 | 488 s
+iter 357500 | lr 1e-04 | surrogate 1.0721 | KL 641.7 | lambda 1.090e-02 | j 221.7 | sqrt(BRE/2) 0.0779 | objective 1.1500 | 489 s
+iter 358050 | lr 1e-04 | surrogate 0.9945 | KL 638.2 | lambda 1.089e-02 | j 221.7 | sqrt(BRE/2) 0.0777 | objective 1.0722 | 489 s
+iter 358600 | lr 1e-04 | surrogate 1.0262 | KL 628.1 | lambda 1.089e-02 | j 221.7 | sqrt(BRE/2) 0.0771 | objective 1.1033 | 490 s
+iter 359150 | lr 1e-04 | surrogate 0.9931 | KL 633.1 | lambda 1.089e-02 | j 221.7 | sqrt(BRE/2) 0.0774 | objective 1.0705 | 491 s
+iter 359700 | lr 1e-04 | surrogate 1.0326 | KL 650.5 | lambda 1.089e-02 | j 221.8 | sqrt(BRE/2) 0.0784 | objective 1.1110 | 492 s
+iter 360250 | lr 1e-04 | surrogate 1.0192 | KL 647.4 | lambda 1.089e-02 | j 221.8 | sqrt(BRE/2) 0.0782 | objective 1.0974 | 492 s
+iter 360800 | lr 1e-04 | surrogate 1.0630 | KL 649.1 | lambda 1.088e-02 | j 221.8 | sqrt(BRE/2) 0.0783 | objective 1.1413 | 493 s
+iter 361350 | lr 1e-04 | surrogate 1.0289 | KL 660.2 | lambda 1.088e-02 | j 221.8 | sqrt(BRE/2) 0.0790 | objective 1.1078 | 494 s
+iter 361900 | lr 1e-04 | surrogate 1.0553 | KL 652.3 | lambda 1.088e-02 | j 221.8 | sqrt(BRE/2) 0.0785 | objective 1.1339 | 494 s
+iter 362450 | lr 1e-04 | surrogate 1.0852 | KL 644.1 | lambda 1.088e-02 | j 221.9 | sqrt(BRE/2) 0.0780 | objective 1.1632 | 495 s
+iter 363000 | lr 1e-04 | surrogate 0.9804 | KL 638.4 | lambda 1.087e-02 | j 221.9 | sqrt(BRE/2) 0.0777 | objective 1.0581 | 496 s
+iter 363550 | lr 1e-04 | surrogate 1.0564 | KL 634.6 | lambda 1.087e-02 | j 221.9 | sqrt(BRE/2) 0.0775 | objective 1.1339 | 497 s
+iter 364100 | lr 1e-04 | surrogate 1.0809 | KL 638.7 | lambda 1.087e-02 | j 221.9 | sqrt(BRE/2) 0.0777 | objective 1.1586 | 497 s
+iter 364650 | lr 1e-04 | surrogate 1.0339 | KL 645.6 | lambda 1.087e-02 | j 221.9 | sqrt(BRE/2) 0.0781 | objective 1.1121 | 498 s
+iter 365200 | lr 1e-04 | surrogate 1.0006 | KL 645.2 | lambda 1.087e-02 | j 222.0 | sqrt(BRE/2) 0.0781 | objective 1.0788 | 499 s
+iter 365750 | lr 1e-04 | surrogate 1.1429 | KL 643.2 | lambda 1.086e-02 | j 222.0 | sqrt(BRE/2) 0.0780 | objective 1.2209 | 499 s
+iter 366300 | lr 1e-04 | surrogate 1.0092 | KL 645.6 | lambda 1.086e-02 | j 222.0 | sqrt(BRE/2) 0.0781 | objective 1.0873 | 500 s
+iter 366850 | lr 1e-04 | surrogate 1.0835 | KL 648.3 | lambda 1.086e-02 | j 222.0 | sqrt(BRE/2) 0.0783 | objective 1.1618 | 501 s
+iter 367400 | lr 1e-04 | surrogate 1.0287 | KL 643.9 | lambda 1.086e-02 | j 222.0 | sqrt(BRE/2) 0.0780 | objective 1.1067 | 502 s
+iter 367950 | lr 1e-04 | surrogate 0.9943 | KL 646.3 | lambda 1.085e-02 | j 222.1 | sqrt(BRE/2) 0.0782 | objective 1.0725 | 502 s
+iter 368500 | lr 1e-04 | surrogate 1.0301 | KL 641.0 | lambda 1.085e-02 | j 222.1 | sqrt(BRE/2) 0.0779 | objective 1.1080 | 503 s
+iter 369050 | lr 1e-04 | surrogate 1.0669 | KL 640.6 | lambda 1.085e-02 | j 222.1 | sqrt(BRE/2) 0.0778 | objective 1.1448 | 504 s
+iter 369600 | lr 1e-04 | surrogate 1.0677 | KL 645.2 | lambda 1.085e-02 | j 222.1 | sqrt(BRE/2) 0.0781 | objective 1.1458 | 504 s
+iter 370150 | lr 1e-04 | surrogate 1.0299 | KL 643.9 | lambda 1.084e-02 | j 222.1 | sqrt(BRE/2) 0.0780 | objective 1.1079 | 505 s
+iter 370700 | lr 1e-04 | surrogate 0.9890 | KL 645.9 | lambda 1.084e-02 | j 222.2 | sqrt(BRE/2) 0.0782 | objective 1.0672 | 506 s
+iter 371250 | lr 1e-04 | surrogate 1.0799 | KL 638.1 | lambda 1.084e-02 | j 222.2 | sqrt(BRE/2) 0.0777 | objective 1.1576 | 507 s
+iter 371800 | lr 1e-04 | surrogate 1.0777 | KL 633.3 | lambda 1.084e-02 | j 222.2 | sqrt(BRE/2) 0.0774 | objective 1.1551 | 507 s
+iter 372350 | lr 1e-04 | surrogate 1.0034 | KL 640.1 | lambda 1.084e-02 | j 222.2 | sqrt(BRE/2) 0.0778 | objective 1.0812 | 508 s
+iter 372900 | lr 1e-04 | surrogate 1.0544 | KL 634.6 | lambda 1.083e-02 | j 222.3 | sqrt(BRE/2) 0.0775 | objective 1.1319 | 509 s
+iter 373450 | lr 1e-04 | surrogate 1.0413 | KL 628.6 | lambda 1.083e-02 | j 222.3 | sqrt(BRE/2) 0.0771 | objective 1.1184 | 509 s
+iter 374000 | lr 1e-04 | surrogate 1.0516 | KL 627.1 | lambda 1.083e-02 | j 222.3 | sqrt(BRE/2) 0.0770 | objective 1.1287 | 510 s
+iter 374550 | lr 1e-04 | surrogate 1.0594 | KL 632.2 | lambda 1.083e-02 | j 222.3 | sqrt(BRE/2) 0.0773 | objective 1.1367 | 511 s
+iter 375100 | lr 1e-04 | surrogate 1.1890 | KL 629.1 | lambda 1.082e-02 | j 222.3 | sqrt(BRE/2) 0.0772 | objective 1.2662 | 512 s
+iter 375650 | lr 1e-04 | surrogate 1.0164 | KL 637.3 | lambda 1.082e-02 | j 222.4 | sqrt(BRE/2) 0.0776 | objective 1.0940 | 513 s
+iter 376200 | lr 1e-04 | surrogate 1.0037 | KL 635.7 | lambda 1.082e-02 | j 222.4 | sqrt(BRE/2) 0.0776 | objective 1.0812 | 513 s
+iter 376750 | lr 1e-04 | surrogate 1.0279 | KL 641.4 | lambda 1.082e-02 | j 222.4 | sqrt(BRE/2) 0.0779 | objective 1.1058 | 514 s
+iter 377300 | lr 1e-04 | surrogate 1.0402 | KL 637.7 | lambda 1.081e-02 | j 222.4 | sqrt(BRE/2) 0.0777 | objective 1.1178 | 515 s
+iter 377850 | lr 1e-04 | surrogate 0.9997 | KL 639.1 | lambda 1.081e-02 | j 222.4 | sqrt(BRE/2) 0.0778 | objective 1.0775 | 516 s
+iter 378400 | lr 1e-04 | surrogate 1.0385 | KL 636.3 | lambda 1.081e-02 | j 222.5 | sqrt(BRE/2) 0.0776 | objective 1.1161 | 517 s
+iter 378950 | lr 1e-04 | surrogate 1.0804 | KL 634.7 | lambda 1.081e-02 | j 222.5 | sqrt(BRE/2) 0.0775 | objective 1.1579 | 517 s
+iter 379500 | lr 1e-04 | surrogate 0.9869 | KL 633.2 | lambda 1.080e-02 | j 222.5 | sqrt(BRE/2) 0.0774 | objective 1.0643 | 518 s
+iter 380050 | lr 1e-04 | surrogate 1.0232 | KL 629.9 | lambda 1.080e-02 | j 222.5 | sqrt(BRE/2) 0.0772 | objective 1.1004 | 519 s
+iter 380600 | lr 1e-04 | surrogate 0.9992 | KL 628.1 | lambda 1.080e-02 | j 222.6 | sqrt(BRE/2) 0.0771 | objective 1.0763 | 519 s
+iter 381150 | lr 1e-04 | surrogate 1.0192 | KL 642.7 | lambda 1.080e-02 | j 222.6 | sqrt(BRE/2) 0.0780 | objective 1.0972 | 520 s
+iter 381700 | lr 1e-04 | surrogate 0.9926 | KL 650.0 | lambda 1.080e-02 | j 222.6 | sqrt(BRE/2) 0.0784 | objective 1.0710 | 521 s
+iter 382250 | lr 1e-04 | surrogate 1.0049 | KL 649.4 | lambda 1.079e-02 | j 222.6 | sqrt(BRE/2) 0.0784 | objective 1.0832 | 522 s
+iter 382800 | lr 1e-04 | surrogate 1.0066 | KL 639.8 | lambda 1.079e-02 | j 222.6 | sqrt(BRE/2) 0.0778 | objective 1.0844 | 522 s
+iter 383350 | lr 1e-04 | surrogate 1.0254 | KL 638.8 | lambda 1.079e-02 | j 222.7 | sqrt(BRE/2) 0.0777 | objective 1.1031 | 523 s
+iter 383900 | lr 1e-04 | surrogate 1.0077 | KL 643.9 | lambda 1.079e-02 | j 222.7 | sqrt(BRE/2) 0.0780 | objective 1.0857 | 524 s
+iter 384450 | lr 1e-04 | surrogate 1.0840 | KL 629.6 | lambda 1.078e-02 | j 222.7 | sqrt(BRE/2) 0.0772 | objective 1.1612 | 525 s
+iter 385000 | lr 1e-04 | surrogate 1.0391 | KL 619.5 | lambda 1.078e-02 | j 222.7 | sqrt(BRE/2) 0.0766 | objective 1.1157 | 525 s
+iter 385550 | lr 1e-04 | surrogate 1.0439 | KL 630.5 | lambda 1.078e-02 | j 222.8 | sqrt(BRE/2) 0.0772 | objective 1.1211 | 526 s
+iter 386100 | lr 1e-04 | surrogate 1.0645 | KL 632.0 | lambda 1.078e-02 | j 222.8 | sqrt(BRE/2) 0.0773 | objective 1.1418 | 527 s
+iter 386650 | lr 1e-04 | surrogate 1.0300 | KL 621.7 | lambda 1.077e-02 | j 222.8 | sqrt(BRE/2) 0.0767 | objective 1.1067 | 528 s
+iter 387200 | lr 1e-04 | surrogate 1.0299 | KL 625.7 | lambda 1.077e-02 | j 222.8 | sqrt(BRE/2) 0.0770 | objective 1.1069 | 529 s
+iter 387750 | lr 1e-04 | surrogate 1.0218 | KL 619.8 | lambda 1.077e-02 | j 222.9 | sqrt(BRE/2) 0.0766 | objective 1.0984 | 529 s
+iter 388300 | lr 1e-04 | surrogate 1.0228 | KL 623.3 | lambda 1.077e-02 | j 222.9 | sqrt(BRE/2) 0.0768 | objective 1.0996 | 530 s
+iter 388850 | lr 1e-04 | surrogate 1.0097 | KL 624.7 | lambda 1.076e-02 | j 222.9 | sqrt(BRE/2) 0.0769 | objective 1.0866 | 531 s
+iter 389400 | lr 1e-04 | surrogate 1.1039 | KL 624.7 | lambda 1.076e-02 | j 222.9 | sqrt(BRE/2) 0.0769 | objective 1.1808 | 531 s
+iter 389950 | lr 1e-04 | surrogate 1.0518 | KL 630.8 | lambda 1.076e-02 | j 222.9 | sqrt(BRE/2) 0.0773 | objective 1.1291 | 532 s
+iter 390500 | lr 1e-04 | surrogate 0.9894 | KL 635.6 | lambda 1.076e-02 | j 223.0 | sqrt(BRE/2) 0.0775 | objective 1.0670 | 533 s
+iter 391050 | lr 1e-04 | surrogate 1.0407 | KL 633.8 | lambda 1.075e-02 | j 223.0 | sqrt(BRE/2) 0.0774 | objective 1.1181 | 534 s
+iter 391600 | lr 1e-04 | surrogate 1.0467 | KL 633.6 | lambda 1.075e-02 | j 223.0 | sqrt(BRE/2) 0.0774 | objective 1.1241 | 534 s
+iter 392150 | lr 1e-04 | surrogate 0.9901 | KL 632.0 | lambda 1.075e-02 | j 223.0 | sqrt(BRE/2) 0.0773 | objective 1.0675 | 535 s
+iter 392700 | lr 1e-04 | surrogate 0.9907 | KL 626.8 | lambda 1.075e-02 | j 223.1 | sqrt(BRE/2) 0.0770 | objective 1.0678 | 536 s
+iter 393250 | lr 1e-04 | surrogate 1.1793 | KL 629.3 | lambda 1.074e-02 | j 223.1 | sqrt(BRE/2) 0.0772 | objective 1.2565 | 537 s
+iter 393800 | lr 1e-04 | surrogate 1.0119 | KL 622.2 | lambda 1.074e-02 | j 223.1 | sqrt(BRE/2) 0.0768 | objective 1.0887 | 537 s
+iter 394350 | lr 1e-04 | surrogate 1.0033 | KL 620.6 | lambda 1.074e-02 | j 223.1 | sqrt(BRE/2) 0.0767 | objective 1.0800 | 538 s
+iter 394900 | lr 1e-04 | surrogate 1.1658 | KL 618.0 | lambda 1.074e-02 | j 223.1 | sqrt(BRE/2) 0.0765 | objective 1.2423 | 539 s
+iter 395450 | lr 1e-04 | surrogate 1.0472 | KL 627.2 | lambda 1.073e-02 | j 223.2 | sqrt(BRE/2) 0.0771 | objective 1.1243 | 540 s
+iter 396000 | lr 1e-04 | surrogate 1.0598 | KL 616.5 | lambda 1.073e-02 | j 223.2 | sqrt(BRE/2) 0.0764 | objective 1.1362 | 541 s
+iter 396550 | lr 1e-04 | surrogate 1.0563 | KL 614.5 | lambda 1.073e-02 | j 223.2 | sqrt(BRE/2) 0.0763 | objective 1.1326 | 541 s
+iter 397100 | lr 1e-04 | surrogate 1.0325 | KL 608.8 | lambda 1.073e-02 | j 223.3 | sqrt(BRE/2) 0.0760 | objective 1.1084 | 542 s
+iter 397650 | lr 1e-04 | surrogate 1.1633 | KL 610.6 | lambda 1.072e-02 | j 223.3 | sqrt(BRE/2) 0.0761 | objective 1.2393 | 543 s
+iter 398200 | lr 1e-04 | surrogate 0.9977 | KL 608.2 | lambda 1.072e-02 | j 223.3 | sqrt(BRE/2) 0.0759 | objective 1.0737 | 544 s
+iter 398750 | lr 1e-04 | surrogate 0.9578 | KL 615.1 | lambda 1.072e-02 | j 223.3 | sqrt(BRE/2) 0.0763 | objective 1.0341 | 544 s
+iter 399300 | lr 1e-04 | surrogate 1.0478 | KL 622.0 | lambda 1.072e-02 | j 223.3 | sqrt(BRE/2) 0.0767 | objective 1.1246 | 545 s
+iter 399850 | lr 1e-04 | surrogate 1.0087 | KL 622.7 | lambda 1.071e-02 | j 223.4 | sqrt(BRE/2) 0.0768 | objective 1.0855 | 546 s
+iter 400400 | lr 1e-04 | surrogate 1.0570 | KL 625.3 | lambda 1.071e-02 | j 223.4 | sqrt(BRE/2) 0.0769 | objective 1.1339 | 547 s
+iter 400950 | lr 1e-04 | surrogate 0.9903 | KL 632.2 | lambda 1.071e-02 | j 223.4 | sqrt(BRE/2) 0.0773 | objective 1.0676 | 548 s
+iter 401500 | lr 1e-04 | surrogate 0.9916 | KL 632.5 | lambda 1.071e-02 | j 223.4 | sqrt(BRE/2) 0.0774 | objective 1.0690 | 548 s
+iter 402050 | lr 1e-04 | surrogate 1.0202 | KL 629.0 | lambda 1.071e-02 | j 223.4 | sqrt(BRE/2) 0.0772 | objective 1.0974 | 549 s
+iter 402600 | lr 1e-04 | surrogate 1.0101 | KL 625.1 | lambda 1.070e-02 | j 223.5 | sqrt(BRE/2) 0.0769 | objective 1.0870 | 550 s
+iter 403150 | lr 1e-04 | surrogate 0.9972 | KL 626.1 | lambda 1.070e-02 | j 223.5 | sqrt(BRE/2) 0.0770 | objective 1.0742 | 551 s
+iter 403700 | lr 1e-04 | surrogate 1.0187 | KL 624.9 | lambda 1.070e-02 | j 223.5 | sqrt(BRE/2) 0.0769 | objective 1.0956 | 551 s
+iter 404250 | lr 1e-04 | surrogate 1.0892 | KL 620.6 | lambda 1.069e-02 | j 223.5 | sqrt(BRE/2) 0.0767 | objective 1.1659 | 552 s
+iter 404800 | lr 1e-04 | surrogate 1.0842 | KL 617.6 | lambda 1.069e-02 | j 223.6 | sqrt(BRE/2) 0.0765 | objective 1.1607 | 553 s
+iter 405350 | lr 1e-04 | surrogate 1.0574 | KL 612.9 | lambda 1.069e-02 | j 223.6 | sqrt(BRE/2) 0.0762 | objective 1.1336 | 554 s
+iter 405900 | lr 1e-04 | surrogate 1.0457 | KL 618.5 | lambda 1.069e-02 | j 223.6 | sqrt(BRE/2) 0.0765 | objective 1.1222 | 554 s
+iter 406450 | lr 1e-04 | surrogate 1.0300 | KL 620.8 | lambda 1.068e-02 | j 223.6 | sqrt(BRE/2) 0.0767 | objective 1.1067 | 555 s
+iter 407000 | lr 1e-04 | surrogate 1.0607 | KL 620.7 | lambda 1.068e-02 | j 223.7 | sqrt(BRE/2) 0.0767 | objective 1.1374 | 556 s
+iter 407550 | lr 1e-04 | surrogate 1.0199 | KL 606.7 | lambda 1.068e-02 | j 223.7 | sqrt(BRE/2) 0.0758 | objective 1.0957 | 557 s
+iter 408100 | lr 1e-04 | surrogate 1.0291 | KL 613.1 | lambda 1.068e-02 | j 223.7 | sqrt(BRE/2) 0.0762 | objective 1.1053 | 557 s
+iter 408650 | lr 1e-04 | surrogate 1.0149 | KL 614.8 | lambda 1.067e-02 | j 223.7 | sqrt(BRE/2) 0.0763 | objective 1.0913 | 558 s
+iter 409200 | lr 1e-04 | surrogate 1.0900 | KL 613.6 | lambda 1.067e-02 | j 223.8 | sqrt(BRE/2) 0.0763 | objective 1.1663 | 559 s
+iter 409750 | lr 1e-04 | surrogate 0.9959 | KL 620.7 | lambda 1.067e-02 | j 223.8 | sqrt(BRE/2) 0.0767 | objective 1.0725 | 560 s
+iter 410300 | lr 1e-04 | surrogate 0.9806 | KL 610.1 | lambda 1.067e-02 | j 223.8 | sqrt(BRE/2) 0.0760 | objective 1.0566 | 560 s
+iter 410850 | lr 1e-04 | surrogate 0.9872 | KL 616.0 | lambda 1.066e-02 | j 223.8 | sqrt(BRE/2) 0.0764 | objective 1.0636 | 561 s
+iter 411400 | lr 1e-04 | surrogate 1.0088 | KL 614.3 | lambda 1.066e-02 | j 223.9 | sqrt(BRE/2) 0.0763 | objective 1.0851 | 562 s
+iter 411950 | lr 1e-04 | surrogate 1.0042 | KL 617.9 | lambda 1.066e-02 | j 223.9 | sqrt(BRE/2) 0.0765 | objective 1.0807 | 562 s
+iter 412500 | lr 1e-04 | surrogate 1.0275 | KL 618.2 | lambda 1.066e-02 | j 223.9 | sqrt(BRE/2) 0.0765 | objective 1.1040 | 563 s
+iter 413050 | lr 1e-04 | surrogate 1.0158 | KL 616.1 | lambda 1.065e-02 | j 223.9 | sqrt(BRE/2) 0.0764 | objective 1.0922 | 564 s
+iter 413600 | lr 1e-04 | surrogate 1.0039 | KL 624.0 | lambda 1.065e-02 | j 223.9 | sqrt(BRE/2) 0.0769 | objective 1.0808 | 565 s
+iter 414150 | lr 1e-04 | surrogate 1.0446 | KL 632.4 | lambda 1.065e-02 | j 224.0 | sqrt(BRE/2) 0.0774 | objective 1.1220 | 565 s
+iter 414700 | lr 1e-04 | surrogate 1.0272 | KL 621.8 | lambda 1.065e-02 | j 224.0 | sqrt(BRE/2) 0.0767 | objective 1.1039 | 566 s
+iter 415250 | lr 1e-04 | surrogate 1.0487 | KL 627.3 | lambda 1.064e-02 | j 224.0 | sqrt(BRE/2) 0.0771 | objective 1.1258 | 567 s
+iter 415800 | lr 1e-04 | surrogate 1.0856 | KL 630.2 | lambda 1.064e-02 | j 224.0 | sqrt(BRE/2) 0.0772 | objective 1.1628 | 568 s
+iter 416350 | lr 1e-04 | surrogate 0.9933 | KL 628.9 | lambda 1.064e-02 | j 224.1 | sqrt(BRE/2) 0.0772 | objective 1.0704 | 568 s
+iter 416900 | lr 1e-04 | surrogate 0.9238 | KL 619.3 | lambda 1.064e-02 | j 224.1 | sqrt(BRE/2) 0.0766 | objective 1.0004 | 569 s
+iter 417450 | lr 1e-04 | surrogate 0.9951 | KL 615.8 | lambda 1.063e-02 | j 224.1 | sqrt(BRE/2) 0.0764 | objective 1.0715 | 570 s
+iter 418000 | lr 1e-04 | surrogate 1.0205 | KL 615.0 | lambda 1.063e-02 | j 224.1 | sqrt(BRE/2) 0.0763 | objective 1.0969 | 570 s
+iter 418550 | lr 1e-04 | surrogate 1.0499 | KL 621.0 | lambda 1.063e-02 | j 224.2 | sqrt(BRE/2) 0.0767 | objective 1.1266 | 571 s
+iter 419100 | lr 1e-04 | surrogate 1.0256 | KL 621.0 | lambda 1.063e-02 | j 224.2 | sqrt(BRE/2) 0.0767 | objective 1.1023 | 572 s
+iter 419650 | lr 1e-04 | surrogate 1.0573 | KL 631.5 | lambda 1.062e-02 | j 224.2 | sqrt(BRE/2) 0.0773 | objective 1.1346 | 573 s
+iter 420200 | lr 1e-04 | surrogate 1.0493 | KL 624.5 | lambda 1.062e-02 | j 224.2 | sqrt(BRE/2) 0.0769 | objective 1.1262 | 573 s
+iter 420750 | lr 1e-04 | surrogate 0.9709 | KL 625.9 | lambda 1.062e-02 | j 224.3 | sqrt(BRE/2) 0.0770 | objective 1.0479 | 574 s
+iter 421300 | lr 1e-04 | surrogate 1.0543 | KL 616.7 | lambda 1.062e-02 | j 224.3 | sqrt(BRE/2) 0.0764 | objective 1.1307 | 575 s
+iter 421850 | lr 1e-04 | surrogate 0.9926 | KL 619.2 | lambda 1.061e-02 | j 224.3 | sqrt(BRE/2) 0.0766 | objective 1.0692 | 576 s
+iter 422400 | lr 1e-04 | surrogate 1.1030 | KL 620.6 | lambda 1.061e-02 | j 224.3 | sqrt(BRE/2) 0.0767 | objective 1.1797 | 576 s
+iter 422950 | lr 1e-04 | surrogate 1.0275 | KL 625.3 | lambda 1.061e-02 | j 224.3 | sqrt(BRE/2) 0.0769 | objective 1.1044 | 577 s
+iter 423500 | lr 1e-04 | surrogate 0.9955 | KL 623.7 | lambda 1.061e-02 | j 224.4 | sqrt(BRE/2) 0.0768 | objective 1.0723 | 578 s
+iter 424050 | lr 1e-04 | surrogate 1.1221 | KL 625.2 | lambda 1.060e-02 | j 224.4 | sqrt(BRE/2) 0.0769 | objective 1.1990 | 579 s
+iter 424600 | lr 1e-04 | surrogate 1.0249 | KL 621.5 | lambda 1.060e-02 | j 224.4 | sqrt(BRE/2) 0.0767 | objective 1.1017 | 579 s
+iter 425150 | lr 1e-04 | surrogate 1.0299 | KL 620.8 | lambda 1.060e-02 | j 224.4 | sqrt(BRE/2) 0.0767 | objective 1.1066 | 580 s
+iter 425700 | lr 1e-04 | surrogate 1.0028 | KL 617.0 | lambda 1.060e-02 | j 224.5 | sqrt(BRE/2) 0.0765 | objective 1.0792 | 581 s
+iter 426250 | lr 1e-04 | surrogate 1.0150 | KL 620.5 | lambda 1.059e-02 | j 224.5 | sqrt(BRE/2) 0.0767 | objective 1.0917 | 582 s
+iter 426800 | lr 1e-04 | surrogate 1.0185 | KL 624.6 | lambda 1.059e-02 | j 224.5 | sqrt(BRE/2) 0.0769 | objective 1.0954 | 582 s
+iter 427350 | lr 1e-04 | surrogate 1.0140 | KL 625.7 | lambda 1.059e-02 | j 224.5 | sqrt(BRE/2) 0.0770 | objective 1.0910 | 583 s
+iter 427900 | lr 1e-04 | surrogate 1.0449 | KL 622.3 | lambda 1.059e-02 | j 224.6 | sqrt(BRE/2) 0.0768 | objective 1.1217 | 584 s
+iter 428450 | lr 1e-04 | surrogate 1.0473 | KL 626.2 | lambda 1.058e-02 | j 224.6 | sqrt(BRE/2) 0.0770 | objective 1.1243 | 584 s
+iter 429000 | lr 1e-04 | surrogate 1.0272 | KL 621.8 | lambda 1.058e-02 | j 224.6 | sqrt(BRE/2) 0.0767 | objective 1.1039 | 585 s
+iter 429550 | lr 1e-04 | surrogate 1.0394 | KL 627.1 | lambda 1.058e-02 | j 224.6 | sqrt(BRE/2) 0.0771 | objective 1.1164 | 586 s
+iter 430100 | lr 1e-04 | surrogate 0.9810 | KL 620.0 | lambda 1.058e-02 | j 224.7 | sqrt(BRE/2) 0.0766 | objective 1.0576 | 587 s
+iter 430650 | lr 1e-04 | surrogate 0.9775 | KL 631.8 | lambda 1.057e-02 | j 224.7 | sqrt(BRE/2) 0.0773 | objective 1.0548 | 587 s
+iter 431200 | lr 1e-04 | surrogate 1.0066 | KL 629.3 | lambda 1.057e-02 | j 224.7 | sqrt(BRE/2) 0.0772 | objective 1.0838 | 588 s
+iter 431750 | lr 1e-04 | surrogate 1.0087 | KL 630.8 | lambda 1.057e-02 | j 224.7 | sqrt(BRE/2) 0.0773 | objective 1.0860 | 589 s
+iter 432300 | lr 1e-04 | surrogate 1.0835 | KL 618.0 | lambda 1.057e-02 | j 224.8 | sqrt(BRE/2) 0.0765 | objective 1.1600 | 590 s
+iter 432850 | lr 1e-04 | surrogate 1.0255 | KL 618.3 | lambda 1.056e-02 | j 224.8 | sqrt(BRE/2) 0.0765 | objective 1.1020 | 590 s
+iter 433400 | lr 1e-04 | surrogate 1.1043 | KL 617.0 | lambda 1.056e-02 | j 224.8 | sqrt(BRE/2) 0.0764 | objective 1.1808 | 591 s
+iter 433950 | lr 1e-04 | surrogate 1.0883 | KL 618.8 | lambda 1.056e-02 | j 224.8 | sqrt(BRE/2) 0.0766 | objective 1.1649 | 592 s
+iter 434500 | lr 1e-04 | surrogate 1.0074 | KL 622.9 | lambda 1.056e-02 | j 224.9 | sqrt(BRE/2) 0.0768 | objective 1.0842 | 593 s
+iter 435050 | lr 1e-04 | surrogate 1.0129 | KL 623.0 | lambda 1.055e-02 | j 224.9 | sqrt(BRE/2) 0.0768 | objective 1.0897 | 594 s
+iter 435600 | lr 1e-04 | surrogate 0.9881 | KL 612.8 | lambda 1.055e-02 | j 224.9 | sqrt(BRE/2) 0.0762 | objective 1.0643 | 595 s
+iter 436150 | lr 1e-04 | surrogate 1.0351 | KL 611.1 | lambda 1.055e-02 | j 224.9 | sqrt(BRE/2) 0.0761 | objective 1.1112 | 596 s
+iter 436700 | lr 1e-04 | surrogate 1.0337 | KL 610.1 | lambda 1.054e-02 | j 225.0 | sqrt(BRE/2) 0.0760 | objective 1.1097 | 596 s
+iter 437250 | lr 1e-04 | surrogate 0.9755 | KL 604.5 | lambda 1.054e-02 | j 225.0 | sqrt(BRE/2) 0.0757 | objective 1.0512 | 597 s
+iter 437800 | lr 1e-04 | surrogate 1.1409 | KL 611.4 | lambda 1.054e-02 | j 225.0 | sqrt(BRE/2) 0.0761 | objective 1.2170 | 598 s
+iter 438350 | lr 1e-04 | surrogate 1.0058 | KL 618.1 | lambda 1.054e-02 | j 225.0 | sqrt(BRE/2) 0.0765 | objective 1.0823 | 599 s
+iter 438900 | lr 1e-04 | surrogate 1.0219 | KL 618.6 | lambda 1.053e-02 | j 225.1 | sqrt(BRE/2) 0.0765 | objective 1.0984 | 599 s
+iter 439450 | lr 1e-04 | surrogate 1.0055 | KL 618.6 | lambda 1.053e-02 | j 225.1 | sqrt(BRE/2) 0.0765 | objective 1.0820 | 600 s
+iter 440000 | lr 1e-04 | surrogate 1.0098 | KL 612.1 | lambda 1.053e-02 | j 225.1 | sqrt(BRE/2) 0.0762 | objective 1.0860 | 601 s
+iter 440550 | lr 1e-04 | surrogate 1.0304 | KL 621.4 | lambda 1.053e-02 | j 225.1 | sqrt(BRE/2) 0.0767 | objective 1.1072 | 602 s
+iter 441100 | lr 1e-04 | surrogate 1.1205 | KL 618.1 | lambda 1.052e-02 | j 225.2 | sqrt(BRE/2) 0.0765 | objective 1.1970 | 602 s
+iter 441650 | lr 1e-04 | surrogate 1.0272 | KL 620.4 | lambda 1.052e-02 | j 225.2 | sqrt(BRE/2) 0.0767 | objective 1.1039 | 603 s
+iter 442200 | lr 1e-04 | surrogate 1.0200 | KL 620.1 | lambda 1.052e-02 | j 225.2 | sqrt(BRE/2) 0.0766 | objective 1.0966 | 604 s
+iter 442750 | lr 1e-04 | surrogate 1.0454 | KL 625.2 | lambda 1.052e-02 | j 225.2 | sqrt(BRE/2) 0.0769 | objective 1.1223 | 604 s
+iter 443300 | lr 1e-04 | surrogate 1.0050 | KL 623.1 | lambda 1.051e-02 | j 225.3 | sqrt(BRE/2) 0.0768 | objective 1.0818 | 605 s
+iter 443850 | lr 1e-04 | surrogate 1.0108 | KL 618.3 | lambda 1.051e-02 | j 225.3 | sqrt(BRE/2) 0.0765 | objective 1.0873 | 606 s
+iter 444400 | lr 1e-04 | surrogate 1.0221 | KL 614.4 | lambda 1.051e-02 | j 225.3 | sqrt(BRE/2) 0.0763 | objective 1.0984 | 607 s
+iter 444950 | lr 1e-04 | surrogate 1.0175 | KL 613.9 | lambda 1.051e-02 | j 225.3 | sqrt(BRE/2) 0.0763 | objective 1.0938 | 608 s
+iter 445500 | lr 1e-04 | surrogate 1.0320 | KL 621.3 | lambda 1.050e-02 | j 225.4 | sqrt(BRE/2) 0.0767 | objective 1.1087 | 608 s
+iter 446050 | lr 1e-04 | surrogate 0.9987 | KL 613.5 | lambda 1.050e-02 | j 225.4 | sqrt(BRE/2) 0.0762 | objective 1.0749 | 609 s
+iter 446600 | lr 1e-04 | surrogate 0.9497 | KL 608.5 | lambda 1.050e-02 | j 225.4 | sqrt(BRE/2) 0.0759 | objective 1.0257 | 610 s
+iter 447150 | lr 1e-04 | surrogate 1.0306 | KL 611.1 | lambda 1.049e-02 | j 225.4 | sqrt(BRE/2) 0.0761 | objective 1.1067 | 611 s
+iter 447700 | lr 1e-04 | surrogate 1.1023 | KL 606.9 | lambda 1.049e-02 | j 225.5 | sqrt(BRE/2) 0.0758 | objective 1.1781 | 611 s
+iter 448250 | lr 1e-04 | surrogate 1.1268 | KL 614.1 | lambda 1.049e-02 | j 225.5 | sqrt(BRE/2) 0.0763 | objective 1.2030 | 612 s
+iter 448800 | lr 1e-04 | surrogate 1.0213 | KL 615.6 | lambda 1.049e-02 | j 225.5 | sqrt(BRE/2) 0.0764 | objective 1.0977 | 613 s
+iter 449350 | lr 1e-04 | surrogate 1.0497 | KL 616.8 | lambda 1.048e-02 | j 225.5 | sqrt(BRE/2) 0.0764 | objective 1.1261 | 613 s
+iter 449900 | lr 1e-04 | surrogate 1.0653 | KL 627.9 | lambda 1.048e-02 | j 225.5 | sqrt(BRE/2) 0.0771 | objective 1.1424 | 614 s
+iter 450450 | lr 1e-04 | surrogate 1.0166 | KL 624.6 | lambda 1.048e-02 | j 225.6 | sqrt(BRE/2) 0.0769 | objective 1.0935 | 615 s
+iter 451000 | lr 1e-04 | surrogate 1.0943 | KL 612.6 | lambda 1.048e-02 | j 225.6 | sqrt(BRE/2) 0.0762 | objective 1.1705 | 616 s
+iter 451550 | lr 1e-04 | surrogate 1.0441 | KL 621.0 | lambda 1.047e-02 | j 225.6 | sqrt(BRE/2) 0.0767 | objective 1.1208 | 617 s
+iter 452100 | lr 1e-04 | surrogate 1.0999 | KL 614.9 | lambda 1.047e-02 | j 225.7 | sqrt(BRE/2) 0.0763 | objective 1.1763 | 617 s
+iter 452650 | lr 1e-04 | surrogate 0.9777 | KL 614.8 | lambda 1.047e-02 | j 225.7 | sqrt(BRE/2) 0.0763 | objective 1.0540 | 618 s
+iter 453200 | lr 1e-04 | surrogate 0.9839 | KL 619.2 | lambda 1.047e-02 | j 225.7 | sqrt(BRE/2) 0.0766 | objective 1.0605 | 619 s
+iter 453750 | lr 1e-04 | surrogate 1.0263 | KL 617.5 | lambda 1.046e-02 | j 225.7 | sqrt(BRE/2) 0.0765 | objective 1.1027 | 620 s
+iter 454300 | lr 1e-04 | surrogate 1.0205 | KL 613.6 | lambda 1.046e-02 | j 225.8 | sqrt(BRE/2) 0.0762 | objective 1.0968 | 620 s
+iter 454850 | lr 1e-04 | surrogate 1.0718 | KL 619.7 | lambda 1.046e-02 | j 225.8 | sqrt(BRE/2) 0.0766 | objective 1.1484 | 621 s
+iter 455400 | lr 1e-04 | surrogate 1.1081 | KL 613.1 | lambda 1.046e-02 | j 225.8 | sqrt(BRE/2) 0.0762 | objective 1.1843 | 622 s
+iter 455950 | lr 1e-04 | surrogate 1.0309 | KL 607.6 | lambda 1.045e-02 | j 225.8 | sqrt(BRE/2) 0.0759 | objective 1.1068 | 623 s
+iter 456500 | lr 1e-04 | surrogate 1.0672 | KL 609.9 | lambda 1.045e-02 | j 225.9 | sqrt(BRE/2) 0.0760 | objective 1.1433 | 623 s
+iter 457050 | lr 1e-04 | surrogate 1.0528 | KL 616.1 | lambda 1.045e-02 | j 225.9 | sqrt(BRE/2) 0.0764 | objective 1.1292 | 624 s
+iter 457600 | lr 1e-04 | surrogate 1.0339 | KL 611.8 | lambda 1.044e-02 | j 225.9 | sqrt(BRE/2) 0.0761 | objective 1.1100 | 625 s
+iter 458150 | lr 1e-04 | surrogate 1.0226 | KL 611.0 | lambda 1.044e-02 | j 225.9 | sqrt(BRE/2) 0.0761 | objective 1.0987 | 625 s
+iter 458700 | lr 1e-04 | surrogate 1.0142 | KL 600.0 | lambda 1.044e-02 | j 226.0 | sqrt(BRE/2) 0.0754 | objective 1.0897 | 626 s
+iter 459250 | lr 1e-04 | surrogate 1.0605 | KL 606.8 | lambda 1.044e-02 | j 226.0 | sqrt(BRE/2) 0.0758 | objective 1.1363 | 627 s
+iter 459800 | lr 1e-04 | surrogate 1.0815 | KL 614.7 | lambda 1.043e-02 | j 226.0 | sqrt(BRE/2) 0.0763 | objective 1.1578 | 628 s
+iter 460350 | lr 1e-04 | surrogate 1.0370 | KL 612.3 | lambda 1.043e-02 | j 226.0 | sqrt(BRE/2) 0.0762 | objective 1.1132 | 628 s
+iter 460900 | lr 1e-04 | surrogate 0.9769 | KL 626.5 | lambda 1.043e-02 | j 226.1 | sqrt(BRE/2) 0.0770 | objective 1.0539 | 629 s
+iter 461450 | lr 1e-04 | surrogate 1.0645 | KL 625.5 | lambda 1.043e-02 | j 226.1 | sqrt(BRE/2) 0.0770 | objective 1.1415 | 630 s
+iter 462000 | lr 1e-04 | surrogate 1.0336 | KL 622.3 | lambda 1.042e-02 | j 226.1 | sqrt(BRE/2) 0.0768 | objective 1.1104 | 631 s
+iter 462550 | lr 1e-04 | surrogate 1.0648 | KL 623.9 | lambda 1.042e-02 | j 226.1 | sqrt(BRE/2) 0.0769 | objective 1.1417 | 631 s
+iter 463100 | lr 1e-04 | surrogate 1.0311 | KL 622.3 | lambda 1.042e-02 | j 226.2 | sqrt(BRE/2) 0.0768 | objective 1.1079 | 632 s
+iter 463650 | lr 1e-04 | surrogate 1.0507 | KL 612.7 | lambda 1.042e-02 | j 226.2 | sqrt(BRE/2) 0.0762 | objective 1.1269 | 633 s
+iter 464200 | lr 1e-04 | surrogate 0.9891 | KL 618.8 | lambda 1.041e-02 | j 226.2 | sqrt(BRE/2) 0.0766 | objective 1.0656 | 633 s
+iter 464750 | lr 1e-04 | surrogate 1.0497 | KL 618.4 | lambda 1.041e-02 | j 226.2 | sqrt(BRE/2) 0.0765 | objective 1.1262 | 634 s
+iter 465300 | lr 1e-04 | surrogate 1.0344 | KL 622.5 | lambda 1.041e-02 | j 226.3 | sqrt(BRE/2) 0.0768 | objective 1.1111 | 635 s
+iter 465850 | lr 1e-04 | surrogate 1.0046 | KL 620.5 | lambda 1.041e-02 | j 226.3 | sqrt(BRE/2) 0.0767 | objective 1.0813 | 636 s
+iter 466400 | lr 1e-04 | surrogate 1.0237 | KL 621.4 | lambda 1.040e-02 | j 226.3 | sqrt(BRE/2) 0.0767 | objective 1.1004 | 636 s
+iter 466950 | lr 1e-04 | surrogate 1.0560 | KL 631.2 | lambda 1.040e-02 | j 226.3 | sqrt(BRE/2) 0.0773 | objective 1.1333 | 637 s
+iter 467500 | lr 1e-04 | surrogate 1.0718 | KL 623.8 | lambda 1.040e-02 | j 226.4 | sqrt(BRE/2) 0.0769 | objective 1.1486 | 638 s
+iter 468050 | lr 1e-04 | surrogate 0.9771 | KL 619.4 | lambda 1.039e-02 | j 226.4 | sqrt(BRE/2) 0.0766 | objective 1.0537 | 639 s
+iter 468600 | lr 1e-04 | surrogate 1.0415 | KL 612.7 | lambda 1.039e-02 | j 226.4 | sqrt(BRE/2) 0.0762 | objective 1.1177 | 639 s
+iter 469150 | lr 1e-04 | surrogate 1.0259 | KL 618.4 | lambda 1.039e-02 | j 226.4 | sqrt(BRE/2) 0.0765 | objective 1.1024 | 640 s
+iter 469700 | lr 1e-04 | surrogate 0.9901 | KL 616.1 | lambda 1.039e-02 | j 226.5 | sqrt(BRE/2) 0.0764 | objective 1.0665 | 641 s
+iter 470250 | lr 1e-04 | surrogate 1.0275 | KL 613.1 | lambda 1.038e-02 | j 226.5 | sqrt(BRE/2) 0.0762 | objective 1.1037 | 642 s
+iter 470800 | lr 1e-04 | surrogate 1.0301 | KL 613.4 | lambda 1.038e-02 | j 226.5 | sqrt(BRE/2) 0.0762 | objective 1.1063 | 642 s
+iter 471350 | lr 1e-04 | surrogate 1.1185 | KL 620.2 | lambda 1.038e-02 | j 226.5 | sqrt(BRE/2) 0.0766 | objective 1.1952 | 643 s
+iter 471900 | lr 1e-04 | surrogate 1.0210 | KL 622.5 | lambda 1.038e-02 | j 226.6 | sqrt(BRE/2) 0.0768 | objective 1.0978 | 644 s
+iter 472450 | lr 1e-04 | surrogate 1.0492 | KL 616.7 | lambda 1.037e-02 | j 226.6 | sqrt(BRE/2) 0.0764 | objective 1.1256 | 645 s
+iter 473000 | lr 1e-04 | surrogate 0.9968 | KL 612.1 | lambda 1.037e-02 | j 226.6 | sqrt(BRE/2) 0.0762 | objective 1.0729 | 645 s
+iter 473550 | lr 1e-04 | surrogate 1.0379 | KL 615.7 | lambda 1.037e-02 | j 226.7 | sqrt(BRE/2) 0.0764 | objective 1.1142 | 646 s
+iter 474100 | lr 1e-04 | surrogate 1.0048 | KL 613.2 | lambda 1.036e-02 | j 226.7 | sqrt(BRE/2) 0.0762 | objective 1.0810 | 647 s
+iter 474650 | lr 1e-04 | surrogate 1.0371 | KL 618.0 | lambda 1.036e-02 | j 226.7 | sqrt(BRE/2) 0.0765 | objective 1.1136 | 647 s
+iter 475200 | lr 1e-04 | surrogate 1.0412 | KL 617.4 | lambda 1.036e-02 | j 226.7 | sqrt(BRE/2) 0.0765 | objective 1.1176 | 648 s
+iter 475750 | lr 1e-04 | surrogate 1.0405 | KL 618.7 | lambda 1.036e-02 | j 226.8 | sqrt(BRE/2) 0.0766 | objective 1.1170 | 649 s
+iter 476300 | lr 1e-04 | surrogate 1.0364 | KL 610.6 | lambda 1.035e-02 | j 226.8 | sqrt(BRE/2) 0.0761 | objective 1.1124 | 650 s
+iter 476850 | lr 1e-04 | surrogate 1.0971 | KL 613.7 | lambda 1.035e-02 | j 226.8 | sqrt(BRE/2) 0.0763 | objective 1.1733 | 650 s
+iter 477400 | lr 1e-04 | surrogate 0.9856 | KL 611.9 | lambda 1.035e-02 | j 226.8 | sqrt(BRE/2) 0.0761 | objective 1.0617 | 651 s
+iter 477950 | lr 1e-04 | surrogate 1.0142 | KL 603.5 | lambda 1.034e-02 | j 226.9 | sqrt(BRE/2) 0.0756 | objective 1.0899 | 652 s
+iter 478500 | lr 1e-04 | surrogate 0.9999 | KL 614.4 | lambda 1.034e-02 | j 226.9 | sqrt(BRE/2) 0.0763 | objective 1.0762 | 653 s
+iter 479050 | lr 1e-04 | surrogate 1.0260 | KL 614.9 | lambda 1.034e-02 | j 226.9 | sqrt(BRE/2) 0.0763 | objective 1.1023 | 653 s
+iter 479600 | lr 1e-04 | surrogate 1.0418 | KL 616.3 | lambda 1.034e-02 | j 226.9 | sqrt(BRE/2) 0.0764 | objective 1.1183 | 654 s
+iter 480150 | lr 1e-04 | surrogate 1.0081 | KL 618.2 | lambda 1.033e-02 | j 227.0 | sqrt(BRE/2) 0.0765 | objective 1.0847 | 655 s
+iter 480700 | lr 1e-04 | surrogate 1.0944 | KL 618.8 | lambda 1.033e-02 | j 227.0 | sqrt(BRE/2) 0.0766 | objective 1.1710 | 656 s
+iter 481250 | lr 1e-04 | surrogate 1.0559 | KL 608.9 | lambda 1.033e-02 | j 227.0 | sqrt(BRE/2) 0.0760 | objective 1.1318 | 656 s
+iter 481800 | lr 1e-04 | surrogate 1.0472 | KL 616.9 | lambda 1.033e-02 | j 227.0 | sqrt(BRE/2) 0.0764 | objective 1.1237 | 657 s
+iter 482350 | lr 1e-04 | surrogate 1.0297 | KL 617.6 | lambda 1.032e-02 | j 227.1 | sqrt(BRE/2) 0.0765 | objective 1.1062 | 658 s
+iter 482900 | lr 1e-04 | surrogate 0.9895 | KL 616.7 | lambda 1.032e-02 | j 227.1 | sqrt(BRE/2) 0.0764 | objective 1.0660 | 658 s
+iter 483450 | lr 1e-04 | surrogate 0.9542 | KL 616.3 | lambda 1.032e-02 | j 227.1 | sqrt(BRE/2) 0.0764 | objective 1.0307 | 659 s
+iter 484000 | lr 1e-04 | surrogate 1.0248 | KL 615.8 | lambda 1.032e-02 | j 227.2 | sqrt(BRE/2) 0.0764 | objective 1.1012 | 660 s
+iter 484550 | lr 1e-04 | surrogate 1.0164 | KL 622.0 | lambda 1.031e-02 | j 227.2 | sqrt(BRE/2) 0.0767 | objective 1.0931 | 661 s
+iter 485100 | lr 1e-04 | surrogate 1.0502 | KL 608.6 | lambda 1.031e-02 | j 227.2 | sqrt(BRE/2) 0.0760 | objective 1.1261 | 662 s
+iter 485650 | lr 1e-04 | surrogate 1.0255 | KL 609.7 | lambda 1.031e-02 | j 227.2 | sqrt(BRE/2) 0.0760 | objective 1.1015 | 663 s
+iter 486200 | lr 1e-04 | surrogate 0.9935 | KL 618.6 | lambda 1.030e-02 | j 227.3 | sqrt(BRE/2) 0.0765 | objective 1.0700 | 663 s
+iter 486750 | lr 1e-04 | surrogate 1.0043 | KL 613.1 | lambda 1.030e-02 | j 227.3 | sqrt(BRE/2) 0.0762 | objective 1.0806 | 664 s
+iter 487300 | lr 1e-04 | surrogate 1.0219 | KL 607.8 | lambda 1.030e-02 | j 227.3 | sqrt(BRE/2) 0.0759 | objective 1.0978 | 665 s
+iter 487850 | lr 1e-04 | surrogate 1.0218 | KL 610.0 | lambda 1.030e-02 | j 227.3 | sqrt(BRE/2) 0.0760 | objective 1.0978 | 665 s
+iter 488400 | lr 1e-04 | surrogate 1.0245 | KL 605.8 | lambda 1.029e-02 | j 227.4 | sqrt(BRE/2) 0.0758 | objective 1.1003 | 666 s
+iter 488950 | lr 1e-04 | surrogate 1.0302 | KL 609.6 | lambda 1.029e-02 | j 227.4 | sqrt(BRE/2) 0.0760 | objective 1.1062 | 667 s
+iter 489500 | lr 1e-04 | surrogate 1.0244 | KL 618.0 | lambda 1.029e-02 | j 227.4 | sqrt(BRE/2) 0.0765 | objective 1.1009 | 668 s
+iter 490050 | lr 1e-04 | surrogate 1.0630 | KL 609.9 | lambda 1.028e-02 | j 227.5 | sqrt(BRE/2) 0.0760 | objective 1.1391 | 668 s
+iter 490600 | lr 1e-04 | surrogate 1.0310 | KL 610.7 | lambda 1.028e-02 | j 227.5 | sqrt(BRE/2) 0.0761 | objective 1.1071 | 669 s
+iter 491150 | lr 1e-04 | surrogate 1.1726 | KL 606.5 | lambda 1.028e-02 | j 227.5 | sqrt(BRE/2) 0.0758 | objective 1.2484 | 670 s
+iter 491700 | lr 1e-04 | surrogate 1.0163 | KL 608.0 | lambda 1.028e-02 | j 227.5 | sqrt(BRE/2) 0.0759 | objective 1.0922 | 671 s
+iter 492250 | lr 1e-04 | surrogate 1.0539 | KL 609.3 | lambda 1.027e-02 | j 227.6 | sqrt(BRE/2) 0.0760 | objective 1.1299 | 671 s
+iter 492800 | lr 1e-04 | surrogate 1.0007 | KL 608.0 | lambda 1.027e-02 | j 227.6 | sqrt(BRE/2) 0.0759 | objective 1.0766 | 672 s
+iter 493350 | lr 1e-04 | surrogate 1.0195 | KL 609.3 | lambda 1.027e-02 | j 227.6 | sqrt(BRE/2) 0.0760 | objective 1.0955 | 673 s
+iter 493900 | lr 1e-04 | surrogate 1.0772 | KL 614.3 | lambda 1.027e-02 | j 227.6 | sqrt(BRE/2) 0.0763 | objective 1.1535 | 674 s
+iter 494450 | lr 1e-04 | surrogate 1.0897 | KL 607.6 | lambda 1.026e-02 | j 227.7 | sqrt(BRE/2) 0.0759 | objective 1.1656 | 674 s
+iter 495000 | lr 1e-04 | surrogate 1.0478 | KL 605.8 | lambda 1.026e-02 | j 227.7 | sqrt(BRE/2) 0.0758 | objective 1.1236 | 675 s
+iter 495550 | lr 1e-04 | surrogate 1.0284 | KL 611.2 | lambda 1.026e-02 | j 227.7 | sqrt(BRE/2) 0.0761 | objective 1.1046 | 676 s
+iter 496100 | lr 1e-04 | surrogate 0.9497 | KL 614.7 | lambda 1.025e-02 | j 227.7 | sqrt(BRE/2) 0.0763 | objective 1.0260 | 677 s
+iter 496650 | lr 1e-04 | surrogate 1.0674 | KL 611.2 | lambda 1.025e-02 | j 227.8 | sqrt(BRE/2) 0.0761 | objective 1.1435 | 678 s
+iter 497200 | lr 1e-04 | surrogate 0.9942 | KL 616.6 | lambda 1.025e-02 | j 227.8 | sqrt(BRE/2) 0.0764 | objective 1.0706 | 678 s
+iter 497750 | lr 1e-04 | surrogate 1.0611 | KL 608.6 | lambda 1.025e-02 | j 227.8 | sqrt(BRE/2) 0.0760 | objective 1.1371 | 679 s
+iter 498300 | lr 1e-04 | surrogate 1.0661 | KL 599.2 | lambda 1.024e-02 | j 227.9 | sqrt(BRE/2) 0.0754 | objective 1.1414 | 680 s
+iter 498850 | lr 1e-04 | surrogate 1.1062 | KL 602.9 | lambda 1.024e-02 | j 227.9 | sqrt(BRE/2) 0.0756 | objective 1.1819 | 681 s
+iter 499400 | lr 1e-04 | surrogate 0.9931 | KL 612.0 | lambda 1.024e-02 | j 227.9 | sqrt(BRE/2) 0.0762 | objective 1.0692 | 681 s
+iter 499950 | lr 1e-04 | surrogate 1.0255 | KL 614.0 | lambda 1.023e-02 | j 227.9 | sqrt(BRE/2) 0.0763 | objective 1.1018 | 682 s
+iter 499999 | lr 1e-04 | surrogate 0.9941 | KL 610.7 | lambda 1.024e-02 | j 227.9 | sqrt(BRE/2) 0.0761 | objective 1.0702 | 682 s
+Saved results/posterior_R-600.pt
+Evaluation | R-600 | cuda | {'posterior': 'results/posterior_R-600.pt', 'n_samples': 150000, 'samples_per_batch': 100, 'chunk_size': 5500, 'seed': 11, 'data_dir': 'mnist', 'out_dir': 'results'}
+optimized lambda 1.0236e-02, j = 227.921, candidates [{'j': 227, 'lambda': 0.01033121800831002, 'KL': np.float64(620.6886200618464), 'BRE': np.float64(0.011757308102285651)}, {'j': 228, 'lambda': 0.010228420671553749, 'KL': np.float64(610.5161780819762), 'BRE': np.float64(0.01157251109221412)}]
+6000 / 150000 samples | mean SNN train error 0.49916 | 99.5 samples/s | ETA 24.1 min
+12000 / 150000 samples | mean SNN train error 0.49916 | 99.6 samples/s | ETA 23.1 min
+18000 / 150000 samples | mean SNN train error 0.49915 | 99.6 samples/s | ETA 22.1 min
+24000 / 150000 samples | mean SNN train error 0.49914 | 99.7 samples/s | ETA 21.1 min
+30000 / 150000 samples | mean SNN train error 0.49915 | 99.7 samples/s | ETA 20.1 min
+36000 / 150000 samples | mean SNN train error 0.49915 | 99.7 samples/s | ETA 19.1 min
+42000 / 150000 samples | mean SNN train error 0.49915 | 99.7 samples/s | ETA 18.1 min
+48000 / 150000 samples | mean SNN train error 0.49915 | 99.7 samples/s | ETA 17.1 min
+54000 / 150000 samples | mean SNN train error 0.49915 | 99.7 samples/s | ETA 16.1 min
+60000 / 150000 samples | mean SNN train error 0.49915 | 99.7 samples/s | ETA 15.0 min
+66000 / 150000 samples | mean SNN train error 0.49915 | 99.7 samples/s | ETA 14.0 min
+72000 / 150000 samples | mean SNN train error 0.49915 | 99.7 samples/s | ETA 13.0 min
+78000 / 150000 samples | mean SNN train error 0.49914 | 99.7 samples/s | ETA 12.0 min
+84000 / 150000 samples | mean SNN train error 0.49915 | 99.7 samples/s | ETA 11.0 min
+90000 / 150000 samples | mean SNN train error 0.49915 | 99.7 samples/s | ETA 10.0 min
+96000 / 150000 samples | mean SNN train error 0.49914 | 99.7 samples/s | ETA 9.0 min
+102000 / 150000 samples | mean SNN train error 0.49914 | 99.7 samples/s | ETA 8.0 min
+108000 / 150000 samples | mean SNN train error 0.49915 | 99.7 samples/s | ETA 7.0 min
+114000 / 150000 samples | mean SNN train error 0.49915 | 99.7 samples/s | ETA 6.0 min
+120000 / 150000 samples | mean SNN train error 0.49914 | 99.7 samples/s | ETA 5.0 min
+126000 / 150000 samples | mean SNN train error 0.49914 | 99.7 samples/s | ETA 4.0 min
+132000 / 150000 samples | mean SNN train error 0.49914 | 99.7 samples/s | ETA 3.0 min
+138000 / 150000 samples | mean SNN train error 0.49914 | 99.7 samples/s | ETA 2.0 min
+144000 / 150000 samples | mean SNN train error 0.49914 | 99.7 samples/s | ETA 1.0 min
+150000 / 150000 samples | mean SNN train error 0.49914 | 99.7 samples/s | ETA 0.0 min
+
+===== R-600 Results to compare with Table 1 =====
+snn_train_error  0.5033446805617877
+snn_test_error   0.5083501572856578
+pac_bayes_bound  0.578921155686021
+kl_divergence    610.5161780819762
+sqrt_half_bre    0.07606744077532161
+j                228
+lambda           0.010228420671553749
+n_samples        150000
+confidence       0.965
