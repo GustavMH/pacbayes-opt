@@ -13,6 +13,8 @@ source .venv/bin/activate
 pip install -q --upgrade pip
 # default: GPU/B200 (Blackwell) wheel; override with
 #   TORCH_INDEX=https://download.pytorch.org/whl/cpu bash scripts/ucloud_run.sh
+# uninstall first so a CPU wheel already in the venv is not left in place
+pip uninstall -y torch >/dev/null 2>&1 || true
 pip install -q torch --index-url "${TORCH_INDEX:-https://download.pytorch.org/whl/cu128}"
 pip install -q matplotlib
 # UCloud sometimes exports CUDA_VISIBLE_DEVICES as empty, which hides the GPU
