@@ -12,7 +12,7 @@ git fetch origin tf2
 git show origin/tf2:logs/pacb_600_readme.log > logs/pacb_600_tf2.log
 
 # 2. plot both log formats on one log-scale axis
-python - <<'PYEOF'
+python3 - <<'PYEOF'
 import math
 import re
 
