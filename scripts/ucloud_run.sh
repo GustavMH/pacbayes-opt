@@ -26,9 +26,5 @@ python -u -m pacbayes.train_pacbayes \
 
 bash plot_lambda_tf.sh
 
-echo
-echo "======================================================================"
-echo "DONE. Download these from the file browser before the job ends:"
-echo "  lambda_tf_vs_torch.pdf"
+echo "DONE"
 ls -1 logs/*nolambda* 2>/dev/null || true
-echo "======================================================================"
