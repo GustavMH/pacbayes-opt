@@ -1,17 +1,7 @@
 #!/usr/bin/env bash
-# Plot lambda(t) for the old TF 2.21 implementation vs the PyTorch implementation.
-# Run from the pacbayes-opt repo root on UCloud.
-#
-#   bash plot_lambda_tf.sh
-#
-# Produces lambda_tf_vs_torch.pdf in the current directory.
 set -euo pipefail
-
-# 1. pull the TF2 log off the tf2 branch into logs/
 git fetch origin tf2
 git show origin/tf2:logs/pacb_600_readme.log > logs/pacb_600_tf2.log
-
-# 2. plot both log formats on one log-scale axis
 python3 - <<'PYEOF'
 import math
 import re
