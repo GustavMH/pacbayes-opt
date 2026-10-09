@@ -15,9 +15,10 @@ pip install -q --upgrade pip
 #   TORCH_INDEX=https://download.pytorch.org/whl/cpu bash scripts/ucloud_run.sh
 pip install -q torch --index-url "${TORCH_INDEX:-https://download.pytorch.org/whl/cu128}"
 pip install -q matplotlib
-unset CUDA_VISIBLE_DEVICES || true
+# UCloud sometimes exports CUDA_VISIBLE_DEVICES as empty, which hides the GPU
+export CUDA_VISIBLE_DEVICES="${CUDA_VISIBLE_DEVICES:-0}"
 
-python3 -c "import torch, matplotlib; print('torch', torch.__version__, 'matplotlib', matplotlib.__version__)"
+python3 -c "import torch, matplotlib; print('torch', torch.__version__, 'cuda_build', torch.version.cuda, 'cuda_available', torch.cuda.is_available(), 'n_gpu', torch.cuda.device_count(), 'matplotlib', matplotlib.__version__)"
 
 mkdir -p logs
 python -u -m pacbayes.train_sgd --hidden 600 600 --seed 11 --out-dir results
