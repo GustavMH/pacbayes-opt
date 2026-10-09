@@ -24,7 +24,8 @@ if [ ! -d .venv ]; then
 fi
 source .venv/bin/activate
 pip install -q --upgrade pip
-pip install -q torch --index-url https://download.pytorch.org/whl/cpu
+# default CPU wheel; for the B200 use: TORCH_INDEX=https://download.pytorch.org/whl/cu128 bash scripts/ucloud_run.sh
+pip install -q torch --index-url "${TORCH_INDEX:-https://download.pytorch.org/whl/cpu}"
 pip install -q matplotlib
 unset CUDA_VISIBLE_DEVICES || true
 
