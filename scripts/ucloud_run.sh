@@ -11,7 +11,9 @@ if [ ! -d .venv ]; then
 fi
 source .venv/bin/activate
 pip install -q --upgrade pip
-pip install -q torch --index-url "${TORCH_INDEX:-https://download.pytorch.org/whl/cpu}"
+# default: GPU/B200 (Blackwell) wheel; override with
+#   TORCH_INDEX=https://download.pytorch.org/whl/cpu bash scripts/ucloud_run.sh
+pip install -q torch --index-url "${TORCH_INDEX:-https://download.pytorch.org/whl/cu128}"
 pip install -q matplotlib
 unset CUDA_VISIBLE_DEVICES || true
 
@@ -26,5 +28,9 @@ python -u -m pacbayes.train_pacbayes \
 
 bash plot_lambda_tf.sh
 
-echo "DONE"
+echo
+echo "======================================================================"
+echo "DONE. Download these from the file browser before the job ends:"
+echo "  lambda_tf_vs_torch.pdf"
 ls -1 logs/*nolambda* 2>/dev/null || true
+echo "======================================================================"
